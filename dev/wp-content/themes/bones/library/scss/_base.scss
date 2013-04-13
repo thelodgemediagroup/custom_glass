@@ -150,9 +150,13 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {background: #05294d url('/wp-content/themes/bones/library/images/header/header_bknd.jpg') no-repeat;}
+.header {}
 
-	#inner-header{}
+	#inner-header {
+		background: #1664a0 url('/wp-content/themes/bones/library/images/header/header_bknd.jpg') no-repeat;
+		min-height: 124px;
+		width: 100%
+	}
 
 	#logo {}
 
@@ -169,8 +173,6 @@ and more scalable.
 */
 
 .nav {
-	border: 1px solid #ccc;
-	border-bottom: 0;
 
 	li {
 
@@ -178,8 +180,8 @@ and more scalable.
 			display: block;
 			text-decoration: none;
 			padding: 10px 10px;
-			background-color: #eee;
-			border-bottom: 1px solid #ccc;
+			
+			
 
 			/*
 			remember this is for mobile ONLY, so there's no need
