@@ -484,8 +484,8 @@ HEADER STYLES
 }
 
 /* line 39, ../scss/_768up.scss */
-#header-search {
-  margin-right: 95px;
+#header-float-block {
+  margin: 50px 95px 0px 0px;
 }
 
 /*********************

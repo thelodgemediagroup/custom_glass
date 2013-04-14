@@ -158,6 +158,11 @@ HEADER STYLES
 		width: 100%
 	}
 
+	#header-float-block {
+		float: right;
+		width: 177px;
+	}
+
 	#header-search {
 		float: right;
 		.screen-reader-text {display: none;}
@@ -176,7 +181,14 @@ HEADER STYLES
 	}
 
 	#header-social-media {
-		float: right;
+		float: left;
+		a {
+			line-height: 0;
+			height: 29px;
+			margin: 0;
+			padding: 0;
+			width: 31px;
+		}
 	}
 	#logo {}
 
