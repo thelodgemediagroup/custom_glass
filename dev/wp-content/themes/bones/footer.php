@@ -2,9 +2,9 @@
 
 				<div id="inner-footer" class="wrap clearfix">
 
-					<p class="copyright">
-						Copyright &copy; <?php echo date('Y'); ?> Guardian Automotive Glass, All Rights Reserved.
-					</p>
+					<div class="copyright">
+						<p>Copyright &copy; <?php echo date('Y'); ?> Guardian Automotive Glass, All Rights Reserved.</p>
+					</div>
 
 					<div id="footer-logo">
 						<img src="<?php echo get_template_directory_uri(); ?>/library/images/footer/guardian_logo.png" />
@@ -13,7 +13,7 @@
 					<nav role="navigation">
 						<?php bones_footer_links(); ?>
 					</nav>
-					
+
 				</div> <!-- end #inner-footer -->
 
 			</footer> <!-- end footer -->

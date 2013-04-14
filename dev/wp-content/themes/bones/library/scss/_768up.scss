@@ -279,10 +279,20 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-p.copyright {
-	margin-top: 40px;
-	margin-left: 180px;
+#inner-footer {
+	border-top: 12px solid #0060a7;
+	height: 108px;
+	.copyright {
+		margin-top: 40px;
+		margin-left: 180px;		
+	}	
 }
+
+#footer-logo {
+	margin-top: 10px;
+	margin-right: 100px;
+}
+
 .footer-links {
 	ul {
 		li {

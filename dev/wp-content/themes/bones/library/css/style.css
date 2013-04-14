@@ -1497,6 +1497,12 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
+/* line 892, ../scss/_base.scss */
+.copyright {
+  float: left;
+  display: inline;
+}
+
 /* line 894, ../scss/_base.scss */
 #footer-logo {
   float: right;
@@ -1875,12 +1881,23 @@ you can add resource intensive styles.
   mobile. Make sure to double check these!
   */
   /* line 282, ../scss/_768up.scss */
-  p.copyright {
+  #inner-footer {
+    border-top: 12px solid #0060a7;
+    height: 108px;
+  }
+  /* line 285, ../scss/_768up.scss */
+  #inner-footer .copyright {
     margin-top: 40px;
     margin-left: 180px;
   }
 
-  /* line 288, ../scss/_768up.scss */
+  /* line 291, ../scss/_768up.scss */
+  #footer-logo {
+    margin-top: 10px;
+    margin-right: 100px;
+  }
+
+  /* line 298, ../scss/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
