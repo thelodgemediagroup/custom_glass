@@ -59,6 +59,12 @@
 						<?php bones_main_nav(); ?>
 					</nav>
 
+					<div id="header-search">
+
+						<?php get_search_form(); ?>
+
+					</div>
+
 				</div> <!-- end #inner-header -->
 
 			</header> <!-- end header -->

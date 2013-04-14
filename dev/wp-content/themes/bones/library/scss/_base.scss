@@ -158,6 +158,17 @@ HEADER STYLES
 		width: 100%
 	}
 
+	#header-search {
+		float: right;
+		.screen-reader-text {display: none;}
+		#s {
+			background-color: #407eac;
+			border: 1px solid #03508a;
+			height: 25px;
+			width: 148px;
+
+		}
+	}
 	#logo {}
 
 /*********************
