@@ -150,7 +150,12 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {a { display: inline;}}
+.header {
+	a {
+		display: inline;
+	}
+	color: #eef1f3;
+}
 
 	#inner-header {
 		background: #1664a0 url('/wp-content/themes/bones/library/images/header/header_bknd.jpg') no-repeat;
@@ -212,7 +217,7 @@ and more scalable.
 	li {
 
 		a {
-			color: #ccc;
+			color: #eef1f3;
 			display: block;
 			text-decoration: none;
 			padding: 10px 10px;
@@ -852,8 +857,18 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
+	color: #eef1f3;
+	font-family: $sans-serif;
+	font-size: 12px;
 }
-
+	#inner-footer {
+		background: #1664a0 url('/wp-content/themes/bones/library/images/footer/footer_bkgnd.jpg') no-repeat;
+		min-height: 108px;
+		width: 100%;
+		p {
+			display: inline;
+		}
+	}
 	/*
 	if you checked out the link above:
 	http://www.alistapart.com/articles/organizing-mobile/
@@ -875,4 +890,8 @@ FOOTER STYLES
 
 
 	.copyright {}
+
+	#footer-logo {
+		float: right;
+	}
 

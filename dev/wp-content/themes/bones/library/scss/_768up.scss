@@ -36,6 +36,7 @@ HEADER STYLES
 	#inner-header {
 		border-bottom: 12px solid #0060a7;
 		height: 136px;
+		width: 100%;
 	}
 	#header-float-block {
 		margin-right: 95px;
@@ -278,6 +279,10 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
+p.copyright {
+	margin-top: 40px;
+	margin-left: 180px;
+}
 .footer-links {
 	ul {
 		li {
