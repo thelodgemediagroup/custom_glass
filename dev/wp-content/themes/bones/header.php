@@ -59,6 +59,14 @@
 						<?php bones_main_nav(); ?>
 					</nav>
 
+					<div id="header-social-media">
+						<a href="http://www.linkedin.com" title="LinkedIn"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/linkedin_btn.png" /></a>
+						<a href="http://www.twitter.com" title="Twitter"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/twitter_btn.png" /></a>
+						<a href="http://www.facebook.com" title="Facebook"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/facebook_btn.png" /></a>
+						<a href="http://www.pintrest.com" title="Pintrest"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/pintrest_btn.png" /></a>
+						<a href="http://www.youtube.com" title="You Tube"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/youtube_btn.png" /></a>
+					</div>
+
 					<div id="header-search">
 
 						<?php get_search_form(); ?>

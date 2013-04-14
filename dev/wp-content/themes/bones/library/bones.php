@@ -261,7 +261,7 @@ function bones_footer_links() {
 function bones_main_nav_fallback() {
 	wp_page_menu( array(
 		'show_home' => true,
-    	'menu_class' => 'nav top-nav clearfix',      // adding custom nav class
+    	'menu_class' => /*'nav top-nav clearfix'*/'nav top-nav',      // adding custom nav class
 		'include'     => '',
 		'exclude'     => '',
 		'echo'        => true,

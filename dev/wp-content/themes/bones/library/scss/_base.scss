@@ -166,8 +166,17 @@ HEADER STYLES
 			border: 1px solid #03508a;
 			height: 25px;
 			width: 148px;
-
 		}
+		#searchsubmit {
+			background: #1664a0 url('/wp-content/themes/bones/library/images/search/search_off.png') no-repeat;
+			border: none;
+			height: 25px;
+			width: 25px;
+		}
+	}
+
+	#header-social-media {
+		float: right;
 	}
 	#logo {}
 
