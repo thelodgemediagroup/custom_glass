@@ -47,9 +47,11 @@
 
 				<div id="inner-header" class="wrap clearfix">
 
-					<a href="<?php echo home_url(); ?>" rel="nofollow">
-						<img src="<?php echo get_template_directory_uri(); ?>/library/images/header/header_logo.png" />
-					</a>
+					
+						<a href="<?php echo home_url(); ?>" rel="nofollow">
+							<div id="logo"><img src="<?php echo get_template_directory_uri(); ?>/library/images/header/header_logo.png" /></div>
+						</a>
+					
 
 					<div id="header-float-block">
 

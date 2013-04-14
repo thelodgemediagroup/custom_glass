@@ -150,7 +150,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
-.header {}
+.header {a { display: inline;}}
 
 	#inner-header {
 		background: #1664a0 url('/wp-content/themes/bones/library/images/header/header_bknd.jpg') no-repeat;
@@ -190,7 +190,10 @@ HEADER STYLES
 			width: 31px;
 		}
 	}
-	#logo {}
+	#logo {
+		display: inline;
+		float: left;
+	}
 
 /*********************
 NAVIGATION STYLES
