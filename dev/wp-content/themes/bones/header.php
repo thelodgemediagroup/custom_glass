@@ -76,3 +76,11 @@
 				</div> <!-- end #inner-header -->
 
 			</header> <!-- end header -->
+
+			<section id="slider" role="">
+
+				<div id="slider-container">
+
+				</div> <!-- #slider-container -->
+
+			</secton><!-- end #slider -->
