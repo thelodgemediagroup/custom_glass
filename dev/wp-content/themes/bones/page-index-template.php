@@ -10,11 +10,87 @@ Template Name: CGS Index Page
 
 				<div id="inner-content" class="wrap clearfix">
 
-					<div id="main" class="eightcol first clearfix" role="main">
-					
+					<div id="main" class="tencol first clearfix" role="main">
+
+
+						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+							<?php the_content(); ?>
+
+						<?php endwhile; endif; ?>
+
+						<header id="page-header">
+
+							<h1>The Segments We Serve</h1>
+
+						</header> <!-- #page-header -->
+
+						<section id="index-content">
+
+							<div class="page-list">
+
+								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/com_trans.jpg" />
+
+								<h3>Commercial Transportation</h3>
+
+								<p></p>
+
+							</div> <!-- .page-list -->
+
+							<div class="page-list">
+
+								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/pub_trans.jpg" />
+
+								<h3>Public Transportation</h3>
+
+								<p></p>
+
+							</div> <!-- .page-list -->
+
+							<div class="page-list">
+
+								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/life_vehic.jpg" />
+
+								<h3>Lifestyle Vehicles</h3>
+
+								<p></p>
+
+							</div> <!-- .page-list -->
+
+							<div class="page-list">
+
+								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/con_ag.jpg" />
+
+								<h3>Con/Ag</h3>
+
+								<p></p>
+
+							</div> <!-- .page-list -->														
+
+							<div class="page-list">
+
+								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/safety_prot.jpg" />
+
+								<h3>Safety and Protection</h3>
+
+								<p></p>
+
+							</div> <!-- .page-list -->
+
+							<div class="page-list">
+
+								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/non_mobility.jpg" />
+
+								<h3>Non-Mobility</h3>
+
+								<p></p>
+
+							</div> <!-- .page-list -->														
+						<section> <!-- #index-content -->
+
 					</div> <!-- end #main -->
 
-				<?php get_sidebar(); ?>
+					<?php get_sidebar(); ?>
 
 				</div> <!-- end #inner-content -->
 
