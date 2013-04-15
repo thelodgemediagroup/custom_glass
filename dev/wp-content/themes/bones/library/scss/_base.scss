@@ -359,12 +359,17 @@ POSTS & CONTENT STYLES
 	#main {
 		float: left;
 		margin-right: 0px;
-		max-width: 740px;
+		padding-right: 0px;
+		max-width: 730px;
 	}
 }
 
 .page-list-container {
 	border-right: 1px solid #ccc;
+	float: left;
+	margin-right: 0px;
+	padding-right: 0px;
+	max-width: 730px;
 
 }
 
@@ -923,7 +928,10 @@ SIDEBARS & ASIDES
 .sidebar {}
 
 #sidebar1 {
+	
 	float: right;
+	margin-left: 0px;
+	padding-left: 0px;
 	width: 190px;
 }
 
