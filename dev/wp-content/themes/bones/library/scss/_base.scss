@@ -311,6 +311,7 @@ SLIDER STYLES
 	/*background: #1664a0 url('/wp-content/themes/bones/library/images/slider/slider_main_l.jpg') no-repeat; */
 	float: left;
 	height: 372px;
+	overflow: hidden;
 	position: relative;
 	width: 12.5%;
 	z-index: 10;
@@ -329,6 +330,7 @@ SLIDER STYLES
 	/*background: #1664a0 url('/wp-content/themes/bones/library/images/slider/slider_main_r.jpg') no-repeat;*/
 	float: right;
 	height: 372px;
+	overflow: hidden;
 	position: relative;
 	width: 12.5%;
 	z-index: 10;
