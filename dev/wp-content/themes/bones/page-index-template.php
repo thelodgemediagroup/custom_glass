@@ -10,7 +10,7 @@ Template Name: CGS Index Page
 
 				<div id="inner-content" class="wrap clearfix">
 
-					<div id="main" class="tencol first clearfix" role="main">
+					<div id="main" class="clearfix" role="main">
 
 
 						<!-- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -101,7 +101,7 @@ Template Name: CGS Index Page
 
 					</div> <!-- end #main -->
 
-					<?php get_sidebar(); ?>
+					<?php get_sidebar('index'); ?>
 
 				</div> <!-- end #inner-content -->
 

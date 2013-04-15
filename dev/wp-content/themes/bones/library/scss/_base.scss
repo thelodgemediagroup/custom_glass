@@ -350,10 +350,17 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	/*margin-top: 2.2em;
-	margin: 0 auto; */
 	margin-left: 12.5%;
+	margin-right: 12.5%;
 	max-width: 960px;
+	h1 {
+		display: inline;
+	}
+	#main {
+		float: left;
+		margin-right: 0px;
+		max-width: 740px;
+	}
 }
 
 .page-list-container {
@@ -366,7 +373,7 @@ POSTS & CONTENT STYLES
 	float: left;
 	margin: 10px 10px;
 	width: 220px;
-	
+
 	p {
 	color: #807f83;
 	font-family: $sans-serif;
@@ -914,6 +921,32 @@ SIDEBARS & ASIDES
 *********************/
 
 .sidebar {}
+
+#sidebar1 {
+	float: right;
+	width: 190px;
+}
+
+.sidebar-list {
+	/*border-bottom: 1px solid #ccc; */
+	width: 185px;
+	p {
+		color: #807f83;
+		font-family: $sans-serif;
+		font-size: 0.73em;
+		line-height: 1.4em;
+		text-align: justify;
+		text-justify: distribute;
+	}
+	img {
+		
+	}
+	h3 {
+	color: #ccc;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+}
 
 	.widgettitle {}
 
