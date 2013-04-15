@@ -306,16 +306,38 @@ SLIDER STYLES
 
 #slider-left {
 	/*background: #1664a0 url('/wp-content/themes/bones/library/images/slider/slider_main_l.jpg') no-repeat; */
-	height: 372px;
 	float: left;
+	height: 372px;
+	position: relative;
 	width: 12.5%;
+	z-index: 10;
+	img.slider-bkgnd {
+		z-index: 10;
+	}
+	.pointer-left {
+		display: inline;
+		position: absolute;
+		top: 150px;
+		right: 5px;
+	}
 }
 
 #slider-right {
 	/*background: #1664a0 url('/wp-content/themes/bones/library/images/slider/slider_main_r.jpg') no-repeat;*/
-	height: 372px;
 	float: right;
+	height: 372px;
+	position: relative;
 	width: 12.5%;
+	z-index: 10;
+	img.slider-bkgnd {
+		z-index: 10;	
+	}
+	.pointer-right {
+	display: inline;
+	position: absolute;
+	top: 150px;
+	left: 5px;
+	}
 }
 
 /*********************

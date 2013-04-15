@@ -82,7 +82,8 @@
 				<div id="slider-container" class="wrap clearfix">
 
 					<div id="slider-left">
-						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_l.jpg">
+						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_l.jpg"></div>
+						<div class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
 					</div><!-- #slider-left -->
 
 					<div id="slider-hero">
@@ -90,7 +91,8 @@
 					</div><!-- #slider-hero -->
 
 					<div id="slider-right">
-						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_r.jpg">
+						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_r.jpg"></div>
+						<div class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
 					</div><!-- #slider-right -->
 
 				</div> <!-- #slider-container -->
