@@ -79,7 +79,16 @@
 
 			<section id="slider" role="">
 
-				<div id="slider-container">
+				<div id="slider-container" class="wrap clearfix">
+
+					<div id="slider-left">
+					</div><!-- #slider-left -->
+
+					<div id="slider-hero">
+					</div><!-- #slider-hero -->
+
+					<div id="slider-right">
+					</div><!-- #slider-right -->
 
 				</div> <!-- #slider-container -->
 

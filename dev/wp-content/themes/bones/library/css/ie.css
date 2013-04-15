@@ -569,27 +569,35 @@ NAVIGATION STYLES
 SIDEBARS & ASIDES
 *********************/
 /* line 154, ../scss/_768up.scss */
+#slider-container {
+  border-bottom: 12px solid #0060a7;
+}
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+/* line 162, ../scss/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 158, ../scss/_768up.scss */
+/* line 166, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 163, ../scss/_768up.scss */
+/* line 171, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 168, ../scss/_768up.scss */
+/* line 176, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 176, ../scss/_768up.scss */
+/* line 184, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -614,24 +622,24 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 282, ../scss/_768up.scss */
+/* line 290, ../scss/_768up.scss */
 #inner-footer {
   border-top: 12px solid #0060a7;
   height: 108px;
 }
-/* line 285, ../scss/_768up.scss */
+/* line 293, ../scss/_768up.scss */
 #inner-footer .copyright {
   margin-top: 40px;
   margin-left: 180px;
 }
 
-/* line 291, ../scss/_768up.scss */
+/* line 299, ../scss/_768up.scss */
 #footer-logo {
   margin-top: 10px;
   margin-right: 100px;
 }
 
-/* line 298, ../scss/_768up.scss */
+/* line 306, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

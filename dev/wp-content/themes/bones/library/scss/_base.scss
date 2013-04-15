@@ -287,8 +287,23 @@ SLIDER STYLES
 *********************/
 
 #slider-container {
-	width: 100%;
 	background-color: #1664a0;
+	height: 360px;
+	max-width: 1280px;
+}
+
+#slider-left {
+	background: #1664a0 url('/wp-content/themes/bones/library/images/slider/slider_main_l.jpg') no-repeat;
+	height: 360px;
+	float: left;
+	width: 160px;
+}
+
+#slider-right {
+	background: #1664a0 url('/wp-content/themes/bones/library/images/slider/slider_main_r.jpg') no-repeat;
+	height: 360px;
+	float: right;
+	width: 160px;
 }
 
 /*********************
