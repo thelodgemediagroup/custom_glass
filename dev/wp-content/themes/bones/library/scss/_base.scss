@@ -104,7 +104,7 @@ a, a:visited {
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, {
 	font-family: $sans-serif;
 	text-rendering: optimizelegibility;
 	font-weight: 400;
@@ -132,7 +132,9 @@ h2, .h2 {
 }
 
 h3, .h3 {
-	font-size: 1.125em;
+	color: #0065a4;
+	font-size: 1em;
+	letter-spacing: 1px;
 }
 
 h4, .h4 {
@@ -348,16 +350,32 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin-top: 2.2em;
-	margin: 0 auto;
+	/*margin-top: 2.2em;
+	margin: 0 auto; */
+	margin-left: 12.5%;
 	max-width: 960px;
+}
+
+.page-list-container {
+	border-right: 1px solid #ccc;
+
 }
 
 .page-list {
 	display: inline;
 	float: left;
-	margin: 25px 10px;
-	width: 230px;
+	margin: 10px 10px;
+	width: 220px;
+	
+	p {
+	color: #807f83;
+	font-family: $sans-serif;
+	font-size: 0.73em;
+	line-height: 1.4em;
+	text-align: justify;
+	text-justify: distribute;
+	}
+
 }
 
 		.hentry {

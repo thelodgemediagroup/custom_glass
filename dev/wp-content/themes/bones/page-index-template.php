@@ -13,11 +13,11 @@ Template Name: CGS Index Page
 					<div id="main" class="tencol first clearfix" role="main">
 
 
-						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+						<!-- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 							<?php the_content(); ?>
 
-						<?php endwhile; endif; ?>
+						<?php endwhile; endif; ?> -->
 
 						<header id="page-header">
 
@@ -27,65 +27,76 @@ Template Name: CGS Index Page
 
 						<section id="index-content">
 
-							<div class="page-list">
+							<div class="page-list-container">
 
-								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/com_trans.jpg" />
+								<div class="page-list">
 
-								<h3>Commercial Transportation</h3>
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/com_trans.jpg" />
 
-								<p></p>
+									<h3>Commercial Transportation</h3>
 
-							</div> <!-- .page-list -->
+									<p>Gimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
+									 Cesequisin remodi des sunt as qur maio...Read More></p>
 
-							<div class="page-list">
+								</div> <!-- .page-list -->
 
-								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/pub_trans.jpg" />
+								<div class="page-list">
 
-								<h3>Public Transportation</h3>
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/pub_trans.jpg" />
 
-								<p></p>
+									<h3>Public Transportation</h3>
 
-							</div> <!-- .page-list -->
+									<p>Bimi, nlk rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
+									 Cesequisin remodi des sunt as qur maio...Read More></p>
 
-							<div class="page-list">
+								</div> <!-- .page-list -->
 
-								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/life_vehic.jpg" />
+								<div class="page-list">
 
-								<h3>Lifestyle Vehicles</h3>
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/life_vehic.jpg" />
 
-								<p></p>
+									<h3>Lifestyle Vehicles</h3>
 
-							</div> <!-- .page-list -->
+									<p>Cimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
+									 Cesequisin remodi des sunt as qur maio...Read More></p>
 
-							<div class="page-list">
+								</div> <!-- .page-list -->
 
-								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/con_ag.jpg" />
+								<div class="page-list">
 
-								<h3>Con/Ag</h3>
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/con_ag.jpg" />
 
-								<p></p>
+									<h3>Con/Ag</h3>
 
-							</div> <!-- .page-list -->														
+									<p>Dimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
+									 Cesequisin remodi des sunt as qur maio...Read More></p>
 
-							<div class="page-list">
+								</div> <!-- .page-list -->														
 
-								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/safety_prot.jpg" />
+								<div class="page-list">
 
-								<h3>Safety and Protection</h3>
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/safety_prot.jpg" />
 
-								<p></p>
+									<h3>Safety and Protection</h3>
 
-							</div> <!-- .page-list -->
+									<p>Eimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
+									 Cesequisin remodi des sunt as qur mcvb...Read More></p>
 
-							<div class="page-list">
+								</div> <!-- .page-list -->
 
-								<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/non_mobility.jpg" />
+								<div class="page-list">
 
-								<h3>Non-Mobility</h3>
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/non_mobility.jpg" />
 
-								<p></p>
+									<h3>Non-Mobility</h3>
 
-							</div> <!-- .page-list -->														
+									<p>Fimi, ni rem il imus excepellabo. Sbor sincid et quisita taescid eribus nonsequ otem ecereiur.
+									 Cesequisin remodi des sunt as qur mcvb...Read More></p>
+
+								</div> <!-- .page-list -->														
+
+							</div> <!-- .page-list-container -->	
+
 						<section> <!-- #index-content -->
 
 					</div> <!-- end #main -->
