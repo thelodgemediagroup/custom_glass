@@ -82,12 +82,15 @@
 				<div id="slider-container" class="wrap clearfix">
 
 					<div id="slider-left">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_l.jpg">
 					</div><!-- #slider-left -->
 
 					<div id="slider-hero">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider1.jpg">
 					</div><!-- #slider-hero -->
 
 					<div id="slider-right">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_r.jpg">
 					</div><!-- #slider-right -->
 
 				</div> <!-- #slider-container -->
