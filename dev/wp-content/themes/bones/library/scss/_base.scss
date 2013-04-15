@@ -301,6 +301,9 @@ SLIDER STYLES
 	float: left;
 	height: 372px;
 	width: 75%;
+	img {
+		z-index: 1;
+	}
 	/*background: #1664a0 url('/wp-content/themes/bones/library/images/slider/slider1.jpg') no-repeat; */
 }
 
