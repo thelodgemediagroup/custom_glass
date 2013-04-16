@@ -1174,10 +1174,8 @@ POSTS & CONTENT STYLES
 }
 /* line 364, ../scss/_base.scss */
 #content #main {
-  float: left;
   margin-right: 0px;
   padding-right: 0px;
-  max-width: 730px;
 }
 
 /* line 372, ../scss/_base.scss */
@@ -2122,6 +2120,16 @@ you can add resource intensive styles.
 /*
 SIDEBAR RESTRUCTURE
 */
+@media only screen and (min-width: 960px) {
+  /*********************
+  POSTS & CONTENT STYLES
+  *********************/
+  /* line 6, ../scss/_960up.scss */
+  #content #main {
+    float: left;
+    max-width: 730px;
+  }
+}
 /*
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and
