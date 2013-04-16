@@ -35,8 +35,7 @@ Template Name: CGS Index Page
 									<h3>Commercial Transportation</h3>
 
 									<p>Gimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...
-									 <a href="">Read More></a></p>
+									 Cesequisin remodi des sunt as qur maio...<a href="">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
