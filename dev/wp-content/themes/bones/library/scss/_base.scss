@@ -168,17 +168,17 @@ HEADER STYLES
 
 	#header-float-block {
 		float: right;
-		width: 177px;
+		width: 185px;
 	}
 
 	#header-search {
-		float: right;
+		float: left;
 		.screen-reader-text {display: none;}
 		#s {
 			background-color: #407eac;
 			border: 1px solid #03508a;
 			height: 25px;
-			width: 148px;
+			width: 152px;
 		}
 		#searchsubmit {
 			background: #1664a0 url('/wp-content/themes/bones/library/images/search/search_off.png') no-repeat;
@@ -191,12 +191,15 @@ HEADER STYLES
 	#header-social-media {
 		float: left;
 		a {
-			line-height: 0;
-			height: 29px;
-			margin: 0;
-			padding: 0;
-			width: 31px;
+			img {
+				display: inline;
+				margin-left: 0px;
+				margin-right: 4px;
+				padding: 0;
+				position: relative;
+			}
 		}
+
 	}
 	#logo {
 		display: inline;
