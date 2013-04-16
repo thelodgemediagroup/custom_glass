@@ -307,6 +307,7 @@ SLIDER STYLES
 	float: left;
 	height: 372px;
 	overflow:hidden;
+	width: 75%;
 	img {
 		z-index: 1;
 	}
@@ -362,21 +363,13 @@ POSTS & CONTENT STYLES
 		font-weight: 200;
 	}
 	#main {
-		
-		margin-right: 0px;
-		padding-right: 0px;
-		
+		border-bottom: 1px solid #b9c7d4;
+
 	}
 }
 
 .page-list-container {
-	border-right: 1px solid #b9c7d4;
-	float: left;
-	margin-right: 0px;
-	margin-top: 20px;
-	padding-right: 0px;
-	max-width: 730px;
-
+	padding-top: 20px;
 }
 
 .page-list {
@@ -941,18 +934,12 @@ SIDEBARS & ASIDES
 .sidebar {}
 
 #sidebar1 {
-	
-	float: right;
-	margin-left: 0px;
-	margin-right: 7px;
-	padding-left: 0px;
-	width: 200px;
+	margin: 0 auto;
+	max-width: 730px;
 }
 
 .sidebar-list {
-	border-bottom: 1px solid #b9c7d4;
-	margin-bottom: 20px;
-	width: 200px;
+	float: left;
 	h3 {
 	color: #807f83;
 	font-size: 1.2em;
@@ -1026,6 +1013,7 @@ FOOTER STYLES
 }
 	#inner-footer {
 		background: #1664a0 url('/wp-content/themes/bones/library/images/footer/footer_bkgnd.jpg') no-repeat;
+		border-top: 12px solid #0060a7;
 		min-height: 108px;
 		width: 100%;
 		p {

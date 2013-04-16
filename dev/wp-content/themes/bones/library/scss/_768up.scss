@@ -157,7 +157,7 @@ SLIDER STYLES
 }
 
 #slider-hero {
-	width: 75%;
+	
 }
 
 /*********************
@@ -167,6 +167,14 @@ POSTS & CONTENT STYLES
 #content {
 	margin: 0 auto;
 	max-width: 960px;
+}
+
+#main {
+	width: 730px;
+}
+
+.page-list-container {
+	max-width: 730px;
 }
 
 /*********************
@@ -306,7 +314,7 @@ mobile. Make sure to double check these!
 }
 
 #inner-footer {
-	border-top: 12px solid #0060a7;
+	
 	height: 108px;
 	.copyright {
 		margin-left: 5%;
