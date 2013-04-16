@@ -1588,16 +1588,6 @@ SIDEBARS & ASIDES
   width: 200px;
 }
 /* line 944, ../scss/_base.scss */
-.sidebar-list p {
-  color: #807f83;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.73em;
-  line-height: 1.4em;
-  margin-top: 0px;
-  text-align: justify;
-  text-justify: distribute;
-}
-/* line 956, ../scss/_base.scss */
 .sidebar-list h3 {
   color: #ccc;
   font-size: 1em;
@@ -1607,7 +1597,31 @@ SIDEBARS & ASIDES
   margin-bottom: 10px;
 }
 
-/* line 972, ../scss/_base.scss */
+/* line 953, ../scss/_base.scss */
+.sidebar-img-txt {
+  clear: both;
+  width: 200px;
+}
+/* line 956, ../scss/_base.scss */
+.sidebar-img-txt p {
+  color: #807f83;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.73em;
+  line-height: 1.4em;
+  margin-top: 0px;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  text-justify: distribute;
+  word-wrap: normal;
+}
+/* line 968, ../scss/_base.scss */
+.sidebar-img-txt img {
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
+
+/* line 981, ../scss/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
@@ -1615,7 +1629,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 993, ../scss/_base.scss */
+/* line 1002, ../scss/_base.scss */
 .footer {
   clear: both;
   color: #eef1f3;
@@ -1623,13 +1637,13 @@ FOOTER STYLES
   font-size: 12px;
 }
 
-/* line 999, ../scss/_base.scss */
+/* line 1008, ../scss/_base.scss */
 #inner-footer {
   background: #1664a0 url("/wp-content/themes/bones/library/images/footer/footer_bkgnd.jpg") no-repeat;
   min-height: 108px;
   width: 100%;
 }
-/* line 1003, ../scss/_base.scss */
+/* line 1012, ../scss/_base.scss */
 #inner-footer p {
   display: inline;
 }
@@ -1644,13 +1658,13 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
-/* line 1027, ../scss/_base.scss */
+/* line 1036, ../scss/_base.scss */
 .copyright {
   float: left;
   display: inline;
 }
 
-/* line 1029, ../scss/_base.scss */
+/* line 1038, ../scss/_base.scss */
 #footer-logo {
   float: right;
 }

@@ -940,19 +940,7 @@ SIDEBARS & ASIDES
 
 .sidebar-list {
 	border-bottom: 1px solid #ccc;
-	width: 200px;
-	p {
-		color: #807f83;
-		font-family: $sans-serif;
-		font-size: 0.73em;
-		line-height: 1.4em;
-		margin-top: 0px;
-		text-align: justify;
-		text-justify: distribute;
-	}
-	img {
-		
-	}
+	width: 200px;	
 	h3 {
 	color: #ccc;
 	font-size: 1em;
@@ -960,8 +948,29 @@ SIDEBARS & ASIDES
 	padding-top: 0px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	}
 }
-}
+	.sidebar-img-txt {
+		clear: both;
+		width: 200px;
+		p {
+			color: #807f83;
+			font-family: $sans-serif;
+			font-size: 0.73em;
+			line-height: 1.4em;
+			margin-top: 0px;
+			margin: 0;
+			padding: 0;
+			text-align: justify;
+			text-justify: distribute;
+			word-wrap: normal;
+		}
+		img {
+			
+			float: left;
+			padding: 0px 10px 10px 0px;
+		}
+	}
 
 	.widgettitle {}
 
