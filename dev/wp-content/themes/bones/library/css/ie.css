@@ -486,20 +486,23 @@ HEADER STYLES
 
 /* line 41, ../scss/_768up.scss */
 #header-float-block {
-  margin-right: 95px;
+  margin-right: 10%;
   margin-top: 25px;
 }
 
-/* line 46, ../scss/_768up.scss */
+/* line 45, ../scss/_768up.scss */
+#logo {
+  margin-left: 12.5%;
+}
+/* line 47, ../scss/_768up.scss */
 #logo img {
   margin-top: 40px;
-  margin-left: 158px;
 }
 
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 56, ../scss/_768up.scss */
+/* line 57, ../scss/_768up.scss */
 .nav {
   border: 0;
   margin-top: 54px;
@@ -507,7 +510,7 @@ NAVIGATION STYLES
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 61, ../scss/_768up.scss */
+/* line 62, ../scss/_768up.scss */
 .nav li {
   float: left;
   position: relative;
@@ -516,7 +519,7 @@ NAVIGATION STYLES
   */
   /* showing sub-menus */
 }
-/* line 65, ../scss/_768up.scss */
+/* line 66, ../scss/_768up.scss */
 .nav li a {
   border-bottom: 0;
   /*
@@ -524,7 +527,7 @@ NAVIGATION STYLES
   has the possibility of being a mobile device.
   */
 }
-/* line 85, ../scss/_768up.scss */
+/* line 86, ../scss/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -535,7 +538,7 @@ NAVIGATION STYLES
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 93, ../scss/_768up.scss */
+/* line 94, ../scss/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   /*
@@ -544,7 +547,7 @@ NAVIGATION STYLES
   for usability. k, bai.
   */
 }
-/* line 95, ../scss/_768up.scss */
+/* line 96, ../scss/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -553,12 +556,12 @@ NAVIGATION STYLES
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-/* line 112, ../scss/_768up.scss */
+/* line 113, ../scss/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 134, ../scss/_768up.scss */
+/* line 135, ../scss/_768up.scss */
 .nav li:hover ul {
   top: auto;
   display: block;
@@ -568,7 +571,7 @@ NAVIGATION STYLES
 /*********************
 SLIDER STYLES
 *********************/
-/* line 158, ../scss/_768up.scss */
+/* line 159, ../scss/_768up.scss */
 #slider-hero {
   width: 75%;
 }
@@ -576,7 +579,7 @@ SLIDER STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 166, ../scss/_768up.scss */
+/* line 167, ../scss/_768up.scss */
 #content {
   margin: 0 auto;
   max-width: 960px;
@@ -585,28 +588,28 @@ POSTS & CONTENT STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 175, ../scss/_768up.scss */
+/* line 176, ../scss/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 179, ../scss/_768up.scss */
+/* line 180, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 184, ../scss/_768up.scss */
+/* line 185, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 189, ../scss/_768up.scss */
+/* line 190, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 197, ../scss/_768up.scss */
+/* line 198, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -631,28 +634,28 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 303, ../scss/_768up.scss */
+/* line 304, ../scss/_768up.scss */
 .footer {
   font-size: 0.6em;
 }
 
-/* line 307, ../scss/_768up.scss */
+/* line 308, ../scss/_768up.scss */
 #inner-footer {
   border-top: 12px solid #0060a7;
   height: 108px;
 }
-/* line 310, ../scss/_768up.scss */
+/* line 311, ../scss/_768up.scss */
 #inner-footer .copyright {
   margin-left: 5%;
 }
 
-/* line 315, ../scss/_768up.scss */
+/* line 316, ../scss/_768up.scss */
 #footer-logo {
   /*margin-right: 100px; */
   margin-right: 5%;
 }
 
-/* line 323, ../scss/_768up.scss */
+/* line 324, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

@@ -59,7 +59,12 @@ you can add resource intensive styles.
 	@import "768up";
 
 } // end of media query
-
+/*
+SIDEBAR RESTRUCTURE
+*/
+@media only screen and (min-width: 960px) {
+	@import "960up";
+}
 /*
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and
