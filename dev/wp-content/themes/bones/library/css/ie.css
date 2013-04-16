@@ -566,33 +566,47 @@ NAVIGATION STYLES
 
 /* end .nav */
 /*********************
-SIDEBARS & ASIDES
+SLIDER STYLES
 *********************/
+/* line 158, ../scss/_768up.scss */
+#slider-hero {
+  width: 75%;
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+/* line 166, ../scss/_768up.scss */
+#content {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 162, ../scss/_768up.scss */
+/* line 175, ../scss/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 166, ../scss/_768up.scss */
+/* line 179, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 171, ../scss/_768up.scss */
+/* line 184, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 176, ../scss/_768up.scss */
+/* line 189, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 184, ../scss/_768up.scss */
+/* line 197, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -617,24 +631,28 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 290, ../scss/_768up.scss */
+/* line 303, ../scss/_768up.scss */
+.footer {
+  font-size: 0.6em;
+}
+
+/* line 307, ../scss/_768up.scss */
 #inner-footer {
   border-top: 12px solid #0060a7;
   height: 108px;
 }
-/* line 293, ../scss/_768up.scss */
+/* line 310, ../scss/_768up.scss */
 #inner-footer .copyright {
-  margin-top: 40px;
-  margin-left: 180px;
+  margin-left: 5%;
 }
 
-/* line 299, ../scss/_768up.scss */
+/* line 315, ../scss/_768up.scss */
 #footer-logo {
-  margin-top: 10px;
-  margin-right: 100px;
+  /*margin-right: 100px; */
+  margin-right: 5%;
 }
 
-/* line 306, ../scss/_768up.scss */
+/* line 323, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -654,6 +672,30 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop. 
 
 ******************************************************************/
+/* line 12, ../scss/_1030up.scss */
+#content {
+  width: 960px;
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+/* line 20, ../scss/_1030up.scss */
+.footer {
+  font-size: 0.75em;
+}
+
+/* line 25, ../scss/_1030up.scss */
+#inner-footer .copyright {
+  margin-left: 12.5%;
+  margin-top: 3em;
+}
+
+/* line 31, ../scss/_1030up.scss */
+#footer-logo {
+  margin-right: 7.25%;
+}
+
 /* 
 you can call the larger styles if you want, but there's really no need 
 */

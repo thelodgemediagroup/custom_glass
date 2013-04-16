@@ -306,7 +306,7 @@ SLIDER STYLES
 #slider-hero {
 	float: left;
 	height: 372px;
-	width: 75%;
+	overflow:hidden;
 	img {
 		z-index: 1;
 	}
@@ -357,8 +357,6 @@ POSTS & CONTENT STYLES
 	margin-left: 12.5%;
 	margin-right: 12.5%;
 	padding-top: 30px;
-	/*max-width: 960px; */
-	width: 960px;
 	h1 {
 		display: inline;
 		font-weight: 200;
@@ -1024,7 +1022,7 @@ FOOTER STYLES
 	clear: both;
 	color: #eef1f3;
 	font-family: $sans-serif;
-	font-size: 12px;
+	font-size: 0.6em;
 }
 	#inner-footer {
 		background: #1664a0 url('/wp-content/themes/bones/library/images/footer/footer_bkgnd.jpg') no-repeat;
@@ -1032,6 +1030,10 @@ FOOTER STYLES
 		width: 100%;
 		p {
 			display: inline;
+		}
+		.copyright {
+			float: left;
+			margin-top: 4em;
 		}
 	}
 	/*
@@ -1058,5 +1060,6 @@ FOOTER STYLES
 
 	#footer-logo {
 		float: right;
+		margin-top: 0.65em;
 	}
 

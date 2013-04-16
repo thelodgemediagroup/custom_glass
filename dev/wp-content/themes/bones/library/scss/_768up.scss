@@ -148,11 +148,24 @@ NAVIGATION STYLES
 } /* end .nav */
 
 /*********************
-SIDEBARS & ASIDES
+SLIDER STYLES
 *********************/
 
 #slider-container {
 	
+}
+
+#slider-hero {
+	width: 75%;
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+#content {
+	margin: 0 auto;
+	max-width: 960px;
 }
 
 /*********************
@@ -287,18 +300,22 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
+.footer {
+	font-size: 0.6em;
+}
+
 #inner-footer {
 	border-top: 12px solid #0060a7;
 	height: 108px;
 	.copyright {
-		margin-top: 40px;
-		margin-left: 180px;		
+		margin-left: 5%;
 	}	
 }
 
 #footer-logo {
-	margin-top: 10px;
-	margin-right: 100px;
+	
+	/*margin-right: 100px; */
+	margin-right: 5%;
 }
 
 .footer-links {
