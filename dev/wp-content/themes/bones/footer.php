@@ -6,14 +6,22 @@
 						<p>Copyright &copy; <?php echo date('Y'); ?> Guardian Automotive Glass, All Rights Reserved.</p>
 					</div>
 
+					<nav role="navigation">
+						<div class="footer-links">
+
+							<p>
+								<span class="link-span"><a href="" title="">Sitemap</a></span>/
+								<span class="link-span"><a href="" title="">Terms of Use</a></span>/
+								<span class="link-span"><a href="http://www.guardian.com/" title="Home - Guardian.com">Guardian.com</a></span>
+							</p>
+
+						</div> <!-- .footer-links -->
+					</nav>
+
 					<div id="footer-logo">
 						<img src="<?php echo get_template_directory_uri(); ?>/library/images/footer/guardian_logo.png" />
 					</div>
-
-					<nav role="navigation">
-						<?php bones_footer_links(); ?>
-					</nav>
-
+					
 				</div> <!-- end #inner-footer -->
 
 			</footer> <!-- end footer -->

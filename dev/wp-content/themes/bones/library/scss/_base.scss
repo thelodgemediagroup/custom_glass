@@ -936,11 +936,15 @@ SIDEBARS & ASIDES
 #sidebar1 {
 	margin: 0 auto;
 	max-width: 730px;
+	padding-top: 20px;
 }
 
 .sidebar-list {
 	float: left;
+	margin: 0px 10px 10px 10px;
+	width: 220px;
 	h3 {
+	clear: both;
 	color: #807f83;
 	font-size: 1.2em;
 	font-weight: 200;
@@ -948,13 +952,13 @@ SIDEBARS & ASIDES
 	line-height: 1.2em;
 	padding-top: 0px;
 	margin-top: 10px;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 	}
 }
 	.sidebar-img-txt {
 		clear: both;
 		margin-bottom: 10px;
-		width: 200px;
+		/*width: 200px; */
 		a {
 			color: #b9c7d4;
 			text-decoration: none;
@@ -1021,7 +1025,7 @@ FOOTER STYLES
 		}
 		.copyright {
 			float: left;
-			margin-top: 4em;
+			margin-top: 40px;
 		}
 	}
 	/*
@@ -1034,13 +1038,21 @@ FOOTER STYLES
 	view.
 	*/
 	.footer-links {
-
-		ul {
-
-			li {}
-
+		display: inline;
+		float: left;
+		margin-top: 37px;
+		margin-left: 9%;
+		margin-right: 0px;
+		padding-right: 0px;
+		
+		.link-span {
+			padding-left: 10px;
+			padding-right: 10px;
 		}
-
+		a {
+			color: #eef1f3;
+			text-decoration: none;
+		}
 	} /* end .footer-links */
 
 
@@ -1048,6 +1060,7 @@ FOOTER STYLES
 
 	#footer-logo {
 		float: right;
+		height: 100%;
 		margin-top: 0.65em;
 	}
 

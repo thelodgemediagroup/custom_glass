@@ -1581,14 +1581,18 @@ SIDEBARS & ASIDES
 #sidebar1 {
   margin: 0 auto;
   max-width: 730px;
+  padding-top: 20px;
 }
 
-/* line 941, ../scss/_base.scss */
+/* line 942, ../scss/_base.scss */
 .sidebar-list {
   float: left;
+  margin: 0px 10px 10px 10px;
+  width: 220px;
 }
-/* line 943, ../scss/_base.scss */
+/* line 946, ../scss/_base.scss */
 .sidebar-list h3 {
+  clear: both;
   color: #807f83;
   font-size: 1.2em;
   font-weight: 200;
@@ -1596,21 +1600,21 @@ SIDEBARS & ASIDES
   line-height: 1.2em;
   padding-top: 0px;
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
-/* line 954, ../scss/_base.scss */
+/* line 958, ../scss/_base.scss */
 .sidebar-img-txt {
   clear: both;
   margin-bottom: 10px;
-  width: 200px;
+  /*width: 200px; */
 }
-/* line 958, ../scss/_base.scss */
+/* line 962, ../scss/_base.scss */
 .sidebar-img-txt a {
   color: #b9c7d4;
   text-decoration: none;
 }
-/* line 962, ../scss/_base.scss */
+/* line 966, ../scss/_base.scss */
 .sidebar-img-txt p {
   color: #807f83;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1623,13 +1627,13 @@ SIDEBARS & ASIDES
   text-justify: distribute;
   word-wrap: normal;
 }
-/* line 974, ../scss/_base.scss */
+/* line 978, ../scss/_base.scss */
 .sidebar-img-txt img {
   float: left;
   padding: 0px 10px 12px 0px;
 }
 
-/* line 987, ../scss/_base.scss */
+/* line 991, ../scss/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
@@ -1637,7 +1641,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1008, ../scss/_base.scss */
+/* line 1012, ../scss/_base.scss */
 .footer {
   clear: both;
   color: #eef1f3;
@@ -1645,21 +1649,21 @@ FOOTER STYLES
   font-size: 0.6em;
 }
 
-/* line 1014, ../scss/_base.scss */
+/* line 1018, ../scss/_base.scss */
 #inner-footer {
   background: #1664a0 url("/wp-content/themes/bones/library/images/footer/footer_bkgnd.jpg") no-repeat;
   border-top: 12px solid #0060a7;
   min-height: 108px;
   width: 100%;
 }
-/* line 1019, ../scss/_base.scss */
+/* line 1023, ../scss/_base.scss */
 #inner-footer p {
   display: inline;
 }
-/* line 1022, ../scss/_base.scss */
+/* line 1026, ../scss/_base.scss */
 #inner-footer .copyright {
   float: left;
-  margin-top: 4em;
+  margin-top: 40px;
 }
 
 /*
@@ -1671,16 +1675,37 @@ it simple because you'll have to
 override these styles for the desktop
 view.
 */
+/* line 1040, ../scss/_base.scss */
+.footer-links {
+  display: inline;
+  float: left;
+  margin-top: 37px;
+  margin-left: 9%;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+/* line 1048, ../scss/_base.scss */
+.footer-links .link-span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 1052, ../scss/_base.scss */
+.footer-links a {
+  color: #eef1f3;
+  text-decoration: none;
+}
+
 /* end .footer-links */
-/* line 1047, ../scss/_base.scss */
+/* line 1059, ../scss/_base.scss */
 .copyright {
   float: left;
   display: inline;
 }
 
-/* line 1049, ../scss/_base.scss */
+/* line 1061, ../scss/_base.scss */
 #footer-logo {
   float: right;
+  height: 100%;
   margin-top: 0.65em;
 }
 
@@ -2133,7 +2158,6 @@ SIDEBAR RESTRUCTURE
     border-right: 1px solid #b9c7d4;
     float: left;
     margin-right: 0px;
-    margin-top: 20px;
     max-width: 730px;
     padding-right: 0px;
   }
@@ -2141,11 +2165,12 @@ SIDEBAR RESTRUCTURE
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 29, ../scss/_960up.scss */
+  /* line 28, ../scss/_960up.scss */
   #sidebar1 {
     float: right;
     margin-left: 0px;
     margin-right: 7px;
+    margin-top: 30px;
     padding-left: 0px;
     width: 200px;
   }
@@ -2154,9 +2179,13 @@ SIDEBAR RESTRUCTURE
   .sidebar-list {
     border-bottom: 1px solid #b9c7d4;
     margin-bottom: 20px;
-    margin-right: 6%;
+    margin-right: 0;
     width: 200px;
   }
+
+  /*********************
+  FOOTER STYLES
+  *********************/
 }
 /*
 DESKTOP
