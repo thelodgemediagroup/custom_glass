@@ -35,7 +35,8 @@ Template Name: CGS Index Page
 									<h3>Commercial Transportation</h3>
 
 									<p>Gimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...Read More></p>
+									 Cesequisin remodi des sunt as qur maio...
+									 <a href="">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -46,7 +47,7 @@ Template Name: CGS Index Page
 									<h3>Public Transportation</h3>
 
 									<p>Bimi, nlk rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...Read More></p>
+									 Cesequisin remodi des sunt as qur maio...<a href="">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -57,7 +58,7 @@ Template Name: CGS Index Page
 									<h3>Lifestyle Vehicles</h3>
 
 									<p>Cimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...Read More></p>
+									 Cesequisin remodi des sunt as qur maio...<a href="">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -68,7 +69,7 @@ Template Name: CGS Index Page
 									<h3>Con/Ag</h3>
 
 									<p>Dimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...Read More></p>
+									 Cesequisin remodi des sunt as qur maio...<a href="">Read More></a></p>
 
 								</div> <!-- .page-list -->														
 
@@ -79,7 +80,7 @@ Template Name: CGS Index Page
 									<h3>Safety and Protection</h3>
 
 									<p>Eimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur mcvb...Read More></p>
+									 Cesequisin remodi des sunt as qur mcvb...<a href="">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -90,7 +91,7 @@ Template Name: CGS Index Page
 									<h3>Non-Mobility</h3>
 
 									<p>Fimi, ni rem il imus excepellabo. Sbor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur mcvb...Read More></p>
+									 Cesequisin remodi des sunt as qur mcvb...<a href="">Read More></a></p>
 
 								</div> <!-- .page-list -->														
 
