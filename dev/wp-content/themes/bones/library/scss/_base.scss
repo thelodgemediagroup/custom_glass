@@ -353,10 +353,12 @@ POSTS & CONTENT STYLES
 	padding-bottom: 30px;
 	margin-left: 12.5%;
 	margin-right: 12.5%;
+	padding-top: 30px;
 	/*max-width: 960px; */
 	width: 960px;
 	h1 {
 		display: inline;
+		font-weight: 200;
 	}
 	#main {
 		float: left;
@@ -942,18 +944,22 @@ SIDEBARS & ASIDES
 
 .sidebar-list {
 	border-bottom: 1px solid #ccc;
-	width: 200px;	
+	margin-bottom: 20px;
+	width: 200px;
 	h3 {
 	color: #ccc;
-	font-size: 1em;
+	font-size: 1.2em;
+	font-weight: 200;
 	letter-spacing: 1px;
+	line-height: 1.2em;
 	padding-top: 0px;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	}
 }
 	.sidebar-img-txt {
 		clear: both;
+		margin-bottom: 10px;
 		width: 200px;
 		p {
 			color: #807f83;
@@ -970,7 +976,7 @@ SIDEBARS & ASIDES
 		img {
 			
 			float: left;
-			padding: 0px 10px 10px 0px;
+			padding: 0px 10px 12px 0px;
 		}
 	}
 
