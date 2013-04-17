@@ -30,17 +30,6 @@ Template Name: Category Template
 
 								<div class="category">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/construction.jpg" />
-
-									<h3>Construction</h3>
-
-									<p>Cimi, ni rem il imus excepellabo. Abor sincid et quisita taescideribus nonsequotem ecereiur. Cunt as qur maio...
-										<a href="" title="">Read More></a></p>
-
-								</div> <!-- .category -->
-
-								<div class="category">
-
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/agriculture.jpg" />
 
 									<h3>Agriculture</h3>
@@ -52,11 +41,11 @@ Template Name: Category Template
 
 								<div class="category">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/forestry.jpg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/construction.jpg" />
 
-									<h3>Forestry</h3>
+									<h3>Construction</h3>
 
-									<p>Fimi, ni rem il imus excepellabo. Abor sincid et quisita taescideribus nonsequotem ecereiur. Cunt as qur maio...
+									<p>Cimi, ni rem il imus excepellabo. Abor sincid et quisita taescideribus nonsequotem ecereiur. Cunt as qur maio...
 										<a href="" title="">Read More></a></p>
 
 								</div> <!-- .category -->
@@ -71,6 +60,17 @@ Template Name: Category Template
 										<a href="" title="">Read More></a></p>
 
 								</div> <!-- .category -->																
+
+								<div class="category">
+
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/forestry.jpg" />
+
+									<h3>Forestry</h3>
+
+									<p>Fimi, ni rem il imus excepellabo. Abor sincid et quisita taescideribus nonsequotem ecereiur. Cunt as qur maio...
+										<a href="" title="">Read More></a></p>
+
+								</div> <!-- .category -->								
 
 							</div> <!-- .page-list-container -->
 
