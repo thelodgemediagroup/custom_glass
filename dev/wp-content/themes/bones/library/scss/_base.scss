@@ -364,7 +364,6 @@ POSTS & CONTENT STYLES
 	}
 	#main {
 		border-bottom: 1px solid #b9c7d4;
-
 	}
 }
 
@@ -939,7 +938,13 @@ SIDEBARS & ASIDES
 	padding-top: 20px;
 }
 
-.sidebar-list {
+#sidebar2 {
+	margin: 0 auto;
+	max-width: 730px;
+	padding-top: 20px;	
+}
+
+.sidebar-list, .sidebar-products {
 	float: left;
 	margin: 0px 10px 10px 10px;
 	width: 220px;

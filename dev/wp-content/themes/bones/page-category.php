@@ -3,7 +3,7 @@
 Template Name: Category Template
 */
 ?>
-
+<?php $page_title_append = 'Glass Solutions'; ?>
 <?php get_header(); ?>
 
 			<div id="content">
@@ -20,7 +20,7 @@ Template Name: Category Template
 
 						<header id="page-header">
 
-							<h1><?php wp_title(); ?></h1>
+							<h1><?php wp_title(''); ?> <?php echo $page_title_append; ?></h1>
 
 						</header> <!-- #page-header -->
 
