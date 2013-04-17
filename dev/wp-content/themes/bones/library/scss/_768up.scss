@@ -169,12 +169,20 @@ POSTS & CONTENT STYLES
 	max-width: 960px;
 }
 
-#main {
+#main, #main2 {
 	width: 730px;
 }
 
 .page-list-container {
 	max-width: 730px;
+}
+
+.category-container{
+	max-width: 760px;
+}
+
+.category {
+	margin-left: 20px;
 }
 
 /*********************

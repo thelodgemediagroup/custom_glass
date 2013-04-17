@@ -362,13 +362,50 @@ POSTS & CONTENT STYLES
 		display: inline;
 		font-weight: 200;
 	}
-	#main {
+	#main, #main2 {
 		border-bottom: 1px solid #b9c7d4;
 	}
 }
 
 .page-list-container {
 	padding-top: 20px;
+}
+
+.category-container {
+	margin-top: 40px;
+	h1 {
+		font-size: 2em;
+		line-height: 1em;
+		padding-bottom: 18px;
+		margin-left: 20px;
+	}
+}
+
+.category {
+	display: inline;
+	float: right;
+	padding-top: 20px;
+	width: 344px;
+	h3 {
+		font-size: 1.3em;
+		font-weight: 200;
+		margin: 0;
+		padding: 0;
+	}
+	p {
+	color: #807f83;
+	font-family: $sans-serif;
+	font-size: 0.73em;
+	padding-top: 5px;
+	margin: 0;
+	line-height: 1.4em;
+	text-align: justify;
+	text-justify: distribute;
+	}
+	a {
+		color: #0065a4;
+		text-decoration: none;
+	}	
 }
 
 .page-list {

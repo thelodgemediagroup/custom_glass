@@ -3,14 +3,22 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	#main {
-		float: left;
+	#main, #main2 {
 		margin-right: 0px;
 		padding-right: 0px;
 		max-width: 730px;
 		border-bottom: none;
-
 	}
+	#main { float: left; }
+	#main2 { float: right; }
+}
+
+.category-container {
+	border-left: 2px solid #b9c7d4;
+	float: right;
+	margin-left: 0px;
+	max-width: 730px;
+	padding-left: 0px;
 }
 
 .page-list-container {

@@ -10,7 +10,7 @@ Template Name: Category Template
 
 				<div id="inner-content" class="wrap clearfix">
 
-					<div id="main" class="wrap clearfix" role="main">
+					<div id="main2" class="wrap clearfix" role="main">
 
 						<!-- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -18,11 +18,63 @@ Template Name: Category Template
 
 						<?php endwhile; endif; ?> -->
 
-						<header id="page-header">
+						<section id="category-content">
 
-							<h1><?php wp_title(''); ?> <?php echo $page_title_append; ?></h1>
+							<div class="category-container">
 
-						</header> <!-- #page-header -->
+								<header id="page-header">
+
+									<h1><?php wp_title(''); ?> <?php echo $page_title_append; ?></h1>
+
+								</header> <!-- #page-header -->
+
+								<div class="category">
+
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/construction.jpg" />
+
+									<h3>Construction</h3>
+
+									<p>Cimi, ni rem il imus excepellabo. Abor sincid et quisita taescideribus nonsequotem ecereiur. Cunt as qur maio...
+										<a href="" title="">Read More></a></p>
+
+								</div> <!-- .category -->
+
+								<div class="category">
+
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/agriculture.jpg" />
+
+									<h3>Agriculture</h3>
+
+									<p>Aimi, ni rem il imus excepellabo. Abor sincid et quisita taescideribus nonsequotem ecereiur. Cunt as qur maio...
+										<a href="" title="">Read More></a></p>
+
+								</div> <!-- .category -->
+
+								<div class="category">
+
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/forestry.jpg" />
+
+									<h3>Forestry</h3>
+
+									<p>Fimi, ni rem il imus excepellabo. Abor sincid et quisita taescideribus nonsequotem ecereiur. Cunt as qur maio...
+										<a href="" title="">Read More></a></p>
+
+								</div> <!-- .category -->
+
+								<div class="category">
+
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/mining.jpg" />
+
+									<h3>Mining</h3>
+
+									<p>Mimi, ni rem il imus excepellabo. Abor sincid et quisita taescideribus nonsequotem ecereiur. Cunt as qur maio...
+										<a href="" title="">Read More></a></p>
+
+								</div> <!-- .category -->																
+
+							</div> <!-- .page-list-container -->
+
+						</section> <!-- #category-content -->
 
 					</div> <!-- end #main -->
 
