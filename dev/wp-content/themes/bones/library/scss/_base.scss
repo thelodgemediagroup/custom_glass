@@ -1009,7 +1009,16 @@ SIDEBARS & ASIDES
 	overflow: hidden;
 	width: 193px;
 	a {
-		background-color: #0065a4;
+		background: #015e9a;
+		background: -moz-linear-gradient(top,  #015e9a 0%, #06335b 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#015e9a), color-stop(100%,#06335b));
+		background: -webkit-linear-gradient(top,  #015e9a 0%,#06335b 100%);
+		background: -o-linear-gradient(top,  #015e9a 0%,#06335b 100%);
+		background: -ms-linear-gradient(top,  #015e9a 0%,#06335b 100%);
+		background: linear-gradient(to bottom,  #015e9a 0%,#06335b 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#015e9a', endColorstr='#06335b',GradientType=0 );
+
+		border-bottom: 1px solid #8baac2;
 		color: #eef1f3;
 		display: block;
 		font-family: $sans-serif;
@@ -1019,28 +1028,29 @@ SIDEBARS & ASIDES
 		text-decoration: none;
 		vertical-align: top;
 		&:hover {
-			background-color: #ccc;
+			background: #014f83;
+			background: -moz-linear-gradient(top,  #014f83 0%, #052b4d 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#014f83), color-stop(100%,#052b4d));
+			background: -webkit-linear-gradient(top,  #014f83 0%,#052b4d 100%);
+			background: -o-linear-gradient(top,  #014f83 0%,#052b4d 100%);
+			background: -ms-linear-gradient(top,  #014f83 0%,#052b4d 100%);
+			background: linear-gradient(to bottom,  #014f83 0%,#052b4d 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#014f83', endColorstr='#052b4d',GradientType=0 );
+			
+			color: #E1E4E6;
+		}
+		&:active {
+			background: #01395f;
+			background: -moz-linear-gradient(top,  #01395f 0%, #042038 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#01395f), color-stop(100%,#042038));
+			background: -webkit-linear-gradient(top,  #01395f 0%,#042038 100%);
+			background: -o-linear-gradient(top,  #01395f 0%,#042038 100%);
+			background: -ms-linear-gradient(top,  #01395f 0%,#042038 100%);
+			background: linear-gradient(to bottom,  #01395f 0%,#042038 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01395f', endColorstr='#042038',GradientType=0 );			
 		}
 	}
-
 }
-
-.products-button {/*
-	background-color: #0065a4;
-	clear: both;
-	color: #eef1f3;
-	float: left;
-	font-family: $sans-serif;
-	font-weight: 200;
-	padding: 0.5em 5em 0.3em 1.1em;
-	text-decoration: none;
-	word-wrap: none;
-	&:hover {
-		background-color: #ccc;
-	}*/
-}
-
-
 
 	.sidebar-img-txt {
 		clear: both;

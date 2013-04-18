@@ -1665,7 +1665,15 @@ SIDEBARS & ASIDES
 }
 /* line 1011, ../scss/_base.scss */
 .buttons-group a {
-  background-color: #0065a4;
+  background: #015e9a;
+  background: -moz-linear-gradient(top, #015e9a 0%, #06335b 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #015e9a), color-stop(100%, #06335b));
+  background: -webkit-linear-gradient(top, #015e9a 0%, #06335b 100%);
+  background: -o-linear-gradient(top, #015e9a 0%, #06335b 100%);
+  background: -ms-linear-gradient(top, #015e9a 0%, #06335b 100%);
+  background: linear-gradient(to bottom, #015e9a 0%, #06335b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#015e9a', endColorstr='#06335b',GradientType=0 );
+  border-bottom: 1px solid #8baac2;
   color: #eef1f3;
   display: block;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1675,40 +1683,42 @@ SIDEBARS & ASIDES
   text-decoration: none;
   vertical-align: top;
 }
-/* line 1021, ../scss/_base.scss */
+/* line 1030, ../scss/_base.scss */
 .buttons-group a:hover {
-  background-color: #ccc;
+  background: #014f83;
+  background: -moz-linear-gradient(top, #014f83 0%, #052b4d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #014f83), color-stop(100%, #052b4d));
+  background: -webkit-linear-gradient(top, #014f83 0%, #052b4d 100%);
+  background: -o-linear-gradient(top, #014f83 0%, #052b4d 100%);
+  background: -ms-linear-gradient(top, #014f83 0%, #052b4d 100%);
+  background: linear-gradient(to bottom, #014f83 0%, #052b4d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#014f83', endColorstr='#052b4d',GradientType=0 );
+  color: #E1E4E6;
+}
+/* line 1042, ../scss/_base.scss */
+.buttons-group a:active {
+  background: #01395f;
+  background: -moz-linear-gradient(top, #01395f 0%, #042038 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #01395f), color-stop(100%, #042038));
+  background: -webkit-linear-gradient(top, #01395f 0%, #042038 100%);
+  background: -o-linear-gradient(top, #01395f 0%, #042038 100%);
+  background: -ms-linear-gradient(top, #01395f 0%, #042038 100%);
+  background: linear-gradient(to bottom, #01395f 0%, #042038 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#01395f', endColorstr='#042038',GradientType=0 );
 }
 
-/* line 1028, ../scss/_base.scss */
-.products-button {
-                  /*
-	background-color: #0065a4;
-	clear: both;
-	color: #eef1f3;
-	float: left;
-	font-family: $sans-serif;
-	font-weight: 200;
-	padding: 0.5em 5em 0.3em 1.1em;
-	text-decoration: none;
-	word-wrap: none;
-	&:hover {
-		background-color: #ccc;
-	}*/
-}
-
-/* line 1045, ../scss/_base.scss */
+/* line 1055, ../scss/_base.scss */
 .sidebar-img-txt {
   clear: both;
   margin-bottom: 10px;
   /*width: 200px; */
 }
-/* line 1049, ../scss/_base.scss */
+/* line 1059, ../scss/_base.scss */
 .sidebar-img-txt a {
   color: #b9c7d4;
   text-decoration: none;
 }
-/* line 1053, ../scss/_base.scss */
+/* line 1063, ../scss/_base.scss */
 .sidebar-img-txt p {
   color: #807f83;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1721,13 +1731,13 @@ SIDEBARS & ASIDES
   text-justify: distribute;
   word-wrap: normal;
 }
-/* line 1065, ../scss/_base.scss */
+/* line 1075, ../scss/_base.scss */
 .sidebar-img-txt img {
   float: left;
   padding: 0px 10px 12px 0px;
 }
 
-/* line 1078, ../scss/_base.scss */
+/* line 1088, ../scss/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
@@ -1735,7 +1745,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1099, ../scss/_base.scss */
+/* line 1109, ../scss/_base.scss */
 .footer {
   clear: both;
   color: #eef1f3;
@@ -1743,18 +1753,18 @@ FOOTER STYLES
   font-size: 0.6em;
 }
 
-/* line 1105, ../scss/_base.scss */
+/* line 1115, ../scss/_base.scss */
 #inner-footer {
   background: #1664a0 url("/wp-content/themes/bones/library/images/footer/footer_bkgnd.jpg") no-repeat;
   border-top: 12px solid #0060a7;
   min-height: 108px;
   width: 100%;
 }
-/* line 1110, ../scss/_base.scss */
+/* line 1120, ../scss/_base.scss */
 #inner-footer p {
   display: inline;
 }
-/* line 1113, ../scss/_base.scss */
+/* line 1123, ../scss/_base.scss */
 #inner-footer .copyright {
   float: left;
   margin-top: 40px;
@@ -1769,7 +1779,7 @@ it simple because you'll have to
 override these styles for the desktop
 view.
 */
-/* line 1127, ../scss/_base.scss */
+/* line 1137, ../scss/_base.scss */
 .footer-links {
   display: inline;
   float: left;
@@ -1778,25 +1788,25 @@ view.
   margin-right: 0px;
   padding-right: 0px;
 }
-/* line 1135, ../scss/_base.scss */
+/* line 1145, ../scss/_base.scss */
 .footer-links .link-span {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 1139, ../scss/_base.scss */
+/* line 1149, ../scss/_base.scss */
 .footer-links a {
   color: #eef1f3;
   text-decoration: none;
 }
 
 /* end .footer-links */
-/* line 1146, ../scss/_base.scss */
+/* line 1156, ../scss/_base.scss */
 .copyright {
   float: left;
   display: inline;
 }
 
-/* line 1148, ../scss/_base.scss */
+/* line 1158, ../scss/_base.scss */
 #footer-logo {
   float: right;
   height: 100%;
