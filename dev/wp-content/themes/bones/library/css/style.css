@@ -1653,20 +1653,34 @@ SIDEBARS & ASIDES
   margin-bottom: 20px;
 }
 
-/* line 1001, ../scss/_base.scss */
-.buttons-group {
-  background-color: #0065a4;
-  overflow: hidden;
-}
-/* line 1004, ../scss/_base.scss */
-.buttons-group a {
-  color: #eef1f3;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 200;
-  text-decoration: none;
+/* line 1002, ../scss/_base.scss */
+.sidebar-products h3 {
+  margin-bottom: 0px;
 }
 
-/* line 1013, ../scss/_base.scss */
+/* line 1007, ../scss/_base.scss */
+.buttons-group {
+  overflow: hidden;
+  width: 193px;
+}
+/* line 1011, ../scss/_base.scss */
+.buttons-group a {
+  background-color: #0065a4;
+  color: #eef1f3;
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  line-height: 40px;
+  padding-left: 1.2em;
+  text-decoration: none;
+  vertical-align: top;
+}
+/* line 1021, ../scss/_base.scss */
+.buttons-group a:hover {
+  background-color: #ccc;
+}
+
+/* line 1028, ../scss/_base.scss */
 .products-button {
                   /*
 	background-color: #0065a4;
@@ -1683,18 +1697,18 @@ SIDEBARS & ASIDES
 	}*/
 }
 
-/* line 1030, ../scss/_base.scss */
+/* line 1045, ../scss/_base.scss */
 .sidebar-img-txt {
   clear: both;
   margin-bottom: 10px;
   /*width: 200px; */
 }
-/* line 1034, ../scss/_base.scss */
+/* line 1049, ../scss/_base.scss */
 .sidebar-img-txt a {
   color: #b9c7d4;
   text-decoration: none;
 }
-/* line 1038, ../scss/_base.scss */
+/* line 1053, ../scss/_base.scss */
 .sidebar-img-txt p {
   color: #807f83;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1707,13 +1721,13 @@ SIDEBARS & ASIDES
   text-justify: distribute;
   word-wrap: normal;
 }
-/* line 1050, ../scss/_base.scss */
+/* line 1065, ../scss/_base.scss */
 .sidebar-img-txt img {
   float: left;
   padding: 0px 10px 12px 0px;
 }
 
-/* line 1063, ../scss/_base.scss */
+/* line 1078, ../scss/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
@@ -1721,7 +1735,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1084, ../scss/_base.scss */
+/* line 1099, ../scss/_base.scss */
 .footer {
   clear: both;
   color: #eef1f3;
@@ -1729,18 +1743,18 @@ FOOTER STYLES
   font-size: 0.6em;
 }
 
-/* line 1090, ../scss/_base.scss */
+/* line 1105, ../scss/_base.scss */
 #inner-footer {
   background: #1664a0 url("/wp-content/themes/bones/library/images/footer/footer_bkgnd.jpg") no-repeat;
   border-top: 12px solid #0060a7;
   min-height: 108px;
   width: 100%;
 }
-/* line 1095, ../scss/_base.scss */
+/* line 1110, ../scss/_base.scss */
 #inner-footer p {
   display: inline;
 }
-/* line 1098, ../scss/_base.scss */
+/* line 1113, ../scss/_base.scss */
 #inner-footer .copyright {
   float: left;
   margin-top: 40px;
@@ -1755,7 +1769,7 @@ it simple because you'll have to
 override these styles for the desktop
 view.
 */
-/* line 1112, ../scss/_base.scss */
+/* line 1127, ../scss/_base.scss */
 .footer-links {
   display: inline;
   float: left;
@@ -1764,25 +1778,25 @@ view.
   margin-right: 0px;
   padding-right: 0px;
 }
-/* line 1120, ../scss/_base.scss */
+/* line 1135, ../scss/_base.scss */
 .footer-links .link-span {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 1124, ../scss/_base.scss */
+/* line 1139, ../scss/_base.scss */
 .footer-links a {
   color: #eef1f3;
   text-decoration: none;
 }
 
 /* end .footer-links */
-/* line 1131, ../scss/_base.scss */
+/* line 1146, ../scss/_base.scss */
 .copyright {
   float: left;
   display: inline;
 }
 
-/* line 1133, ../scss/_base.scss */
+/* line 1148, ../scss/_base.scss */
 #footer-logo {
   float: right;
   height: 100%;
