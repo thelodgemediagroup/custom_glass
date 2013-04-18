@@ -295,7 +295,6 @@ SLIDER STYLES
 #slider-container {
 	background-color: #1664a0;
 	border-bottom: 12px solid #0060a7;
-	height: 372px;
 	width: 100%;
 	img {
 		padding: 0;
@@ -305,7 +304,6 @@ SLIDER STYLES
 
 #slider-hero {
 	float: left;
-	height: 372px;
 	overflow:hidden;
 	width: 75%;
 	img {
@@ -315,7 +313,6 @@ SLIDER STYLES
 
 #slider-left {
 	float: left;
-	height: 372px;
 	overflow: hidden;
 	position: relative;
 	width: 12.5%;
@@ -326,14 +323,12 @@ SLIDER STYLES
 	.pointer-left {
 		display: inline;
 		position: absolute;
-		top: 150px;
 		right: 5px;
 	}
 }
 
 #slider-right {
-	float: right;
-	height: 372px;
+	float: right;	
 	overflow: hidden;
 	position: relative;
 	width: 12.5%;
@@ -344,9 +339,22 @@ SLIDER STYLES
 	.pointer-right {
 	display: inline;
 	position: absolute;
-	top: 150px;
 	left: 5px;
 	}
+}
+
+.slider-main {
+	height: 372px;
+	.pointer-left, .pointer-right {
+		top: 150px;
+	}
+}
+
+.slider-sub {
+	height: 286px;
+	.pointer-left, .pointer-right {
+		top: 130px;
+	}	
 }
 
 /*********************
@@ -1036,7 +1044,7 @@ SIDEBARS & ASIDES
 			background: -ms-linear-gradient(top,  #014f83 0%,#052b4d 100%);
 			background: linear-gradient(to bottom,  #014f83 0%,#052b4d 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#014f83', endColorstr='#052b4d',GradientType=0 );
-			
+
 			color: #E1E4E6;
 		}
 		&:active {

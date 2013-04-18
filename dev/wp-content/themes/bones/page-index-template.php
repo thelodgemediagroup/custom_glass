@@ -8,18 +8,18 @@ Template Name: CGS Index Page
 
 			<section id="slider" role="">
 
-				<div id="slider-container" class="wrap clearfix">
+				<div id="slider-container" class="slider-main wrap clearfix">
 
-					<div id="slider-left">
+					<div id="slider-left" class="slider-main">
 						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_l.jpg"></div>
 						<div class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
 					</div><!-- #slider-left -->
 
-					<div id="slider-hero">
+					<div id="slider-hero" class="slider-main">
 						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider1.jpg">
 					</div><!-- #slider-hero -->
 
-					<div id="slider-right">
+					<div id="slider-right" class="slider-main">
 						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_r.jpg"></div>
 						<div class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
 					</div><!-- #slider-right -->
