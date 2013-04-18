@@ -997,6 +997,36 @@ SIDEBARS & ASIDES
 	margin-bottom: 20px;
 	}
 }
+
+.buttons-group {
+	background-color: #0065a4;
+	overflow: hidden;
+	a {
+		color: #eef1f3;
+		font-family: $sans-serif;
+		font-weight: 200;
+		text-decoration: none;
+	}
+
+}
+
+.products-button {/*
+	background-color: #0065a4;
+	clear: both;
+	color: #eef1f3;
+	float: left;
+	font-family: $sans-serif;
+	font-weight: 200;
+	padding: 0.5em 5em 0.3em 1.1em;
+	text-decoration: none;
+	word-wrap: none;
+	&:hover {
+		background-color: #ccc;
+	}*/
+}
+
+
+
 	.sidebar-img-txt {
 		clear: both;
 		margin-bottom: 10px;

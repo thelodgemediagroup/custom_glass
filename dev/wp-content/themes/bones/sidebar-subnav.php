@@ -19,29 +19,21 @@
 
 						<div class="buttons-group">
 
-							<span class="products-button">
-								<a href="" title="Commercial">Commercial</a>
-							</span>
+							<ul>
 
-							<span class="products-button">
-								<a href="" title="Public">Public</a>
-							</span>
+								<li><a href="" title="Commercial">Commercial</a></li>							
 
-							<span class="products-button">
-								<a href="" title="Lifestyle Vehicles">Lifestyle Vehicles</a>
-							</span>
+								<li><a href="" title="Public">Public</a></li>							
+							
+								<li><a href="" title="Lifestyle Vehicles">Lifestyle Vehicles</a></li>							
+							
+								<li><a href="" title="Construction and Agriculture">Con/Ag</a></li>							
+							
+								<li><a href="" title="Safety and Protection">Safety and Protection</a></li>							
+							
+								<li><a href="" title="Non-Mobility">Non-Mobility</a></li>
 
-							<span class="products-button">
-								<a href="" title="Construction and Agriculture">Con/Ag</a>
-							</span>
-
-							<span class="products-button">
-								<a href="" title="Safety and Protection">Safety and Protection</a>
-							</span>
-
-							<span class="products-button">
-								<a href="" title="Non-Mobility">Non-Mobility</a>
-							</span>
+							</ul>
 																														
 						</div> <!-- .buttons-group -->
 
