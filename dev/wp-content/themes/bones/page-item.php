@@ -51,6 +51,58 @@ Template Name: Item Template
 
 								</header> <!-- #page-header -->
 
+								<div class="featured-container">
+
+									<div class="featured-visual">
+
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/ag_glass/video.jpg" />
+
+										<p>Vimi, ni rem il imus excepellabo. Aborcid ta taesid eribus nonsequotem ecereiuunt a. 
+											<a href="" title="">Play Video></a></p>
+
+									</div> <!-- .featured-img -->
+
+									<div class="featured-info">
+
+										<h3>Con/Ag Glass Solutions</h3>
+
+										<ol>
+
+											<li>Laminated Glass (bent or flat)
+												<ol>
+													<li>UV Protection Glass</li>
+													<li>Sound Dampening/Acoustic Glass</li>
+												</ol>
+											</li>
+
+											<li>Tempered Glass (bent or flat)</li>
+											<li>Infrared Reflective Coated Glass</li>
+											<li>Heated Glass (wiggle wire or heat grid)</li>
+											<li>Insulated Glass</li>
+											<li>Branded Glass/Custom Frit.</li>
+
+										</ol>
+
+									</div> <!-- .featured-info -->
+
+								</div> <!-- .featured-container -->
+
+								<div class="item">
+
+									<img src="<?php echo get_template_directory_uri(); ?>/library/images/ag_glass/tractor.jpg" />
+
+									<h3>Development Capabilities</h3>
+
+									<ol>
+										<li>Tempered Glass (bent or flat)</li>
+										<li>Infrared Reflective Coated Glass</li>
+										<li>Heated Glass (wiggle wire or heat grid)</li>
+										<li>Insulated Glass</li>
+										<li>Branded Glass/Custom Frit.</li>
+									</ol>
+
+								</div> <!-- .item -->
+
 							</div> <!-- .item-container -->
 
 						</section> <!-- #item-content -->

@@ -448,7 +448,29 @@ POSTS & CONTENT STYLES
 }
 
 .featured-container {
-	background-color: 
+	background-color: #e6ebf0;
+	margin-left: 20px;
+}
+
+.featured-visual {
+	padding: 35px 0px 25px 25px;
+	width: 297px;
+	img {
+		border: 1px solid #fff;
+	}
+	p {
+	color: #807f83;
+	font-size: 0.73em;
+	line-height: 1.5em;
+	padding-left: 10px;
+	text-align: justify;
+	text-justify: distribute;
+	}
+	a {
+		color: #0065a4;
+		text-decoration: none;
+	}
+
 }
 
 		.hentry {
