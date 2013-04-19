@@ -16,7 +16,6 @@ GENERAL STYLES
 *********************/
 
 body {
-	font-family: $serif;
 	font-size: 100%;
 	line-height: 1.5;
 	color: #565656;
@@ -105,7 +104,6 @@ H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, {
-	font-family: $sans-serif;
 	text-rendering: optimizelegibility;
 	font-weight: 400;
 	/*
@@ -379,7 +377,7 @@ POSTS & CONTENT STYLES
 	padding-top: 20px;
 }
 
-.category-container {
+.category-container, .item-container {
 	margin-top: 40px;
 	h1 {
 		font-size: 2em;
@@ -402,7 +400,6 @@ POSTS & CONTENT STYLES
 	}
 	p {
 	color: #807f83;
-	font-family: $sans-serif;
 	font-size: 0.73em;
 	padding-top: 5px;
 	margin: 0;
@@ -427,7 +424,6 @@ POSTS & CONTENT STYLES
 	}
 	p {
 	color: #807f83;
-	font-family: $sans-serif;
 	font-size: 0.73em;
 	line-height: 1.4em;
 	text-align: justify;
@@ -1029,7 +1025,7 @@ SIDEBARS & ASIDES
 		border-bottom: 1px solid #8baac2;
 		color: #eef1f3;
 		display: block;
-		font-family: $sans-serif;
+
 		font-weight: 200;
 		line-height: 40px;
 		padding-left: 1.2em;
@@ -1070,7 +1066,7 @@ SIDEBARS & ASIDES
 		}
 		p {
 			color: #807f83;
-			font-family: $sans-serif;
+	
 			font-size: 0.73em;
 			line-height: 1.4em;
 			margin-top: 0px;
@@ -1117,7 +1113,6 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	color: #eef1f3;
-	font-family: $sans-serif;
 	font-size: 0.6em;
 }
 	#inner-footer {

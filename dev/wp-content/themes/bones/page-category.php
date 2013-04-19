@@ -94,7 +94,7 @@ Template Name: Category Template
 
 								</div> <!-- .category -->								
 
-							</div> <!-- .page-list-container -->
+							</div> <!-- .category-container -->
 
 						</section> <!-- #category-content -->
 
