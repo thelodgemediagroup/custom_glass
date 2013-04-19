@@ -47,7 +47,7 @@ Template Name: Item Template
 
 									<h1>Solutions For All Your <?php wp_title(''); ?> Needs</h1>
 
-									<p>Thfgfbv fgbvhgn hjguyio mbnjhk sdfertdfg fghrty qwart rty.</p>
+									<p class="header-tag">Thfgfbv fgbvhgn hjguyio mbnjhk sdfertdfg fghrty qwart rty.</p>
 
 								</header> <!-- #page-header -->
 
