@@ -591,7 +591,7 @@ POSTS & CONTENT STYLES
 }
 
 /* line 180, ../scss/_768up.scss */
-.category-container, .item-container {
+.category-container, .item-container, .featured-container {
   max-width: 760px;
 }
 
@@ -600,31 +600,36 @@ POSTS & CONTENT STYLES
   margin-left: 20px;
 }
 
+/* line 188, ../scss/_768up.scss */
+.featured-container {
+  height: 310px;
+}
+
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 192, ../scss/_768up.scss */
+/* line 197, ../scss/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 196, ../scss/_768up.scss */
+/* line 201, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 201, ../scss/_768up.scss */
+/* line 206, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 206, ../scss/_768up.scss */
+/* line 211, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 214, ../scss/_768up.scss */
+/* line 219, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -649,27 +654,27 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 320, ../scss/_768up.scss */
+/* line 325, ../scss/_768up.scss */
 .footer {
   font-size: 0.6em;
 }
 
-/* line 324, ../scss/_768up.scss */
+/* line 329, ../scss/_768up.scss */
 #inner-footer {
   height: 108px;
 }
-/* line 327, ../scss/_768up.scss */
+/* line 332, ../scss/_768up.scss */
 #inner-footer .copyright {
   margin-left: 5%;
 }
 
-/* line 332, ../scss/_768up.scss */
+/* line 337, ../scss/_768up.scss */
 #footer-logo {
   /*margin-right: 100px; */
   margin-right: 5%;
 }
 
-/* line 340, ../scss/_768up.scss */
+/* line 345, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

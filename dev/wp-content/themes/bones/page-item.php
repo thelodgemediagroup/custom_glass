@@ -31,7 +31,7 @@ Template Name: Item Template
 
 				<div id="inner-content" class="wrap clearfix">
 
-					<div id="main2" class="wrap clearfix" role="main">
+					<div id="main2" class="wrap" role="main">
 
 						<!-- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -60,19 +60,20 @@ Template Name: Item Template
 										<p>Vimi, ni rem il imus excepellabo. Aborcid ta taesid eribus nonsequotem ecereiuunt a. 
 											<a href="" title="">Play Video></a></p>
 
-									</div> <!-- .featured-img -->
+									</div> <!-- .featured-visual -->
 
 									<div class="featured-info">
 
 										<h3>Con/Ag Glass Solutions</h3>
 
-										<ol>
+										<ul>
 
 											<li>Laminated Glass (bent or flat)
-												<ol>
-													<li>UV Protection Glass</li>
-													<li>Sound Dampening/Acoustic Glass</li>
-												</ol>
+
+												<ul>
+													<li>- UV Protection Glass</li>
+													<li>- Sound Dampening/Acoustic Glass</li>
+												</ul>
 											</li>
 
 											<li>Tempered Glass (bent or flat)</li>
@@ -81,7 +82,7 @@ Template Name: Item Template
 											<li>Insulated Glass</li>
 											<li>Branded Glass/Custom Frit.</li>
 
-										</ol>
+										</ul>
 
 									</div> <!-- .featured-info -->
 
@@ -93,13 +94,13 @@ Template Name: Item Template
 
 									<h3>Development Capabilities</h3>
 
-									<ol>
+									<ul>
 										<li>Tempered Glass (bent or flat)</li>
 										<li>Infrared Reflective Coated Glass</li>
 										<li>Heated Glass (wiggle wire or heat grid)</li>
 										<li>Insulated Glass</li>
 										<li>Branded Glass/Custom Frit.</li>
-									</ol>
+									</ul>
 
 								</div> <!-- .item -->
 

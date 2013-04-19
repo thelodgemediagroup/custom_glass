@@ -32,7 +32,7 @@ Template Name: Category Template
 
 				<div id="inner-content" class="wrap clearfix">
 
-					<div id="main2" class="wrap clearfix" role="main">
+					<div id="main2" class="wrap" role="main">
 
 						<!-- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 

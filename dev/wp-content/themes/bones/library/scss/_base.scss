@@ -21,10 +21,6 @@ body {
 	color: #565656;
 }
 
-p {
-
-}
-
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
@@ -450,11 +446,13 @@ POSTS & CONTENT STYLES
 .featured-container {
 	background-color: #e6ebf0;
 	margin-left: 20px;
+	
 }
 
 .featured-visual {
+	float: left;
 	padding: 35px 0px 25px 25px;
-	width: 297px;
+	width: 335px;
 	img {
 		border: 1px solid #fff;
 	}
@@ -471,6 +469,65 @@ POSTS & CONTENT STYLES
 		text-decoration: none;
 	}
 
+}
+
+.featured-info {
+	float: right;
+	padding: 25px 20px 0px 0px;
+	h3 {
+		font-size: 1.2em;
+		font-weight: 200;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: disc;
+
+		li {
+				
+			color: #807f83;
+			font-size: 0.9em;
+			font-weight: 200;
+			ul {
+				margin: 0;
+				margin-left: 0.5em;
+				padding: 0;
+				list-style-type: none;
+			}
+		}
+	}
+}
+
+.item {
+	margin: 18px 0px 0px 20px;
+	img {
+		float: right;
+		margin-right: 35px;
+	}
+	h3 {
+		font-size: 1.2em;
+		font-weight: 200;
+	}
+	ul {
+		float: left;
+		margin: 0;
+		margin-left: 10px;
+		padding: 0;
+		list-style-type: disc;
+
+		li {
+				
+			color: #807f83;
+			font-size: 0.9em;
+			font-weight: 200;
+			ul {
+				margin: 0;
+				margin-left: 0.5em;
+				padding: 0;
+				list-style-type: none;
+			}
+		}
+	}
 }
 
 		.hentry {

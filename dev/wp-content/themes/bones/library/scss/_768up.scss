@@ -177,13 +177,18 @@ POSTS & CONTENT STYLES
 	max-width: 730px;
 }
 
-.category-container, .item-container {
+.category-container, .item-container, .featured-container {
 	max-width: 760px;
 }
 
 .category {
 	margin-left: 20px;
 }
+
+.featured-container {
+	height: 310px;
+}
+
 
 /*********************
 SIDEBARS & ASIDES
