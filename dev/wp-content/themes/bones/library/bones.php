@@ -139,6 +139,9 @@ function bones_scripts_and_styles() {
       wp_enqueue_script( 'comment-reply' );
     }
 
+    // add the cycle scripts for the slider, load in footer
+    wp_register_script( 'cycle_lite', get_stylesheet_directory_uri().'/library/js/jquery.cycle.lite.js', array('jquery'), '', true);
+
     //adding scripts file in the footer
     wp_register_script( 'bones-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
 
@@ -155,6 +158,7 @@ function bones_scripts_and_styles() {
     and your site will load faster.
     */
     wp_enqueue_script( 'jquery' );
+    wp_enqueue_script( 'cycle_lite' );
     wp_enqueue_script( 'bones-js' );
 
   }
