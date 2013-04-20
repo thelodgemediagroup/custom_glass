@@ -321,7 +321,13 @@ SLIDER STYLES
 	.pointer-left {
 		display: inline;
 		position: absolute;
+		opacity: 0.7;
+		filter:alpha(opacity=70); 
 		right: 5px;
+		&:hover {
+			opacity: 1.0;
+			filter:alpha(opacity=100);
+		}
 	}
 }
 
@@ -336,8 +342,14 @@ SLIDER STYLES
 	}
 	.pointer-right {
 	display: inline;
+	opacity: 0.7;
+	filter:alpha(opacity=70);	
 	position: absolute;
 	left: 5px;
+	&:hover {
+		opacity: 1.0;
+		filter:alpha(opacity=100);
+	}
 	}
 }
 
