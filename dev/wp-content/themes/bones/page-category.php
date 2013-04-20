@@ -12,16 +12,17 @@ Template Name: Category Template
 
 					<div id="slider-left" class="slider-sub">
 						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/slider/slider_l.jpg"></div>
-						<div class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
+						<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
 					</div><!-- #slider-left -->
 
 					<div id="slider-hero" class="slider-sub">
 						<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/slider/slider_main.jpg">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/slider/slider_main2.jpg">
 					</div><!-- #slider-hero -->
 
 					<div id="slider-right" class="slider-sub">
 						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/con_ag/slider/slider_r.jpg"></div>
-						<div class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
+						<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
 					</div><!-- #slider-right -->
 
 				</div> <!-- #slider-container -->
