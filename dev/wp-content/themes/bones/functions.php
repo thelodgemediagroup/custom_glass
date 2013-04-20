@@ -161,5 +161,6 @@ function bones_wpsearch($form) {
 	return $form;
 } // don't remove this bracket!
 
-
+//update_option('siteurl', 'http://www.customglasssolutions.com');
+//update_option('home', 'http://www.customglasssolutions.com');
 ?>

@@ -54,10 +54,10 @@ Template Name: CGS Index Page
 
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/com_trans.jpg" />
 
-									<h3>Commercial Transportation</h3>
+									<h3><a href="/commercial-transportation/">Commercial Transportation</a></h3>
 
 									<p>Gimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...<a href="">Read More></a></p>
+									 Cesequisin remodi des sunt as qur maio...<a href="/commercial-transportation/">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -65,10 +65,10 @@ Template Name: CGS Index Page
 
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/pub_trans.jpg" />
 
-									<h3>Public Transportation</h3>
+									<h3><a href="/public-transit/">Public Transportation</a></h3>
 
 									<p>Bimi, nlk rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...<a href="">Read More></a></p>
+									 Cesequisin remodi des sunt as qur maio...<a href="/public-transit/">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -76,10 +76,10 @@ Template Name: CGS Index Page
 
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/life_vehic.jpg" />
 
-									<h3>Lifestyle Vehicles</h3>
+									<h3><a href="/lifestyle-vehicles/">Lifestyle Vehicles</h3>
 
 									<p>Cimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...<a href="">Read More></a></p>
+									 Cesequisin remodi des sunt as qur maio...<a href="/lifestyle-vehicles/">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -87,10 +87,10 @@ Template Name: CGS Index Page
 
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/con_ag.jpg" />
 
-									<h3>Con/Ag</h3>
+									<h3><a href="/construction-and-agriculture/">Con/Ag</a></h3>
 
 									<p>Dimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...<a href="">Read More></a></p>
+									 Cesequisin remodi des sunt as qur maio...<a href="/construction-and-agriculture/">Read More></a></p>
 
 								</div> <!-- .page-list -->														
 
@@ -98,10 +98,10 @@ Template Name: CGS Index Page
 
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/safety_prot.jpg" />
 
-									<h3>Safety and Protection</h3>
+									<h3><a href="/safety-and-protection/">Safety and Protection</a></h3>
 
 									<p>Eimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur mcvb...<a href="">Read More></a></p>
+									 Cesequisin remodi des sunt as qur mcvb...<a href="/safety-and-protection/">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -109,10 +109,10 @@ Template Name: CGS Index Page
 
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/non_mobility.jpg" />
 
-									<h3>Non-Mobility</h3>
+									<h3><a href="/non-mobility/">Non-Mobility</a></h3>
 
 									<p>Fimi, ni rem il imus excepellabo. Sbor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur mcvb...<a href="">Read More></a></p>
+									 Cesequisin remodi des sunt as qur mcvb...<a href="/non-mobility/">Read More></a></p>
 
 								</div> <!-- .page-list -->														
 

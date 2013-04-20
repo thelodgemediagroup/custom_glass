@@ -363,7 +363,7 @@ POSTS & CONTENT STYLES
 	padding-bottom: 20px;
 	margin-left: 12.5%;
 	margin-right: 12.5%;
-	padding-top: 30px;
+	padding-top: 0px;
 	h1 {
 		display: inline;
 		font-weight: 200;
@@ -373,6 +373,9 @@ POSTS & CONTENT STYLES
 	}
 }
 
+#main {
+	margin-top: 30px;
+}
 .page-list-container {
 	padding-top: 20px;
 }
@@ -389,7 +392,7 @@ POSTS & CONTENT STYLES
 
 .category {
 	display: inline;
-	float: right;
+	float: left;
 	padding-top: 20px;
 	width: 344px;
 	h3 {
@@ -397,6 +400,12 @@ POSTS & CONTENT STYLES
 		font-weight: 200;
 		margin: 0;
 		padding: 0;
+		a {
+			margin: 0;
+			padding: 0;
+			color: #0065a4;
+			text-decoration: none;
+		}
 	}
 	p {
 	color: #807f83;
@@ -406,11 +415,12 @@ POSTS & CONTENT STYLES
 	line-height: 1.4em;
 	text-align: justify;
 	text-justify: distribute;
-	}
 	a {
 		color: #0065a4;
 		text-decoration: none;
 	}	
+	}
+
 }
 
 .page-list {
@@ -421,6 +431,10 @@ POSTS & CONTENT STYLES
 	width: 220px;
 	h3 {
 		font-weight: 200;
+		a {
+			color: #0065a4;
+			text-decoration: none;
+		}
 	}
 	p {
 	color: #807f83;
@@ -473,7 +487,7 @@ POSTS & CONTENT STYLES
 
 .featured-info {
 	float: right;
-	padding: 25px 20px 0px 0px;
+	padding: 25px 50px 0px 0px;
 	h3 {
 		font-size: 1.2em;
 		font-weight: 200;
@@ -1135,7 +1149,7 @@ SIDEBARS & ASIDES
 			background: linear-gradient(to bottom,  #014f83 0%,#052b4d 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#014f83', endColorstr='#052b4d',GradientType=0 );
 
-			color: #E1E4E6;
+			color: #fff;
 		}
 		&:active {
 			background: #01395f;

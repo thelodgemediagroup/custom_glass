@@ -84,6 +84,7 @@ NAVIGATION STYLES
 		*/
 		ul.sub-menu,
 		ul.children {
+			background-color: #0060a7;
 			margin-top: 0;
 			border: 1px solid #ccc;
 			border-top: 0;
@@ -92,7 +93,7 @@ NAVIGATION STYLES
 			z-index: 8999;
 
 			li {
-
+				
 				a {
 					padding-left: 10px;
 					border-right: 0;
@@ -120,7 +121,35 @@ NAVIGATION STYLES
 				just remember deeper menus suck
 				for usability. k, bai.
 				*/
-				ul {}
+				
+				ul {
+					margin-top: 0;
+					border: 1px solid #ccc;
+					border-top: 0;
+					position: absolute;
+					bottom: -154px;
+					left: 180px;
+					display: none;
+					z-index: 9999;
+					li {
+						a {
+							padding-left: 10px;
+							border-right: 0;
+							display: block;
+							width: 180px;
+							border-bottom: 1px solid #ccc;
+
+							&:hover,
+							&:focus {}
+
+							&:link {}
+						}
+					}
+				}
+				&:hover ul {
+					top: auto;
+					display: block;
+				}
 			}
 
 			/* highlight sub-menu current page */
@@ -177,7 +206,7 @@ POSTS & CONTENT STYLES
 	max-width: 730px;
 }
 
-.category-container, .item-container, .featured-container {
+.category-container, .item-container {
 	max-width: 760px;
 }
 
@@ -187,6 +216,7 @@ POSTS & CONTENT STYLES
 
 .featured-container {
 	height: 310px;
+	width: 700px;
 }
 
 

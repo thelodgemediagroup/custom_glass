@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 20, 2013 at 03:29 AM
+-- Generation Time: Apr 20, 2013 at 03:27 AM
 -- Server version: 5.5.25
 -- PHP Version: 5.4.4
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `custom_glass`
 --
+CREATE DATABASE `custom_glass` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `custom_glass`;
 
 -- --------------------------------------------------------
 
@@ -717,30 +719,6 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_terms`
---
-
-CREATE TABLE `wp_terms` (
-  `term_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(200) NOT NULL DEFAULT '',
-  `slug` varchar(200) NOT NULL DEFAULT '',
-  `term_group` bigint(10) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`term_id`),
-  UNIQUE KEY `slug` (`slug`),
-  KEY `name` (`name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
-
---
--- Dumping data for table `wp_terms`
---
-
-INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
-(1, 'Uncategorized', 'uncategorized', 0),
-(2, 'Navigation', 'navigation', 0);
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `wp_term_relationships`
 --
 
@@ -800,6 +778,30 @@ CREATE TABLE `wp_term_taxonomy` (
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
 (1, 1, 'category', '', 0, 1),
 (2, 2, 'nav_menu', '', 0, 16);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `wp_terms`
+--
+
+CREATE TABLE `wp_terms` (
+  `term_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(200) NOT NULL DEFAULT '',
+  `slug` varchar(200) NOT NULL DEFAULT '',
+  `term_group` bigint(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`term_id`),
+  UNIQUE KEY `slug` (`slug`),
+  KEY `name` (`name`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `wp_terms`
+--
+
+INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
+(1, 'Uncategorized', 'uncategorized', 0),
+(2, 'Navigation', 'navigation', 0);
 
 -- --------------------------------------------------------
 
