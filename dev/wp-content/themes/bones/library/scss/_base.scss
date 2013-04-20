@@ -402,6 +402,12 @@ POSTS & CONTENT STYLES
 	}
 }
 
+.item-container {
+	h1 {
+		margin-left: 18px;
+	}
+}
+
 .category {
 	display: inline;
 	float: left;
@@ -466,12 +472,12 @@ POSTS & CONTENT STYLES
 	color: #807f83;
 	font-size: 0.9em;
 	font-weight: 200;
-	margin-left: 20px;
+	margin-left: 18px;
 }
 
 .featured-container {
 	background-color: #e6ebf0;
-	margin-left: 20px;
+	margin-left: 18px;
 	
 }
 
@@ -499,7 +505,7 @@ POSTS & CONTENT STYLES
 
 .featured-info {
 	float: right;
-	padding: 25px 50px 0px 0px;
+	padding: 25px 40px 0px 0px;
 	h3 {
 		font-size: 1.2em;
 		font-weight: 200;
@@ -525,19 +531,20 @@ POSTS & CONTENT STYLES
 }
 
 .item {
-	margin: 18px 0px 0px 20px;
+	margin: 18px 0px 0px 30px;
 	img {
 		float: right;
-		margin-right: 35px;
+		margin-right: 40px;
 	}
 	h3 {
 		font-size: 1.2em;
 		font-weight: 200;
+		margin: 0px 0px 5px 25px;
 	}
 	ul {
 		float: left;
 		margin: 0;
-		margin-left: 10px;
+		margin-left: 30px;
 		padding: 0;
 		list-style-type: disc;
 
