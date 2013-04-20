@@ -12,16 +12,20 @@ Template Name: CGS Index Page
 
 					<div id="slider-left" class="slider-main">
 						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_l.jpg"></div>
-						<div class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
+						<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
 					</div><!-- #slider-left -->
 
 					<div id="slider-hero" class="slider-main">
 						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider1.jpg">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider2.jpg">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider3.jpg">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider4.jpg">
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider5.jpg">
 					</div><!-- #slider-hero -->
 
 					<div id="slider-right" class="slider-main">
 						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_r.jpg"></div>
-						<div class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
+						<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
 					</div><!-- #slider-right -->
 
 				</div> <!-- #slider-container -->

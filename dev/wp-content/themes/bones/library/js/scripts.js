@@ -68,6 +68,13 @@ jQuery(document).ready(function($) {
 	
 	// add all your scripts here
 	
+    // Add the slider to the index page
+    $('#slider-hero').cycle({
+        speed: 1000,
+        timeout: 7000,
+        next: '#right_btn',
+        prev: '#left_btn'
+    });
  
 }); /* end of as page load scripts */
 
