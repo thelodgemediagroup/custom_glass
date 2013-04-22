@@ -60,8 +60,7 @@ Template Name: CGS Index Page
 
 									<h3><a href="/commercial-transportation/">Commercial Transportation</a></h3>
 
-									<p>Gimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...<a href="/commercial-transportation/">Read More></a></p>
+									<p>From Class 8 to short haul trucks to commercial shipping vessels, Guardian offers glass solutions that help optimize fleet performance...<a href="/commercial-transportation/">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -71,8 +70,7 @@ Template Name: CGS Index Page
 
 									<h3><a href="/public-transit/">Public Transportation</a></h3>
 
-									<p>Bimi, nlk rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...<a href="/public-transit/">Read More></a></p>
+									<p>For a rider or a driver, Guardian provides custom glass solutions that enhance comfort and improve safety...<a href="/public-transit/">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -80,10 +78,9 @@ Template Name: CGS Index Page
 
 									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/life_vehic.jpg" />
 
-									<h3><a href="/lifestyle-vehicles/">Lifestyle Vehicles</h3>
+									<h3><a href="/lifestyle-vehicles/">Lifestyle Vehicles</a></h3>
 
-									<p>Cimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...<a href="/lifestyle-vehicles/">Read More></a></p>
+									<p>Sweeping one piece RV windshields, privacy marine glass and ATV glass systems are all part of Guardian’s Lifestyle Vehicle offerings...<a href="/lifestyle-vehicles/">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -93,8 +90,7 @@ Template Name: CGS Index Page
 
 									<h3><a href="/construction-and-agriculture/">Con/Ag</a></h3>
 
-									<p>Dimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur maio...<a href="/construction-and-agriculture/">Read More></a></p>
+									<p>Guardian glass plays an important role in reducing NVH and enhancing occupant safety in equipment ranging from bulldozers to tractors...<a href="/construction-and-agriculture/">Read More></a></p>
 
 								</div> <!-- .page-list -->														
 
@@ -104,8 +100,7 @@ Template Name: CGS Index Page
 
 									<h3><a href="/safety-and-protection/">Safety and Protection</a></h3>
 
-									<p>Eimi, ni rem il imus excepellabo. Abor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur mcvb...<a href="/safety-and-protection/">Read More></a></p>
+									<p>Police, fire, rescue and recovery vehicles rely on Guardian glass for its superior durability and OEM fit and finish...<a href="/safety-and-protection/">Read More></a></p>
 
 								</div> <!-- .page-list -->
 
@@ -115,8 +110,7 @@ Template Name: CGS Index Page
 
 									<h3><a href="/non-mobility/">Non-Mobility</a></h3>
 
-									<p>Fimi, ni rem il imus excepellabo. Sbor sincid et quisita taescid eribus nonsequ otem ecereiur.
-									 Cesequisin remodi des sunt as qur mcvb...<a href="/non-mobility/">Read More></a></p>
+									<p>From solar mirrors to washer and dryer lids to coin operated machines, Guardian provides glass solutions for various non-mobility applications...<a href="/non-mobility/">Read More></a></p>
 
 								</div> <!-- .page-list -->														
 

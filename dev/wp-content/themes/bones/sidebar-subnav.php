@@ -6,8 +6,8 @@
 
 						<div class="sidebar-img-txt">
 
-							<p>Nimi, ni rem il imus excepellabo. Abor sincid et quisita taes cid jszribus nonseq 
-							<a href="" title="">Read More></a></p>
+							<p>Stay up to date on the latest news from Guardian’s Custom Glass Solutions.
+							<a href="/category/news/" title="">Read More></a></p>
 
 						</div> <!-- .sidebar-img-txt -->
 

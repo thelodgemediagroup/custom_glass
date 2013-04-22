@@ -8,8 +8,8 @@
 
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/news.jpg" />
 
-							<p>Nimi, ni rem il imus excepellabo. Abor sincid et quisita taes cid jszribus nonseq 
-								<a href="" title="">Read More></a></p>
+							<p>Stay up to date on the latest news from Guardian’s Custom Glass Solutions.
+								<br /><a href="/category/news/" title="News">Read More></a></p>
 
 						</div> <!-- .sidebar-img-txt -->
 
@@ -23,8 +23,8 @@
 
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/capabilities.jpg" />
 
-							<p>Cimi, ni rem il imus excepellabo. Abor sincid et quisita taes cid jszribus nonseq 
-								<a href="" title="">Read More></a></p>
+							<p>Learn more about our various glass fabrication processes and capabilities.
+								<br /><a href="/capabilities/" title="Capabilites">Read More></a></p>
 
 						</div> <!-- .sidebar-img-txt -->
 
@@ -38,8 +38,8 @@
 
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/technologies.jpg" />
 
-							<p>Timi, ni rem il imus excepellabo. Abor sincid et quisita taes cid jszribus nonseq 
-								<a href="" title="">Read More></a></p>
+							<p>Learn how innovative glass technologies are being utilized in various transportation segments.
+								<br /><a href="/advanced-technologies/" title="Advanced Technologies">Read More></a></p>
 
 						</div> <!-- .sidebar-img-txt -->	
 
