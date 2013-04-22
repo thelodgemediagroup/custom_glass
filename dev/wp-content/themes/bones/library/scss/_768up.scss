@@ -58,6 +58,10 @@ NAVIGATION STYLES
 	
 	border: 0;
 	margin-top: 54px;
+	a {
+		font-size: 0.95em;
+		letter-spacing: 1px;
+	}
 
 	li {
 		float: left;
@@ -86,20 +90,28 @@ NAVIGATION STYLES
 		ul.children {
 			background-color: #0060a7;
 			margin-top: 0;
-			border: 1px solid #ccc;
+			border: 1px solid #03598c;
 			border-top: 0;
+			opacity: 0.9;
 			position: absolute;
 			display: none;
+			width: 300px;
 			z-index: 8999;
 
+			@include css-gradient(#044474, #00619f);
+
+			a{
+				font-size: 0.8em;
+			}
+
 			li {
-				
+				clear: both;
 				a {
 					padding-left: 10px;
 					border-right: 0;
 					display: block;
-					width: 180px;
-					border-bottom: 1px solid #ccc;
+					
+					/*border-bottom: 1px solid #ccc; */
 
 					&:hover,
 					&:focus {}
@@ -124,11 +136,11 @@ NAVIGATION STYLES
 				
 				ul {
 					margin-top: 0;
-					border: 1px solid #ccc;
+					/*border: 1px solid #ccc; */
 					border-top: 0;
 					position: absolute;
-					bottom: -154px;
-					left: 180px;
+					bottom: -144px;
+					left: 125px;
 					display: none;
 					z-index: 9999;
 					li {
@@ -137,7 +149,7 @@ NAVIGATION STYLES
 							border-right: 0;
 							display: block;
 							width: 180px;
-							border-bottom: 1px solid #ccc;
+							/*border-bottom: 1px solid #ccc; */
 
 							&:hover,
 							&:focus {}

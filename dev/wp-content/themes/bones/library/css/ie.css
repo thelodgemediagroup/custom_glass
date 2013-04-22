@@ -510,7 +510,12 @@ NAVIGATION STYLES
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 62, ../scss/_768up.scss */
+/* line 61, ../scss/_768up.scss */
+.nav a {
+  font-size: 0.95em;
+  letter-spacing: 1px;
+}
+/* line 66, ../scss/_768up.scss */
 .nav li {
   float: left;
   position: relative;
@@ -519,7 +524,7 @@ NAVIGATION STYLES
   */
   /* showing sub-menus */
 }
-/* line 66, ../scss/_768up.scss */
+/* line 70, ../scss/_768up.scss */
 .nav li a {
   border-bottom: 0;
   /*
@@ -527,69 +532,82 @@ NAVIGATION STYLES
   has the possibility of being a mobile device.
   */
 }
-/* line 86, ../scss/_768up.scss */
+/* line 90, ../scss/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   background-color: #0060a7;
   margin-top: 0;
-  border: 1px solid #ccc;
+  border: 1px solid #03598c;
   border-top: 0;
+  opacity: 0.9;
   position: absolute;
   display: none;
+  width: 300px;
   z-index: 8999;
+  background-color: #00619f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#044474), to(#00619f));
+  background-image: -webkit-linear-gradient(top, #044474, #00619f);
+  background-image: -moz-linear-gradient(top, #044474, #00619f);
+  background-image: -o-linear-gradient(top, #044474, #00619f);
+  background-image: linear-gradient(to bottom, #044474, #00619f);
   /* highlight sub-menu current page */
 }
-/* line 95, ../scss/_768up.scss */
+/* line 103, ../scss/_768up.scss */
+.nav li ul.sub-menu a,
+.nav li ul.children a {
+  font-size: 0.8em;
+}
+/* line 107, ../scss/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
+  clear: both;
   /*
   if you need to go deeper, go nuts
   just remember deeper menus suck
   for usability. k, bai.
   */
 }
-/* line 97, ../scss/_768up.scss */
+/* line 109, ../scss/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
   border-right: 0;
   display: block;
-  width: 180px;
-  border-bottom: 1px solid #ccc;
+  /*border-bottom: 1px solid #ccc; */
 }
-/* line 114, ../scss/_768up.scss */
+/* line 126, ../scss/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 125, ../scss/_768up.scss */
+/* line 137, ../scss/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   margin-top: 0;
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc; */
   border-top: 0;
   position: absolute;
-  bottom: -154px;
-  left: 180px;
+  bottom: -144px;
+  left: 125px;
   display: none;
   z-index: 9999;
 }
-/* line 135, ../scss/_768up.scss */
+/* line 147, ../scss/_768up.scss */
 .nav li ul.sub-menu li ul li a,
 .nav li ul.children li ul li a {
   padding-left: 10px;
   border-right: 0;
   display: block;
   width: 180px;
-  border-bottom: 1px solid #ccc;
+  /*border-bottom: 1px solid #ccc; */
 }
-/* line 149, ../scss/_768up.scss */
+/* line 161, ../scss/_768up.scss */
 .nav li ul.sub-menu li:hover ul,
 .nav li ul.children li:hover ul {
   top: auto;
   display: block;
 }
-/* line 164, ../scss/_768up.scss */
+/* line 176, ../scss/_768up.scss */
 .nav li:hover ul {
   top: auto;
   display: block;
@@ -602,33 +620,33 @@ SLIDER STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 196, ../scss/_768up.scss */
+/* line 208, ../scss/_768up.scss */
 #content {
   margin: 0 auto;
   max-width: 960px;
 }
 
-/* line 201, ../scss/_768up.scss */
+/* line 213, ../scss/_768up.scss */
 #main, #main2 {
   width: 730px;
 }
 
-/* line 205, ../scss/_768up.scss */
+/* line 217, ../scss/_768up.scss */
 .page-list-container {
   max-width: 730px;
 }
 
-/* line 209, ../scss/_768up.scss */
+/* line 221, ../scss/_768up.scss */
 .category-container, .item-container {
   max-width: 760px;
 }
 
-/* line 213, ../scss/_768up.scss */
+/* line 225, ../scss/_768up.scss */
 .category {
   margin-left: 20px;
 }
 
-/* line 217, ../scss/_768up.scss */
+/* line 229, ../scss/_768up.scss */
 .featured-container {
   height: 310px;
   width: 700px;
@@ -637,28 +655,28 @@ POSTS & CONTENT STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 227, ../scss/_768up.scss */
+/* line 239, ../scss/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 231, ../scss/_768up.scss */
+/* line 243, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 236, ../scss/_768up.scss */
+/* line 248, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 241, ../scss/_768up.scss */
+/* line 253, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 249, ../scss/_768up.scss */
+/* line 261, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -683,27 +701,27 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 355, ../scss/_768up.scss */
+/* line 367, ../scss/_768up.scss */
 .footer {
   font-size: 0.6em;
 }
 
-/* line 359, ../scss/_768up.scss */
+/* line 371, ../scss/_768up.scss */
 #inner-footer {
   height: 108px;
 }
-/* line 362, ../scss/_768up.scss */
+/* line 374, ../scss/_768up.scss */
 #inner-footer .copyright {
   margin-left: 5%;
 }
 
-/* line 367, ../scss/_768up.scss */
+/* line 379, ../scss/_768up.scss */
 #footer-logo {
   /*margin-right: 100px; */
   margin-right: 5%;
 }
 
-/* line 375, ../scss/_768up.scss */
+/* line 387, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

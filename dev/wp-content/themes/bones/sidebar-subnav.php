@@ -7,7 +7,7 @@
 						<div class="sidebar-img-txt">
 
 							<p>Stay up to date on the latest news from Guardian’s Custom Glass Solutions.
-							<a href="/category/news/" title="">Read More></a></p>
+							<a href="/category/news/" title="News">Read More></a></p>
 
 						</div> <!-- .sidebar-img-txt -->
 
