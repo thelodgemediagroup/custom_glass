@@ -512,11 +512,17 @@ NAVIGATION STYLES
 }
 /* line 61, ../scss/_768up.scss */
 .nav a {
-  font-size: 0.95em;
+  display: inline;
+  font-size: 0.9em;
   letter-spacing: 1px;
 }
-/* line 66, ../scss/_768up.scss */
+/* line 65, ../scss/_768up.scss */
+.nav a:hover {
+  text-decoration: underline;
+}
+/* line 69, ../scss/_768up.scss */
 .nav li {
+  display: inline;
   float: left;
   position: relative;
   /*
@@ -524,7 +530,7 @@ NAVIGATION STYLES
   */
   /* showing sub-menus */
 }
-/* line 70, ../scss/_768up.scss */
+/* line 74, ../scss/_768up.scss */
 .nav li a {
   border-bottom: 0;
   /*
@@ -532,14 +538,16 @@ NAVIGATION STYLES
   has the possibility of being a mobile device.
   */
 }
-/* line 90, ../scss/_768up.scss */
+/* line 94, ../scss/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   background-color: #0060a7;
   margin-top: 0;
   border: 1px solid #03598c;
   border-top: 0;
+  left: -12px;
   opacity: 0.9;
+  padding: 40px 0px 35px 0px;
   position: absolute;
   display: none;
   width: 300px;
@@ -552,12 +560,13 @@ NAVIGATION STYLES
   background-image: linear-gradient(to bottom, #044474, #00619f);
   /* highlight sub-menu current page */
 }
-/* line 103, ../scss/_768up.scss */
+/* line 109, ../scss/_768up.scss */
 .nav li ul.sub-menu a,
 .nav li ul.children a {
-  font-size: 0.8em;
+  /*font-size: 0.9em; */
+  padding-top: 0;
 }
-/* line 107, ../scss/_768up.scss */
+/* line 115, ../scss/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   clear: both;
@@ -567,20 +576,21 @@ NAVIGATION STYLES
   for usability. k, bai.
   */
 }
-/* line 109, ../scss/_768up.scss */
+/* line 117, ../scss/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
+  padding-top: 0;
   border-right: 0;
   display: block;
   /*border-bottom: 1px solid #ccc; */
 }
-/* line 126, ../scss/_768up.scss */
+/* line 135, ../scss/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 137, ../scss/_768up.scss */
+/* line 146, ../scss/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   margin-top: 0;
@@ -590,24 +600,24 @@ NAVIGATION STYLES
   bottom: -144px;
   left: 125px;
   display: none;
+  width: 300px;
   z-index: 9999;
 }
-/* line 147, ../scss/_768up.scss */
+/* line 157, ../scss/_768up.scss */
 .nav li ul.sub-menu li ul li a,
 .nav li ul.children li ul li a {
   padding-left: 10px;
   border-right: 0;
   display: block;
-  width: 180px;
   /*border-bottom: 1px solid #ccc; */
 }
-/* line 161, ../scss/_768up.scss */
+/* line 171, ../scss/_768up.scss */
 .nav li ul.sub-menu li:hover ul,
 .nav li ul.children li:hover ul {
   top: auto;
   display: block;
 }
-/* line 176, ../scss/_768up.scss */
+/* line 186, ../scss/_768up.scss */
 .nav li:hover ul {
   top: auto;
   display: block;
@@ -620,33 +630,33 @@ SLIDER STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 208, ../scss/_768up.scss */
+/* line 218, ../scss/_768up.scss */
 #content {
   margin: 0 auto;
   max-width: 960px;
 }
 
-/* line 213, ../scss/_768up.scss */
+/* line 223, ../scss/_768up.scss */
 #main, #main2 {
   width: 730px;
 }
 
-/* line 217, ../scss/_768up.scss */
+/* line 227, ../scss/_768up.scss */
 .page-list-container {
   max-width: 730px;
 }
 
-/* line 221, ../scss/_768up.scss */
+/* line 231, ../scss/_768up.scss */
 .category-container, .item-container {
   max-width: 760px;
 }
 
-/* line 225, ../scss/_768up.scss */
+/* line 235, ../scss/_768up.scss */
 .category {
   margin-left: 20px;
 }
 
-/* line 229, ../scss/_768up.scss */
+/* line 239, ../scss/_768up.scss */
 .featured-container {
   height: 310px;
   width: 700px;
@@ -655,28 +665,28 @@ POSTS & CONTENT STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 239, ../scss/_768up.scss */
+/* line 249, ../scss/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 243, ../scss/_768up.scss */
+/* line 253, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 248, ../scss/_768up.scss */
+/* line 258, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 253, ../scss/_768up.scss */
+/* line 263, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 261, ../scss/_768up.scss */
+/* line 271, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -701,27 +711,27 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 367, ../scss/_768up.scss */
+/* line 377, ../scss/_768up.scss */
 .footer {
   font-size: 0.6em;
 }
 
-/* line 371, ../scss/_768up.scss */
+/* line 381, ../scss/_768up.scss */
 #inner-footer {
   height: 108px;
 }
-/* line 374, ../scss/_768up.scss */
+/* line 384, ../scss/_768up.scss */
 #inner-footer .copyright {
   margin-left: 5%;
 }
 
-/* line 379, ../scss/_768up.scss */
+/* line 389, ../scss/_768up.scss */
 #footer-logo {
   /*margin-right: 100px; */
   margin-right: 5%;
 }
 
-/* line 387, ../scss/_768up.scss */
+/* line 397, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
