@@ -56,7 +56,7 @@ Template Name: CGS Index Page
 
 								<div class="page-list">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/com_trans.jpg" />
+									<a href="/commercial-transportation/"><img src="<?php echo get_template_directory_uri(); ?>/library/images/content/com_trans.jpg" /></a>
 
 									<h3><a href="/commercial-transportation/">Commercial Transportation</a></h3>
 
@@ -66,7 +66,7 @@ Template Name: CGS Index Page
 
 								<div class="page-list">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/pub_trans.jpg" />
+									<a href="/public-transit/"><img src="<?php echo get_template_directory_uri(); ?>/library/images/content/pub_trans.jpg" /></a>
 
 									<h3><a href="/public-transit/">Public Transportation</a></h3>
 
@@ -76,7 +76,7 @@ Template Name: CGS Index Page
 
 								<div class="page-list">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/life_vehic.jpg" />
+									<a href="/lifestyle-vehicles/"><img src="<?php echo get_template_directory_uri(); ?>/library/images/content/life_vehic.jpg" /></a>
 
 									<h3><a href="/lifestyle-vehicles/">Lifestyle Vehicles</a></h3>
 
@@ -86,7 +86,7 @@ Template Name: CGS Index Page
 
 								<div class="page-list">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/con_ag.jpg" />
+									<a href="/construction-and-agriculture/"><img src="<?php echo get_template_directory_uri(); ?>/library/images/content/con_ag.jpg" /></a>
 
 									<h3><a href="/construction-and-agriculture/">Con/Ag</a></h3>
 
@@ -96,7 +96,7 @@ Template Name: CGS Index Page
 
 								<div class="page-list">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/safety_prot.jpg" />
+									<a href="/safety-and-protection/"><img src="<?php echo get_template_directory_uri(); ?>/library/images/content/safety_prot.jpg" /></a>
 
 									<h3><a href="/safety-and-protection/">Safety and Protection</a></h3>
 
@@ -106,7 +106,7 @@ Template Name: CGS Index Page
 
 								<div class="page-list">
 
-									<img src="<?php echo get_template_directory_uri(); ?>/library/images/content/non_mobility.jpg" />
+									<a href="/non-mobility/"><img src="<?php echo get_template_directory_uri(); ?>/library/images/content/non_mobility.jpg" /></a>
 
 									<h3><a href="/non-mobility/">Non-Mobility</a></h3>
 

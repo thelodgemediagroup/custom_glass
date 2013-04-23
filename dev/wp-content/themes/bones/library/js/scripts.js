@@ -67,6 +67,14 @@ jQuery(document).ready(function($) {
     
 	
 	// add all your scripts here
+
+    /*$('.page-list > img').mouseover(function() {
+        var style = {
+
+        };
+        $(this).parent().css(style);
+
+    }); */
 	
     // Add the slider to the index page
     $('#slider-hero').cycle({

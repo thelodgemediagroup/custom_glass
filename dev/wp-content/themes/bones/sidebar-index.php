@@ -2,11 +2,11 @@
 
 					<div class="sidebar-list">
 
-						<h3>News</h3>
+						<h3><a href="/category/news/" title="News">News</a></h3>
 
 						<div class="sidebar-img-txt">
 
-							<img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/news.jpg" />
+							<a href="/category/news/" title="News"><img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/news.jpg" /></a>
 
 							<p>Stay up to date on the latest news from Guardian’s Custom Glass Solutions.
 								<br /><a href="/category/news/" title="News">Read More></a></p>
@@ -17,11 +17,11 @@
 
 					<div class="sidebar-list">
 
-						<h3>Capabilities</h3>
+						<h3><a href="/capabilities/" title="Capabilites">Capabilities</a></h3>
 
 						<div class="sidebar-img-txt">
 
-							<img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/capabilities.jpg" />
+							<a href="/capabilities/" title="Capabilites"><img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/capabilities.jpg" /></a>
 
 							<p>Learn more about our various glass fabrication processes and capabilities.
 								<br /><a href="/capabilities/" title="Capabilites">Read More></a></p>
@@ -32,11 +32,11 @@
 
 					<div class="sidebar-list">
 
-						<h3>Advanced Technologies</h3>
+						<h3><a href="/advanced-technologies/" title="Advanced Technologies">Advanced Technologies</a></h3>
 
 						<div class="sidebar-img-txt">
 
-							<img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/technologies.jpg" />
+							<a href="/advanced-technologies/" title="Advanced Technologies"><img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/technologies.jpg" /></a>
 
 							<p>Learn how innovative glass technologies are being utilized in various transportation segments.
 								<br /><a href="/advanced-technologies/" title="Advanced Technologies">Read More></a></p>
