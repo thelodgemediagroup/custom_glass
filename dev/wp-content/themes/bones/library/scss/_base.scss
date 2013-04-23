@@ -175,14 +175,20 @@ HEADER STYLES
 		#s {
 			background-color: #407eac;
 			border: 1px solid #03508a;
+			color: #ccd6df;
 			height: 25px;
+			padding-left: 2px;
 			width: 152px;
+			&:focus {
+				border: 1px solid #03345f;
+			}
 		}
 		#searchsubmit {
 			background: #1664a0 url('/wp-content/themes/bones/library/images/search/search_off.png') no-repeat;
 			border: none;
 			height: 25px;
 			width: 25px;
+			&:hover {background: #1664a0 url('/wp-content/themes/bones/library/images/search/search_on.png') no-repeat;}
 		}
 	}
 
@@ -215,7 +221,10 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-
+#menu-navigation {
+	float: right;
+	padding-right: 0.6em;
+}
 .nav {
 	li ~ li {
 		a {&:before {content: '/ ';}}
@@ -224,7 +233,7 @@ and more scalable.
 
 		a {
 			
-			color: #eef1f3;
+			color: #ccd6df;
 			display: block;
 			text-decoration: none;
 			padding: 10px 3px;
