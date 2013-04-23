@@ -59,7 +59,7 @@ NAVIGATION STYLES
 	border: 0;
 	margin-top: 57px;
 	a {
-		display: inline;
+		/*display: inline; */
 		font-size: 0.9em;
 		letter-spacing: 1px;
 		&:hover{text-decoration: underline;}
@@ -67,7 +67,7 @@ NAVIGATION STYLES
 	}
 
 	li {
-		display: inline;
+		/*display: inline; */
 		float: left;
 		position: relative;
 
@@ -98,10 +98,10 @@ NAVIGATION STYLES
 			border-top: 0;
 			left: -12px;
 			opacity: 0.9;
-			padding: 40px 0px 35px 0px;
+			padding: 20px 0px 10px 0px;
 			position: absolute;
 			display: none;
-			width: 300px;
+			width: 225px;
 			z-index: 8999;
 
 			@include css-gradient(#044474, #00619f);
@@ -109,6 +109,7 @@ NAVIGATION STYLES
 			a{
 				/*font-size: 0.9em; */
 				padding-top: 0;
+				width: 225px;
 
 			}
 
@@ -119,7 +120,7 @@ NAVIGATION STYLES
 					padding-top: 0;
 					border-right: 0;
 					display: block;
-					
+					width: 225px;
 					/*border-bottom: 1px solid #ccc; */
 
 					&:hover,
@@ -148,17 +149,17 @@ NAVIGATION STYLES
 					/*border: 1px solid #ccc; */
 					border-top: 0;
 					position: absolute;
-					bottom: -144px;
-					left: 125px;
+					bottom: -115px;
+					left: 180px;
 					display: none;
-					width: 300px;
+					width: 225px;
 					z-index: 9999;
 					li {
 						a {
 							padding-left: 10px;
 							border-right: 0;
 							display: block;
-							
+							width: 225px;
 							/*border-bottom: 1px solid #ccc; */
 
 							&:hover,
