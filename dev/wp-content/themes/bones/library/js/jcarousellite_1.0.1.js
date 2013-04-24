@@ -226,13 +226,17 @@ $.fn.jCarouselLite = function(o) {
 
         var running = false, animCss=o.vertical?"top":"left", sizeCss=o.vertical?"height":"width";
         var div = $(this), ul = $("ul", div), tLi = $("li", ul), tl = tLi.size(), v = o.visible, img = $("img", tLi);
-
+        
         if(o.circular) {
-            console.log(ul);
             ul.prepend(tLi.slice(tl-v-1+1).clone())
               .append(tLi.slice(0,v).clone());
             o.start += v;
         }
+
+        // set the opacity of all images to 50%. We can fade up the focused image in the interval timer
+        var startSlide = o.start + 2;
+        $(ul).children().css("opacity", 0.3);
+        $("#slider-hero ul li:nth-child("+startSlide+")").css("opacity", 1);
 
         var li = $("li", ul), itemLength = li.size(), curr = o.start;
         div.css("visibility", "visible");
@@ -249,6 +253,13 @@ $.fn.jCarouselLite = function(o) {
         ul.css(sizeCss, ulSize+"px").css(animCss, -(curr*liSize));
 
         div.css(sizeCss, divSize+"px");                     // Width of the DIV. length of visible images
+
+        function fadeSlide(curr) {
+            var inSlide = curr <= itemLength-v+1 ? (curr + 3) : curr-2;
+            var outSlide = curr <= itemLength-v+1 ? (curr + 2) : curr-2;
+            $("#slider-hero ul li:nth-child("+inSlide+")").fadeTo(700, 1.0);
+            $("#slider-hero ul li:nth-child("+outSlide+")").fadeTo(700, 0.3);
+        };
 
         if(o.btnPrev)
             $(o.btnPrev).click(function() {
@@ -283,6 +294,8 @@ $.fn.jCarouselLite = function(o) {
                 $("#slider-hero ul li:nth-child("+nextFade+")").fadeTo(700, 1.0);
                 console.log(curr);
                 console.log(currFade); */
+                console.log(curr);
+                fadeSlide(curr);
                 go(curr+o.scroll);
             }, o.auto+o.speed);
 
@@ -299,13 +312,14 @@ $.fn.jCarouselLite = function(o) {
                 if(o.circular) {            // If circular we are in first or last, then goto the other end
                     if(to<=o.start-v-1) {           // If first, then goto last
                         ul.css(animCss, -((itemLength-(v*2))*liSize)+"px");
+
                         // If "scroll" > 1, then the "to" might not be equal to the condition; it can be lesser depending on the number of elements.
                         curr = to==o.start-v-1 ? itemLength-(v*2)-1 : itemLength-(v*2)-o.scroll;
                     } else if(to>=itemLength-v+1) { // If last, then goto first
                         ul.css(animCss, -( (v) * liSize ) + "px" );
                         // If "scroll" > 1, then the "to" might not be equal to the condition; it can be greater depending on the number of elements.
                         curr = to==itemLength-v+1 ? v+1 : v+o.scroll;
-                    } else curr = to;
+                    } else curr = to; 
                 } else {                    // If non-circular and to points to first or last, we just return.
                     if(to<0 || to>itemLength-v) return;
                     else curr = to;

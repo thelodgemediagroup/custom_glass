@@ -10,10 +10,10 @@ Template Name: CGS Index Page
 
 				<div id="slider-container" class="slider-main wrap clearfix">
 
-					<div id="slider-left" class="slider-main image-fade">
+					<!--<div id="slider-left" class="slider-main image-fade"></div>--><!-- #slider-left -->
 						<!--<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_l.jpg"></div>
 						<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div> -->
-					</div><!-- #slider-left -->
+					
 					<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
 					<div id="slider-hero" class="slider-main">
 						<ul>
@@ -25,10 +25,10 @@ Template Name: CGS Index Page
 						</ul>
 					</div><!-- #slider-hero -->
 					<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
-					<div id="slider-right" class="slider-main image-fade">
+					<!--<div id="slider-right" class="slider-main image-fade"></div>--><!-- #slider-right -->
 						<!--<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_r.jpg"></div>
 						<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>-->
-					</div><!-- #slider-right -->
+					
 
 				</div> <!-- #slider-container -->
 
