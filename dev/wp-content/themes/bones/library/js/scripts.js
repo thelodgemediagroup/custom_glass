@@ -77,11 +77,12 @@ jQuery(document).ready(function($) {
     }); */
 	
     // Add the slider to the index page
-    $('#slider-hero').cycle({
+    $('#slider-hero').jCarouselLite({
         speed: 1000,
-        timeout: 7000,
-        next: '#right_btn',
-        prev: '#left_btn'
+        auto: 5000,
+        btnNext: '#right_btn',
+        btnPrev: '#left_btn',
+        visible: 3
     });
  
 }); /* end of as page load scripts */
