@@ -225,9 +225,10 @@ $.fn.jCarouselLite = function(o) {
     return this.each(function() {                           // Returns the element collection. Chainable.
 
         var running = false, animCss=o.vertical?"top":"left", sizeCss=o.vertical?"height":"width";
-        var div = $(this), ul = $("ul", div), tLi = $("li", ul), tl = tLi.size(), v = o.visible;
+        var div = $(this), ul = $("ul", div), tLi = $("li", ul), tl = tLi.size(), v = o.visible, img = $("img", tLi);
 
         if(o.circular) {
+            console.log(ul);
             ul.prepend(tLi.slice(tl-v-1+1).clone())
               .append(tLi.slice(0,v).clone());
             o.start += v;
@@ -273,6 +274,15 @@ $.fn.jCarouselLite = function(o) {
 
         if(o.auto)
             setInterval(function() {
+                /*var currFade = curr + 2;
+                var nextFade = curr + 3;
+                if (currFade == 10) {
+                    currFade = currFade - 5
+                }
+                $("#slider-hero ul li:nth-child("+currFade+")").fadeTo(700, 0.3);
+                $("#slider-hero ul li:nth-child("+nextFade+")").fadeTo(700, 1.0);
+                console.log(curr);
+                console.log(currFade); */
                 go(curr+o.scroll);
             }, o.auto+o.speed);
 

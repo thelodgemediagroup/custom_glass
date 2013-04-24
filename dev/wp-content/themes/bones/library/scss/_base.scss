@@ -356,26 +356,25 @@ z-index: 8999;
 }
 }
 
+.image-fade {
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+}
+
 #slider-left {
-	float: left;
-	overflow: hidden;
-	position: relative;
+	background-color: #023a69;
+	left: 0px;
+	position: absolute;
 	width: 160px;
-	z-index: 10;
-	img.slider-bkgnd {
-		z-index: 10;
-	}
+	z-index: 8900;
 }
 
 #slider-right {
-	float: right;	
-	overflow: hidden;
-	position: relative;
+	background-color: #023a69;
+	position: absolute;
+	left: 1120px;
 	width: 160px;
-	z-index: 10;
-	img.slider-bkgnd {
-		z-index: 10;	
-	}
+	z-index: 8900;
 }
 
 .slider-main {
