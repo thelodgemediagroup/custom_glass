@@ -416,7 +416,7 @@ POSTS & CONTENT STYLES
 	padding-top: 20px;
 }
 
-.category-container, .item-container, .text-container {
+.category-container, .item-container, .text-container, .products-container {
 	margin-top: 40px;
 	h1 {
 		font-size: 2em;
@@ -438,10 +438,62 @@ POSTS & CONTENT STYLES
 	}
 	p {
 		margin-left: 18px;
+		color: #807f83;
+		font-size: 1.0em;
+		font-weight: 200;
 	}
 	a {
 		color: #0065a4;
 		text-decoration: none;
+	}
+}
+
+.product {
+	h1{
+		font-weight: 100;
+	}
+	h3 {
+		color: #807f83;
+		font-size: 1.1em;
+		font-weight: 200;
+		letter-spacing: 1px;
+		line-height: 1.2em;
+		margin-left: 18px;
+		margin-top: 0.4em;
+		margin-bottom: 20px;
+		padding-bottom: 0;
+	}
+	p, ul {
+		color: #807f83;
+		float: left;
+		margin-left: 18px;
+		font-size: 0.85em;
+		font-weight: 200;
+	}
+	ul {
+		list-style-type: disc;
+	}
+	a {
+		color: #0065a4;
+		text-decoration: none;
+	}
+}
+
+.product {
+	clear: both;
+	margin-bottom: 50px;
+}
+
+.product-image {
+	float: right;
+	width: 350px;
+	img {
+		float: right;
+	}
+	p {
+		float: right;
+		padding-right: 0;
+		margin-right: 0;
 	}
 }
 

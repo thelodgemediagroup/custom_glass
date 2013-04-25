@@ -650,7 +650,7 @@ POSTS & CONTENT STYLES
 }
 
 /* line 232, ../scss/_768up.scss */
-.category-container, .item-container {
+.category-container, .item-container, .products-container {
   max-width: 760px;
 }
 
