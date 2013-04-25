@@ -12,7 +12,7 @@
 
 									<div class="featured-visual">
 
-										<img src="http://local.customglass/wp-content/uploads/2013/04/video_slug.jpg" />
+										<img src="http://customglasssolutions.com/wp-content/uploads/2013/04/video_slug.jpg" />
 
 										<p>Vimi, ni rem il imus excepellabo. Aborcid ta taesid eribus nonsequotem ecereiuunt a. 
 											<a href="" title="">Play Video></a></p>
@@ -47,7 +47,7 @@
 
 								<div class="item">
 
-									<img src="http://local.customglass/wp-content/uploads/2013/04/item_slug.jpg" />
+									<img src="http://customglasssolutions.com/wp-content/uploads/2013/04/item_slug.jpg" />
 
 									<h3>Development Capabilities</h3>
 

@@ -8,22 +8,25 @@ Template Name: Item Template
 			<section id="slider" role="">
 
 				<div id="slider-container" class="slider-sub wrap clearfix">
-
-					<div id="slider-left" class="slider-sub">
-						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/ag_glass/slider/slider_l.jpg"></div>
-						<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
-					</div><!-- #slider-left -->
-
-					<div id="slider-hero" class="slider-sub">
-						<img src="<?php echo get_template_directory_uri(); ?>/library/images/ag_glass/slider/slider_main.jpg">
-						<img src="<?php echo get_template_directory_uri(); ?>/library/images/ag_glass/slider/slider_main2.jpg">
+					
+					<!--<div id="slider-left" class="slider-main image-fade"></div>--><!-- #slider-left -->
+						<!--<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_l.jpg"></div>
+						<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div> -->
+					
+					<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
+					<div id="slider-hero" class="slider-main">
+						<ul>
+							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider1.jpg"></li>
+							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider2.jpg"></li>
+							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider3.jpg"></li>
+							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider4.jpg"></li>
+							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider5.jpg"></li>
+						</ul>
 					</div><!-- #slider-hero -->
-
-					<div id="slider-right" class="slider-sub">
-						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/ag_glass/slider/slider_r.jpg"></div>
-						<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
-					</div><!-- #slider-right -->
-
+					<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
+					<!--<div id="slider-right" class="slider-main image-fade"></div>--><!-- #slider-right -->
+						<!--<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_r.jpg"></div>
+						<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>-->
 				</div> <!-- #slider-container -->
 
 			</secton><!-- end #slider -->

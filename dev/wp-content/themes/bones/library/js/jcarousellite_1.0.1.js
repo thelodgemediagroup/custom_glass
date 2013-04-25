@@ -233,7 +233,7 @@ $.fn.jCarouselLite = function(o) {
             o.start += v;
         }
 
-        // set the opacity of all images to 50%. We can fade up the focused image in the interval timer
+        // set the opacity of all images to 30%. We can fade up the focused image in the interval timer
         var startSlide = o.start + 2;
         $(ul).children().css("opacity", 0.3);
         $("#slider-hero ul li:nth-child("+startSlide+")").css("opacity", 1);
@@ -255,6 +255,23 @@ $.fn.jCarouselLite = function(o) {
         div.css(sizeCss, divSize+"px");                     // Width of the DIV. length of visible images
 
         function fadeSlide(curr) {
+            /*if(curr<=o.start-v-1) {
+                inSlide = (itemLength-(v*2))+3;
+            } else if(curr>=itemLength-v+1) {
+                inSlide = v+3;
+            } else {
+                inSlide = curr+3;
+            }
+
+            if(curr<=o.start-v-1) {
+                outSlide = (itemLength-(v*2));
+            } else if(curr>=itemLength-v+1) {
+                outSlide = v;
+            } else {
+                outSlide = curr;
+            }*/
+            console.log("fadeSlide Scope");
+            console.log(curr);
             var inSlide = curr <= itemLength-v+1 ? (curr + 3) : curr-2;
             var outSlide = curr <= itemLength-v+1 ? (curr + 2) : curr-2;
             $("#slider-hero ul li:nth-child("+inSlide+")").fadeTo(700, 1.0);
@@ -294,7 +311,6 @@ $.fn.jCarouselLite = function(o) {
                 $("#slider-hero ul li:nth-child("+nextFade+")").fadeTo(700, 1.0);
                 console.log(curr);
                 console.log(currFade); */
-                console.log(curr);
                 fadeSlide(curr);
                 go(curr+o.scroll);
             }, o.auto+o.speed);
