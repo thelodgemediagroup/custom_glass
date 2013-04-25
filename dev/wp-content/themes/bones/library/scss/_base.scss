@@ -416,7 +416,7 @@ POSTS & CONTENT STYLES
 	padding-top: 20px;
 }
 
-.category-container, .item-container {
+.category-container, .item-container, .text-container {
 	margin-top: 40px;
 	h1 {
 		font-size: 2em;
@@ -426,9 +426,22 @@ POSTS & CONTENT STYLES
 	}
 }
 
-.item-container {
+.item-container, .text-container {
 	h1 {
 		margin-left: 18px;
+	}
+}
+
+.text-container {
+	h1{
+		margin-bottom: 20px;
+	}
+	p {
+		margin-left: 18px;
+	}
+	a {
+		color: #0065a4;
+		text-decoration: none;
 	}
 }
 
