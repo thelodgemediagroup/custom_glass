@@ -10,8 +10,8 @@
 						<div class="footer-links">
 
 							<p>
-								<span class="link-span"><a href="" title="">Sitemap</a></span>/
-								<span class="link-span"><a href="" title="">Terms of Use</a></span>/
+								<span class="link-span"><a href="/sitemap/" title="Sitemap">Sitemap</a></span>/
+								<span class="link-span"><a href="/terms-of-use/" title="Terms of Use">Terms of Use</a></span>/
 								<span class="link-span"><a href="http://www.guardian.com/" title="Home - Guardian.com">Guardian.com</a></span>
 							</p>
 
