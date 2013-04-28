@@ -470,8 +470,21 @@ POSTS & CONTENT STYLES
 		font-size: 0.85em;
 		font-weight: 200;
 	}
+	p {
+		display: inline;
+		text-align: justify;
+		img {
+			display: inline;
+			float: right;
+		}
+	}
+	img {
+		float: right;
+		padding-left: 20px;
+	}
 	ul {
 		list-style-type: disc;
+		margin-left: 35px;
 	}
 	a {
 		color: #0065a4;
@@ -481,9 +494,27 @@ POSTS & CONTENT STYLES
 
 .product {
 	clear: both;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+	overflow: auto;
 }
 
+p.product-caption {
+	float: right;
+	font-size: 0.7em;
+	margin-top: 0;
+	padding-top: 0;
+}
+.product-image {
+	clear: both;
+	margin: 5px 0 5px 0;
+	overflow: auto;
+	padding-left: 55px;
+	img {
+		float: left;
+		margin: 0 auto;
+	}
+}
+/*
 .product-image {
 	float: right;
 	width: 350px;
@@ -496,7 +527,7 @@ POSTS & CONTENT STYLES
 		margin-right: 0;
 	}
 }
-
+*/
 .category {
 	display: inline;
 	float: left;
