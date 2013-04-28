@@ -15,7 +15,7 @@
 
 					<div class="sidebar-products">
 
-						<h3>Products</h3>
+						<h3>Segments</h3>
 
 						<div class="buttons-group">
 

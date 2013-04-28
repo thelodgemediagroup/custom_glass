@@ -439,7 +439,7 @@ POSTS & CONTENT STYLES
 	p {
 		margin-left: 18px;
 		color: #807f83;
-		font-size: 1.0em;
+		font-size: 0.9em;
 		font-weight: 200;
 	}
 	a {
@@ -451,6 +451,16 @@ POSTS & CONTENT STYLES
 .product {
 	h1{
 		font-weight: 100;
+	}
+	h2 {
+		color: #0065A4;
+		font-size: 1.25em;
+		font-weight: 200;
+		letter-spacing: 1px;
+		margin-left: 18px;
+		margin-top: 0.4em;
+		margin-bottom: 20px;
+		padding-bottom: 0;
 	}
 	h3 {
 		color: #807f83;
