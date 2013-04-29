@@ -27,9 +27,9 @@
 							
 								<li><a href="/lifestyle-vehicles/" title="Lifestyle Vehicles">Lifestyle Vehicles</a></li>							
 							
-								<li><a href="/construction-and-agriculture/" title="Construction and Agriculture">Con/Ag</a></li>							
+								<li><span class="font-smaller"><a href="/construction-and-agriculture/" title="Construction &amp; Agriculture">Construction &amp; Agriculture</a></span></li>							
 							
-								<li><a href="/safety-and-protection/" title="Safety and Protection">Safety and Protection</a></li>							
+								<li><a href="/safety-and-protection/" title="Safety &amp; Protection">Safety &amp; Protection</a></li>							
 							
 								<li><a href="/non-mobility/" title="Non-Mobility">Non-Mobility</a></li>
 

@@ -56,11 +56,11 @@
 					<div id="header-float-block">
 
 						<div id="header-social-media">
-							<a href="http://www.linkedin.com" title="LinkedIn"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/linkedin.png" /></a>
+							<a href="http://www.linkedin.com/company/guardian-industries/" title="LinkedIn"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/linkedin.png" /></a>
 							<a href="http://www.twitter.com/guardianglass" title="Guardian Glass - Twitter"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/twitter.png" /></a>
 							<a href="http://www.facebook.com/guardian.industries" title="Guardian Industries - Facebook"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/facebook.png" /></a>
-							<a href="http://www.pintrest.com" title="Pintrest"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/pintrest.png" /></a>
-							<a href="http://www.youtube.com" title="You Tube"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/youtube.png" /></a>
+							<a href="http://www.pintrest.com/guardianglass/" title="Pintrest"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/pintrest.png" /></a>
+							<a href="http://www.youtube.com/guardianindustriestv/" title="You Tube"><img src="<?php echo get_template_directory_uri(); ?>/library/images/buttons/youtube.png" /></a>
 						</div> <!--# header-social-media -->
 
 						<div id="header-search">
