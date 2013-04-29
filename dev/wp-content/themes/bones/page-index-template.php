@@ -22,6 +22,7 @@ Template Name: CGS Index Page
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider3.jpg"></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider4.jpg"></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider5.jpg"></li>
+							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider6.jpg"></li>
 						</ul>
 					</div><!-- #slider-hero -->
 					<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
