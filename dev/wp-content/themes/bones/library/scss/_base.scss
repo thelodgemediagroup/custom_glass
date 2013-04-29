@@ -451,6 +451,7 @@ POSTS & CONTENT STYLES
 .product {
 	h1{
 		font-weight: 100;
+		margin-left: 18px;
 	}
 	h2 {
 		color: #0065A4;
@@ -504,6 +505,7 @@ POSTS & CONTENT STYLES
 
 .product {
 	clear: both;
+	float: left;
 	margin-bottom: 30px;
 	overflow: auto;
 }
@@ -1330,32 +1332,37 @@ SIDEBARS & ASIDES
 	}
 }
 
-	.sidebar-img-txt {
-		clear: both;
-		margin-bottom: 10px;
-		/*width: 200px; */
-		a {
-			color: #b9c7d4;
-			text-decoration: none;
-		}
-		p {
-			color: #807f83;
-	
-			font-size: 0.73em;
-			line-height: 1.4em;
-			margin-top: 0px;
-			margin: 0;
-			padding: 0;
-			text-align: justify;
-			text-justify: distribute;
-			word-wrap: normal;
-		}
-		img {
-			
-			float: left;
-			padding: 0px 10px 12px 0px;
-		}
+.sidebar-img-txt {
+	clear: both;
+	margin-bottom: 10px;
+	/*width: 200px; */
+	a {
+		color: #b9c7d4;
+		text-decoration: none;
 	}
+	p {
+		color: #807f83;
+
+		font-size: 0.73em;
+		line-height: 1.4em;
+		margin-top: 0px;
+		margin: 0;
+		padding: 0;
+		text-align: justify;
+		text-justify: distribute;
+		word-wrap: normal;
+	}
+	img {
+		
+		float: left;
+		padding: 0px 10px 12px 0px;
+	}
+}
+
+.font-small a {
+	font-size: 0.95em;
+	padding-left: 0.4em;
+}
 
 	.widgettitle {}
 

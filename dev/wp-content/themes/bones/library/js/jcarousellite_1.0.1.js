@@ -254,37 +254,29 @@ $.fn.jCarouselLite = function(o) {
 
         div.css(sizeCss, divSize+"px");                     // Width of the DIV. length of visible images
 
-        function fadeSlide(curr) {
-            /*if(curr<=o.start-v-1) {
-                inSlide = (itemLength-(v*2))+3;
-            } else if(curr>=itemLength-v+1) {
-                inSlide = v+3;
-            } else {
-                inSlide = curr+3;
-            }
-
-            if(curr<=o.start-v-1) {
-                outSlide = (itemLength-(v*2));
-            } else if(curr>=itemLength-v+1) {
-                outSlide = v;
-            } else {
-                outSlide = curr;
-            }*/
-            console.log("fadeSlide Scope");
-            console.log(curr);
+        function fadeNext(curr) {
             var inSlide = curr <= itemLength-v+1 ? (curr + 3) : curr-2;
             var outSlide = curr <= itemLength-v+1 ? (curr + 2) : curr-2;
             $("#slider-hero ul li:nth-child("+inSlide+")").fadeTo(700, 1.0);
             $("#slider-hero ul li:nth-child("+outSlide+")").fadeTo(700, 0.3);
         };
 
+        function fadePrev(curr) {
+            var outSlide = curr <= itemLength-v+1 ? (curr + 3) : curr-2;
+            var inSlide = curr <= itemLength-v+1 ? (curr + 2) : curr-2;
+            $("#slider-hero ul li:nth-child("+inSlide+")").fadeTo(700, 1.0);
+            $("#slider-hero ul li:nth-child("+outSlide+")").fadeTo(700, 0.3);            
+        }
+
         if(o.btnPrev)
             $(o.btnPrev).click(function() {
+                //fadePrev(curr-o.scroll);
                 return go(curr-o.scroll);
             });
 
         if(o.btnNext)
             $(o.btnNext).click(function() {
+                //fadeNext(curr);
                 return go(curr+o.scroll);
             });
 
@@ -311,7 +303,7 @@ $.fn.jCarouselLite = function(o) {
                 $("#slider-hero ul li:nth-child("+nextFade+")").fadeTo(700, 1.0);
                 console.log(curr);
                 console.log(currFade); */
-                fadeSlide(curr);
+                fadeNext(curr);
                 go(curr+o.scroll);
             }, o.auto+o.speed);
 

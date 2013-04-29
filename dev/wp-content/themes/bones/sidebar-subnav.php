@@ -21,9 +21,9 @@
 
 							<ul>
 
-								<li><a href="/commercial-transportation/" title="Commercial">Commercial</a></li>							
+								<li><span class="font-small"><a href="/commercial-transportation/" title="Commercial">Commercial Transportation</a></span></li>
 
-								<li><a href="/public-transit/" title="Public">Public</a></li>							
+								<li><a href="/public-transit/" title="Public">Public Transportation</a></li>							
 							
 								<li><a href="/lifestyle-vehicles/" title="Lifestyle Vehicles">Lifestyle Vehicles</a></li>							
 							
@@ -42,8 +42,8 @@
 					<div class="sidebar-list">
 						
 						<div class="sidebar-img-txt">
-							<p>Cimi, ni rem il imus excepellabo. Abor sincid et quisita taescid jszribu... 
-							<a href="">Read More></a></p>
+							<p>Find out more about Custom Glass Solutions 
+							<a href="/about/">Read More></a></p>
 						</div>
 
 					</div> <!-- .sidebar-list -->
