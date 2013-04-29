@@ -10,15 +10,19 @@ Template Name: Products Static Header
 
 				<div id="static-container" class="static-sub wrap clearfix">
 
-					<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_l.jpg"></div>
-
+					<div id="static-left">
+						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/products/slider_l.jpg"></div>
+					</div>
 				
 					<div id="static-hero" class="static-sub">
-						<ul>	
-						<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/products/products_slide.jpg"></li>
-						</ul>
+							
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/products/products_slide.jpg">
+						
 					</div><!-- #slider-hero -->
-
+				
+					<div id="static-right">
+						<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/products/slider_r3.jpg"></div>
+					</div>
 
 				</div> <!-- #slider-container -->
 
