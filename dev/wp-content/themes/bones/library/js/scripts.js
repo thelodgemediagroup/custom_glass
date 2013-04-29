@@ -79,7 +79,7 @@ jQuery(document).ready(function($) {
     // Add the slider to the index page
     $('#slider-hero').jCarouselLite({
         speed: 1000,
-        auto: 5000,
+        auto: 10000,
         btnNext: '#right_btn',
         btnPrev: '#left_btn',
         visible: 3

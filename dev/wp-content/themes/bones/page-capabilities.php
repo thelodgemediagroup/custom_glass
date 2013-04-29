@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Products (Manual Slider)
+Template Name: Capabilites Template
 */
 ?>
 
@@ -18,7 +18,7 @@ Template Name: Products (Manual Slider)
 					<div id="slider-hero" class="slider-sub">
 						<ul>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider1.jpg"></li>
-							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/products/products_slide.jpg"></li>
+							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/capabilities_slide.jpg"></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider2.jpg"></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider3.jpg"></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider4.jpg"></li>
