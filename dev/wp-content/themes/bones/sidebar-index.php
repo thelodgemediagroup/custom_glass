@@ -2,14 +2,14 @@
 
 					<div class="sidebar-list">
 
-						<h3><a href="/category/news/" title="News">News</a></h3>
+						<h3><a href="/news/" title="News">News</a></h3>
 
 						<div class="sidebar-img-txt">
 
-							<a href="/category/news/" title="News"><img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/news.jpg" /></a>
+							<a href="/news/" title="News"><img src="<?php echo get_template_directory_uri(); ?>/library/images/sidebar_index/news.jpg" /></a>
 
 							<p>Stay up to date on the latest news from Guardian’s Custom Glass Solutions.
-								<br /><a href="/category/news/" title="News">Read More></a></p>
+								<br /><a href="/news/" title="News">Read More></a></p>
 
 						</div> <!-- .sidebar-img-txt -->
 

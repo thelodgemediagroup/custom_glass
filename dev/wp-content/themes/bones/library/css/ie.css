@@ -650,16 +650,17 @@ POSTS & CONTENT STYLES
 }
 
 /* line 232, ../scss/_768up.scss */
-.category-container, .item-container, .products-container {
+.category-container, .item-container, .products-container, .text-container {
   max-width: 760px;
+  min-width: 730px;
 }
 
-/* line 236, ../scss/_768up.scss */
+/* line 237, ../scss/_768up.scss */
 .category {
   margin-left: 20px;
 }
 
-/* line 240, ../scss/_768up.scss */
+/* line 241, ../scss/_768up.scss */
 .featured-container {
   height: 310px;
   width: 700px;
@@ -668,28 +669,28 @@ POSTS & CONTENT STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 250, ../scss/_768up.scss */
+/* line 251, ../scss/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 254, ../scss/_768up.scss */
+/* line 255, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 259, ../scss/_768up.scss */
+/* line 260, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 264, ../scss/_768up.scss */
+/* line 265, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 272, ../scss/_768up.scss */
+/* line 273, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -714,27 +715,27 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 378, ../scss/_768up.scss */
+/* line 379, ../scss/_768up.scss */
 .footer {
   font-size: 0.6em;
 }
 
-/* line 382, ../scss/_768up.scss */
+/* line 383, ../scss/_768up.scss */
 #inner-footer {
   height: 108px;
 }
-/* line 385, ../scss/_768up.scss */
+/* line 386, ../scss/_768up.scss */
 #inner-footer .copyright {
   margin-left: 5%;
 }
 
-/* line 390, ../scss/_768up.scss */
+/* line 391, ../scss/_768up.scss */
 #footer-logo {
   /*margin-right: 100px; */
   margin-right: 5%;
 }
 
-/* line 398, ../scss/_768up.scss */
+/* line 399, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

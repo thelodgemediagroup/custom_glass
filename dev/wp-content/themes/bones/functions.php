@@ -163,7 +163,7 @@ function bones_wpsearch($form) {
 
 // add Google Analytics javascript to the footer
 
-add_action('wp_footer', 'add_googleanalytics');
+//add_action('wp_footer', 'add_googleanalytics');
 
 function add_googleanalytics()
 {

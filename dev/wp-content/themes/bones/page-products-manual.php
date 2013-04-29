@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: News Template
+Template Name: Products (Manual Slider)
 */
 ?>
 
@@ -9,15 +9,16 @@ Template Name: News Template
 			<section id="slider" role="">
 
 				<div id="slider-container" class="slider-sub wrap clearfix">
-					
+
 					<!--<div id="slider-left" class="slider-main image-fade"></div>--><!-- #slider-left -->
 						<!--<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_l.jpg"></div>
 						<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div> -->
 					
 					<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
-					<div id="slider-hero" class="slider-main">
+					<div id="slider-hero" class="slider-sub">
 						<ul>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider1.jpg"></li>
+							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/products/products_slide.jpg"></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider2.jpg"></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider3.jpg"></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider4.jpg"></li>
@@ -25,6 +26,7 @@ Template Name: News Template
 						</ul>
 					</div><!-- #slider-hero -->
 					<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
+
 					<!--<div id="slider-right" class="slider-main image-fade"></div>--><!-- #slider-right -->
 						<!--<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_r.jpg"></div>
 						<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>-->
@@ -38,7 +40,7 @@ Template Name: News Template
 
 					<div id="main2" class="wrap" role="main">
 
-						<section id="news-content">
+						<section id="products-content">
 
 							<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -46,7 +48,7 @@ Template Name: News Template
 
 							<?php endwhile; endif; ?>
 
-						</section> <!-- #item-content -->
+						</section> <!-- #category-content -->
 
 					</div> <!-- end #main -->
 
@@ -56,4 +58,4 @@ Template Name: News Template
 
 			</div> <!-- end #content -->					
 
-<?php get_footer(); ?>																							
+<?php get_footer(); ?>						

@@ -176,6 +176,7 @@ HEADER STYLES
 			background-color: #407eac;
 			border: 1px solid #03508a;
 			color: #ccd6df;
+			font-weight: 200;
 			height: 25px;
 			padding-left: 2px;
 			width: 152px;
@@ -435,6 +436,9 @@ POSTS & CONTENT STYLES
 .text-container {
 	h1{
 		margin-bottom: 20px;
+	}
+	h3 {
+		margin-left: 18px;
 	}
 	p {
 		margin-left: 18px;

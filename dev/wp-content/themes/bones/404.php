@@ -35,6 +35,8 @@
 						</article> <!-- end article -->
 
 					</div> <!-- end #main -->
+					
+					<?php get_sidebar('subnav'); ?>
 
 				</div> <!-- end #inner-content -->
 
