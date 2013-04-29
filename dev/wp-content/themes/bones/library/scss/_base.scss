@@ -303,7 +303,7 @@ and more scalable.
 SLIDER STYLES
 *********************/
 
-#slider-container {
+#slider-container, #static-container {
 	background-color: #1664a0;
 	border-bottom: 12px solid #0060a7;
 	margin: 0 auto;
@@ -316,7 +316,7 @@ SLIDER STYLES
 	}
 }
 
-#slider-hero {
+#slider-hero, #static-hero {
 	float: left;
 	overflow:hidden;
 	width: 100%;
@@ -362,7 +362,7 @@ z-index: 8999;
 	filter:alpha(opacity=70);
 }
 
-#slider-left {
+#slider-left, #static-left {
 	background-color: #023a69;
 	left: 0px;
 	position: absolute;
@@ -370,7 +370,7 @@ z-index: 8999;
 	z-index: 8900;
 }
 
-#slider-right {
+#slider-right, #static-right {
 	background-color: #023a69;
 	position: absolute;
 	left: 1120px;
@@ -378,14 +378,14 @@ z-index: 8999;
 	z-index: 8900;
 }
 
-.slider-main {
+.slider-main, .static-main {
 	height: 372px;
 	.pointer-left, .pointer-right {
 		top: 150px;
 	}
 }
 
-.slider-sub {
+.slider-sub, .static-sub {
 	height: 286px;
 	.pointer-left, .pointer-right {
 		top: 130px;
