@@ -7,7 +7,7 @@
 
 	<head>
 		<meta charset="utf-8">
-
+		<meta name="description" content="Guardian’s Custom Glass Solutions meets the glass needs of diverse transportation segments such as commercial &amp; public transportation, construction &amp; agriculture, safety &amp; protection, lifestyle vehicles and more">
 		<!-- Google Chrome Frame for IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
