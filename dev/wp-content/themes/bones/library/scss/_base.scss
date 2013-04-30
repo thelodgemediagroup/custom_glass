@@ -68,6 +68,7 @@ LAYOUT & GRID STYLES
 
 .wrap {
 	max-width: 1280px;
+
 	margin: 0 auto;
 }
 
@@ -223,15 +224,17 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 #menu-navigation {
-	float: right;
-	padding-right: 0.6em;
+	/*float: right; 
+	padding-right: 0.6em;*/
+	padding-left: 2em;
 }
 .nav {
+
 	li ~ li {
 		a {&:before {content: '/ ';}}
 	}
 	li {
-
+		display: inline;
 		a {
 			
 			color: #ccd6df;

@@ -254,20 +254,6 @@ $.fn.jCarouselLite = function(o) {
 
         div.css(sizeCss, divSize+"px");                     // Width of the DIV. length of visible images
 
-        function fadeNext(curr) {
-            var inSlide = curr <= itemLength-v+1 ? (curr + 3) : curr-2;
-            var outSlide = curr <= itemLength-v+1 ? (curr + 2) : curr-2;
-            $("#slider-hero ul li:nth-child("+inSlide+")").fadeTo(700, 1.0);
-            $("#slider-hero ul li:nth-child("+outSlide+")").fadeTo(700, 0.3);
-        };
-
-        function fadePrev(curr) {
-            var outSlide = curr <= itemLength-v+1 ? (curr + 3) : curr-2;
-            var inSlide = curr <= itemLength-v+1 ? (curr + 2) : curr-2;
-            $("#slider-hero ul li:nth-child("+inSlide+")").fadeTo(700, 1.0);
-            $("#slider-hero ul li:nth-child("+outSlide+")").fadeTo(700, 0.3);            
-        }
-
         if(o.btnPrev)
             $(o.btnPrev).click(function() {
                 //fadePrev(curr-o.scroll);
@@ -294,16 +280,6 @@ $.fn.jCarouselLite = function(o) {
 
         if(o.auto)
             setInterval(function() {
-                /*var currFade = curr + 2;
-                var nextFade = curr + 3;
-                if (currFade == 10) {
-                    currFade = currFade - 5
-                }
-                $("#slider-hero ul li:nth-child("+currFade+")").fadeTo(700, 0.3);
-                $("#slider-hero ul li:nth-child("+nextFade+")").fadeTo(700, 1.0);
-                console.log(curr);
-                console.log(currFade); */
-                fadeNext(curr);
                 go(curr+o.scroll);
             }, o.auto+o.speed);
 
@@ -320,11 +296,15 @@ $.fn.jCarouselLite = function(o) {
                 if(o.circular) {            // If circular we are in first or last, then goto the other end
                     if(to<=o.start-v-1) {           // If first, then goto last
                         ul.css(animCss, -((itemLength-(v*2))*liSize)+"px");
-
+                        $("#slider-hero ul li:nth-child("+(itemLength - v -1)+")").css("opacity", 1);
+                        $("#slider-hero ul li:nth-child("+(itemLength - v)+")").css("opacity", 1);
                         // If "scroll" > 1, then the "to" might not be equal to the condition; it can be lesser depending on the number of elements.
                         curr = to==o.start-v-1 ? itemLength-(v*2)-1 : itemLength-(v*2)-o.scroll;
                     } else if(to>=itemLength-v+1) { // If last, then goto first
                         ul.css(animCss, -( (v) * liSize ) + "px" );
+                        // Set the first slide to clear
+                        $("#slider-hero ul li:nth-child("+startSlide+")").css("opacity", 1);
+                        $("#slider-hero ul li:nth-child("+(startSlide - 1)+")").css("opacity", 0.3);
                         // If "scroll" > 1, then the "to" might not be equal to the condition; it can be greater depending on the number of elements.
                         curr = to==itemLength-v+1 ? v+1 : v+o.scroll;
                     } else curr = to; 
@@ -334,7 +314,11 @@ $.fn.jCarouselLite = function(o) {
                 }                           // If neither overrides it, the curr will still be "to" and we can proceed.
 
                 running = true;
+                var inSlide = curr + 2;
+                var outSlide = curr + 1;
 
+                $("#slider-hero ul li:nth-child("+inSlide+")").fadeTo(700, 1.0);
+                $("#slider-hero ul li:nth-child("+outSlide+")").fadeTo(700, 0.3);
                 ul.animate(
                     animCss == "left" ? { left: -(curr*liSize) } : { top: -(curr*liSize) } , o.speed, o.easing,
                     function() {

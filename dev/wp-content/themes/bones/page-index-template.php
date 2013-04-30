@@ -10,10 +10,6 @@ Template Name: CGS Index Page
 
 				<div id="slider-container" class="slider-main wrap clearfix">
 
-					<!--<div id="slider-left" class="slider-main image-fade"></div>--><!-- #slider-left -->
-						<!--<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_l.jpg"></div>
-						<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div> -->
-					
 					<div id="left_btn" class="pointer-left"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/left_btn.png"></div>
 					<div id="slider-hero" class="slider-main">
 						<ul>
@@ -26,11 +22,7 @@ Template Name: CGS Index Page
 						</ul>
 					</div><!-- #slider-hero -->
 					<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>
-					<!--<div id="slider-right" class="slider-main image-fade"></div>--><!-- #slider-right -->
-						<!--<div class="slider-bkgnd"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/slider_main_r.jpg"></div>
-						<div id="right_btn" class="pointer-right"><img src="<?php echo get_template_directory_uri(); ?>/library/images/slider/right_btn.png"></div>-->
 					
-
 				</div> <!-- #slider-container -->
 
 			</secton><!-- end #slider -->
@@ -40,12 +32,6 @@ Template Name: CGS Index Page
 				<div id="inner-content" class="wrap clearfix">
 
 					<div id="main" class="wrap" role="main">
-
-						<!-- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-							<?php the_content(); ?>
-
-						<?php endwhile; endif; ?> -->
 
 						<header id="page-header">
 
