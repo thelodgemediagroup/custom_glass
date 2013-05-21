@@ -201,6 +201,10 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 
+#main, #main2 {
+	max-width: 480px;
+}
+
 /* entry content */
 .entry-content {
 			
@@ -224,6 +228,12 @@ POSTS & CONTENT STYLES
 	}
 			
 } /* end .entry-content */
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+
 
 /*********************
 FOOTER STYLES

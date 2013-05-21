@@ -31,9 +31,11 @@ POSTS & CONTENT STYLES
 		padding-right: 0px;
 		max-width: 730px;
 		border-bottom: none;
-		overflow: auto;
 	}
-	#main { float: left; }
+	#main {
+		clear: none;
+		float: left;
+	}
 	#main2 { float: right; }
 }
 

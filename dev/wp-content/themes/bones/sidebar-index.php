@@ -32,7 +32,7 @@
 
 					<div class="sidebar-list">
 
-						<h3><a href="/advanced-technologies/" title="Advanced Technologies">Advanced Technologies</a></h3>
+						<h3 class="font-adjust"><a href="/advanced-technologies/" title="Advanced Technologies">Advanced Technologies</a></h3>
 
 						<div class="sidebar-img-txt">
 

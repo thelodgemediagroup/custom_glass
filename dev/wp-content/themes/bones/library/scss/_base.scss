@@ -447,13 +447,16 @@ POSTS & CONTENT STYLES
 	}
 	#main, #main2 {
 		border-bottom: 1px solid #b9c7d4;
+		overflow: auto;
 	}
 }
 
 #main {
 	margin-top: 30px;
+	clear: both;
 }
 .page-list-container {
+	overflow: auto;
 	padding-top: 20px;
 }
 
@@ -620,7 +623,7 @@ p.product-caption {
 .page-list {
 	display: inline;
 	float: left;
-	/*margin: 10px 10px; */
+	height: 255px;
 	margin: 0px 10px 10px 10px;
 	position: relative;
 	width: 220px;
@@ -1319,6 +1322,9 @@ SIDEBARS & ASIDES
 	padding-top: 0px;
 	margin-top: 10px;
 	margin-bottom: 20px;
+	}
+	.font-adjust {
+		font-size: 1.1em;
 	}
 }
 
