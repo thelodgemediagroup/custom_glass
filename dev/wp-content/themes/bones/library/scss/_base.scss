@@ -162,6 +162,7 @@ HEADER STYLES
 	#inner-header {
 		background: #1664a0 url('/wp-content/themes/bones/library/images/header/header_bknd.jpg') no-repeat;
 		min-height: 124px;
+		position: relative;
 		width: 100%
 	}
 
@@ -225,9 +226,9 @@ and more scalable.
 */
 #menu-navigation {
 	display: block;
+	float: right;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	
 	padding-left: 2em;
 }
 
@@ -237,6 +238,7 @@ and more scalable.
 		a {&:before {content: '/ ';}}
 	}
 	li {
+		float: left;
 		display: inline;
 		a {
 			

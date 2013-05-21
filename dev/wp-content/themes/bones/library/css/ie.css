@@ -385,55 +385,173 @@ upon your base.scss styles.
 
 ******************************************************************/
 /*********************
+HEADER STYLES
+*********************/
+/* line 22, ../scss/_481up.scss */
+#header-float-block {
+  margin-right: 1%;
+  margin-top: 6px;
+}
+
+/*********************
 NAVIGATION STYLES
 *********************/
-/* .menu is clearfixed inside mixins.scss */
-/* line 27, ../scss/_481up.scss */
-.menu {
-  /* end .menu ul */
+/* line 31, ../scss/_481up.scss */
+#menu-navigation {
+  padding-top: 0px;
+  padding-left: 0;
+  padding-right: 0.6em;
 }
-/* line 28, ../scss/_481up.scss */
-.menu ul {
+
+/* line 37, ../scss/_481up.scss */
+#nav-container {
+  margin-top: 30px;
+}
+
+/* line 41, ../scss/_481up.scss */
+.nav {
+  border: 0;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 29, ../scss/_481up.scss */
-.menu ul li {
+/* line 45, ../scss/_481up.scss */
+.nav a {
+  /*display: inline; */
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+/* line 49, ../scss/_481up.scss */
+.nav a:hover {
+  text-decoration: underline;
+}
+/* line 53, ../scss/_481up.scss */
+.nav li {
+  float: left;
+  position: relative;
   /*
   plan your menus and drop-downs wisely.
   */
+  /* showing sub-menus */
 }
-/* line 30, ../scss/_481up.scss */
-.menu ul li a {
+/* line 57, ../scss/_481up.scss */
+.nav li a {
+  border-bottom: 0;
   /*
   you can use hover styles here even though this size
   has the possibility of being a mobile device.
   */
 }
+/* line 77, ../scss/_481up.scss */
+.nav li ul.sub-menu,
+.nav li ul.children {
+  background-color: #0060a7;
+  margin-top: 0;
+  border: 1px solid #03598c;
+  border-top: 0;
+  left: -12px;
+  opacity: 0.9;
+  padding: 20px 0px 10px 0px;
+  position: absolute;
+  display: none;
+  width: 225px;
+  z-index: 8999;
+  background-color: #00619f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#044474), to(#00619f));
+  background-image: -webkit-linear-gradient(top, #044474, #00619f);
+  background-image: -moz-linear-gradient(top, #044474, #00619f);
+  background-image: -o-linear-gradient(top, #044474, #00619f);
+  background-image: linear-gradient(to bottom, #044474, #00619f);
+  /* highlight sub-menu current page */
+}
+/* line 92, ../scss/_481up.scss */
+.nav li ul.sub-menu a,
+.nav li ul.children a {
+  /*font-size: 0.9em; */
+  padding-top: 0;
+  width: 225px;
+}
+/* line 99, ../scss/_481up.scss */
+.nav li ul.sub-menu li,
+.nav li ul.children li {
+  clear: both;
+  /*
+  if you need to go deeper, go nuts
+  just remember deeper menus suck
+  for usability. k, bai.
+  */
+}
+/* line 101, ../scss/_481up.scss */
+.nav li ul.sub-menu li a,
+.nav li ul.children li a {
+  padding-left: 10px;
+  padding-top: 0;
+  border-right: 0;
+  display: block;
+  width: 225px;
+  /*border-bottom: 1px solid #ccc; */
+}
+/* line 119, ../scss/_481up.scss */
+.nav li ul.sub-menu li:last-child a,
+.nav li ul.children li:last-child a {
+  border-bottom: 0;
+}
+/* line 130, ../scss/_481up.scss */
+.nav li ul.sub-menu li ul,
+.nav li ul.children li ul {
+  margin-top: 0;
+  /*border: 1px solid #ccc; */
+  border-top: 0;
+  position: absolute;
+  bottom: -115px;
+  left: 180px;
+  display: none;
+  width: 225px;
+  z-index: 9999;
+}
+/* line 141, ../scss/_481up.scss */
+.nav li ul.sub-menu li ul li a,
+.nav li ul.children li ul li a {
+  padding-left: 10px;
+  border-right: 0;
+  display: block;
+  width: 225px;
+  /*border-bottom: 1px solid #ccc; */
+}
+/* line 155, ../scss/_481up.scss */
+.nav li ul.sub-menu li:hover ul,
+.nav li ul.children li:hover ul {
+  top: auto;
+  display: block;
+}
+/* line 170, ../scss/_481up.scss */
+.nav li:hover ul {
+  top: auto;
+  display: block;
+}
 
-/* end .menu */
+/* end .nav */
 /*********************
 POSTS & CONTENT STYLES
 *********************/
 /* entry content */
-/* line 75, ../scss/_481up.scss */
+/* line 191, ../scss/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 79, ../scss/_481up.scss */
+/* line 195, ../scss/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-/* line 84, ../scss/_481up.scss */
+/* line 200, ../scss/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 89, ../scss/_481up.scss */
+/* line 205, ../scss/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -486,185 +604,69 @@ HEADER STYLES
 
 /* line 41, ../scss/_768up.scss */
 #header-float-block {
-  margin-right: 4%;
-  margin-top: 32px;
+  margin-right: 1%;
+  margin-top: 10px;
 }
 
 /* line 45, ../scss/_768up.scss */
 #logo {
-  margin-left: 12.5%;
-}
-/* line 47, ../scss/_768up.scss */
-#logo img {
-  margin-top: 37px;
+  left: 1.5%;
+  top: 6px;
+  position: absolute;
 }
 
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 56, ../scss/_768up.scss */
+/* line 55, ../scss/_768up.scss */
+#menu-navigation {
+  padding-top: 20px;
+}
+
+/* line 59, ../scss/_768up.scss */
 #nav-container {
   margin-top: 57px;
 }
 
-/* line 60, ../scss/_768up.scss */
-.nav {
-  border: 0;
-  /* end .menu ul li */
-  /* highlight current page */
-  /* end current highlighters */
-}
 /* line 64, ../scss/_768up.scss */
 .nav a {
-  /*display: inline; */
   font-size: 0.9em;
-  letter-spacing: 1px;
-}
-/* line 68, ../scss/_768up.scss */
-.nav a:hover {
-  text-decoration: underline;
-}
-/* line 72, ../scss/_768up.scss */
-.nav li {
-  /*display: inline; */
-  float: left;
-  position: relative;
-  /*
-  plan your menus and drop-downs wisely.
-  */
-  /* showing sub-menus */
-}
-/* line 77, ../scss/_768up.scss */
-.nav li a {
-  border-bottom: 0;
-  /*
-  you can use hover styles here even though this size
-  has the possibility of being a mobile device.
-  */
-}
-/* line 97, ../scss/_768up.scss */
-.nav li ul.sub-menu,
-.nav li ul.children {
-  background-color: #0060a7;
-  margin-top: 0;
-  border: 1px solid #03598c;
-  border-top: 0;
-  left: -12px;
-  opacity: 0.9;
-  padding: 20px 0px 10px 0px;
-  position: absolute;
-  display: none;
-  width: 225px;
-  z-index: 8999;
-  background-color: #00619f;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#044474), to(#00619f));
-  background-image: -webkit-linear-gradient(top, #044474, #00619f);
-  background-image: -moz-linear-gradient(top, #044474, #00619f);
-  background-image: -o-linear-gradient(top, #044474, #00619f);
-  background-image: linear-gradient(to bottom, #044474, #00619f);
-  /* highlight sub-menu current page */
-}
-/* line 112, ../scss/_768up.scss */
-.nav li ul.sub-menu a,
-.nav li ul.children a {
-  /*font-size: 0.9em; */
-  padding-top: 0;
-  width: 225px;
-}
-/* line 119, ../scss/_768up.scss */
-.nav li ul.sub-menu li,
-.nav li ul.children li {
-  clear: both;
-  /*
-  if you need to go deeper, go nuts
-  just remember deeper menus suck
-  for usability. k, bai.
-  */
-}
-/* line 121, ../scss/_768up.scss */
-.nav li ul.sub-menu li a,
-.nav li ul.children li a {
-  padding-left: 10px;
-  padding-top: 0;
-  border-right: 0;
-  display: block;
-  width: 225px;
-  /*border-bottom: 1px solid #ccc; */
-}
-/* line 139, ../scss/_768up.scss */
-.nav li ul.sub-menu li:last-child a,
-.nav li ul.children li:last-child a {
-  border-bottom: 0;
-}
-/* line 150, ../scss/_768up.scss */
-.nav li ul.sub-menu li ul,
-.nav li ul.children li ul {
-  margin-top: 0;
-  /*border: 1px solid #ccc; */
-  border-top: 0;
-  position: absolute;
-  bottom: -115px;
-  left: 180px;
-  display: none;
-  width: 225px;
-  z-index: 9999;
-}
-/* line 161, ../scss/_768up.scss */
-.nav li ul.sub-menu li ul li a,
-.nav li ul.children li ul li a {
-  padding-left: 10px;
-  border-right: 0;
-  display: block;
-  width: 225px;
-  /*border-bottom: 1px solid #ccc; */
-}
-/* line 175, ../scss/_768up.scss */
-.nav li ul.sub-menu li:hover ul,
-.nav li ul.children li:hover ul {
-  top: auto;
-  display: block;
-}
-/* line 190, ../scss/_768up.scss */
-.nav li:hover ul {
-  top: auto;
-  display: block;
 }
 
-/* end .nav */
 /*********************
 SLIDER STYLES
 *********************/
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 222, ../scss/_768up.scss */
+/* line 84, ../scss/_768up.scss */
 #content {
   margin: 0 auto;
   max-width: 960px;
 }
 
-/* line 227, ../scss/_768up.scss */
+/* line 89, ../scss/_768up.scss */
 #main, #main2 {
   width: 730px;
 }
 
-/* line 231, ../scss/_768up.scss */
+/* line 93, ../scss/_768up.scss */
 .page-list-container {
   max-width: 730px;
 }
 
-/* line 235, ../scss/_768up.scss */
+/* line 97, ../scss/_768up.scss */
 .category-container, .item-container, .products-container, .text-container {
   max-width: 760px;
   min-width: 705px;
 }
 
-/* line 240, ../scss/_768up.scss */
+/* line 102, ../scss/_768up.scss */
 .category {
   margin-left: 20px;
 }
 
-/* line 244, ../scss/_768up.scss */
+/* line 106, ../scss/_768up.scss */
 .featured-container {
   height: 310px;
   width: 700px;
@@ -673,28 +675,28 @@ POSTS & CONTENT STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 254, ../scss/_768up.scss */
+/* line 116, ../scss/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 258, ../scss/_768up.scss */
+/* line 120, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 263, ../scss/_768up.scss */
+/* line 125, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 268, ../scss/_768up.scss */
+/* line 130, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 276, ../scss/_768up.scss */
+/* line 138, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -719,27 +721,27 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 382, ../scss/_768up.scss */
+/* line 244, ../scss/_768up.scss */
 .footer {
   font-size: 0.6em;
 }
 
-/* line 386, ../scss/_768up.scss */
+/* line 248, ../scss/_768up.scss */
 #inner-footer {
   height: 108px;
 }
-/* line 389, ../scss/_768up.scss */
+/* line 251, ../scss/_768up.scss */
 #inner-footer .copyright {
   margin-left: 5%;
 }
 
-/* line 394, ../scss/_768up.scss */
+/* line 256, ../scss/_768up.scss */
 #footer-logo {
   /*margin-right: 100px; */
   margin-right: 5%;
 }
 
-/* line 402, ../scss/_768up.scss */
+/* line 264, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

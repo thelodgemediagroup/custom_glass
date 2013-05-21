@@ -1,5 +1,22 @@
-#menu-navigation {
-	float: right;
-	padding-left: 0;
-	padding-right: 0.6em;
-}
+/*********************
+HEADER STYLES
+*********************/
+
+.header {}
+	
+	#inner-header {
+		border-bottom: 12px solid #0060a7;
+		height: 136px;
+		width: 100%;
+	}
+	#header-float-block {
+		margin-right: 4%;
+	}
+	#logo {
+		margin-left: 12.5%;
+	}
+
+
+/*********************
+NAVIGATION STYLES
+*********************/	

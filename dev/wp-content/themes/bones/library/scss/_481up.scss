@@ -15,57 +15,173 @@ upon your base.scss styles.
 
 ******************************************************************/
 
+/*********************
+HEADER STYLES
+*********************/
 
+#header-float-block {
+	margin-right: 1%;
+	margin-top: 6px;
+}
 	
 /*********************
 NAVIGATION STYLES
 *********************/
 
-.nav {}
+#menu-navigation {
+	padding-top: 0px;
+	padding-left: 0;
+	padding-right: 0.6em;
+}
 
-	/* .menu is clearfixed inside mixins.scss */
-	.menu {
-		ul {
+#nav-container {
+	margin-top: 30px;
+}
+
+.nav {
+	
+	border: 0;
+	
+	a {
+		/*display: inline; */
+		font-size: 0.8em;
+		letter-spacing: 1px;
+		&:hover{text-decoration: underline;}
+
+	}
+
+	li {
+		float: left;
+		position: relative;
+
+		a {
+			border-bottom: 0;
+
+			/*
+			you can use hover styles here even though this size
+			has the possibility of being a mobile device.
+			*/
+			&:hover, &:focus {
+				
+
+			}
+		}
+
+		&:first-child {}
+		&:last-child {}
+
+		/*
+		plan your menus and drop-downs wisely.
+		*/
+		ul.sub-menu,
+		ul.children {
+			background-color: #0060a7;
+			margin-top: 0;
+			border: 1px solid #03598c;
+			border-top: 0;
+			left: -12px;
+			opacity: 0.9;
+			padding: 20px 0px 10px 0px;
+			position: absolute;
+			display: none;
+			width: 225px;
+			z-index: 8999;
+
+			@include css-gradient(#044474, #00619f);
+
+			a{
+				/*font-size: 0.9em; */
+				padding-top: 0;
+				width: 225px;
+
+			}
+
 			li {
+				clear: both;
 				a {
-					
-					/*
-					you can use hover styles here even though this size
-					has the possibility of being a mobile device.
-					*/
-					&:hover, &:focus {
-					
+					padding-left: 10px;
+					padding-top: 0;
+					border-right: 0;
+					display: block;
+					width: 225px;
+					/*border-bottom: 1px solid #ccc; */
+
+					&:hover,
+					&:focus {}
+
+					&:link {}
+				}
+
+				&:first-child {}
+
+				&:last-child {
+
+					a {
+						border-bottom: 0;
 					}
 				}
-				
-				&:first-child {}
-				&:last-child {}
-				
+
 				/*
-				plan your menus and drop-downs wisely.
+				if you need to go deeper, go nuts
+				just remember deeper menus suck
+				for usability. k, bai.
 				*/
-				ul.sub-menu,
-				ul.children {
+				
+				ul {
+					margin-top: 0;
+					/*border: 1px solid #ccc; */
+					border-top: 0;
+					position: absolute;
+					bottom: -115px;
+					left: 180px;
+					display: none;
+					width: 225px;
+					z-index: 9999;
 					li {
 						a {
+							padding-left: 10px;
+							border-right: 0;
+							display: block;
+							width: 225px;
+							/*border-bottom: 1px solid #ccc; */
+
 							&:hover,
 							&:focus {}
+
 							&:link {}
 						}
-						&:first-child {}
-						&:last-child {}
 					}
 				}
-			} /* end .menu ul li */
-			
-			/* highlight current page */
-			li.current-menu-item, 
+				&:hover ul {
+					top: auto;
+					display: block;
+				}
+			}
+
+			/* highlight sub-menu current page */
+			li.current-menu-item,
 			li.current_page_item,
 			li.current-page-ancestor {
 				a {}
-			}  /* end current highlighters */
-		} /* end .menu ul */
-	} /* end .menu */
+			}
+		}
+
+		/* showing sub-menus */
+		&:hover ul {
+			top: auto;
+			display: block;
+		}
+
+	} /* end .menu ul li */
+
+	/* highlight current page */
+	li.current-menu-item,
+	li.current_page_item,
+	li.current-page-ancestor {
+		a {}
+	}  /* end current highlighters */
+
+} /* end .nav */
 
 /*********************
 POSTS & CONTENT STYLES
