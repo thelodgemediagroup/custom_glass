@@ -20,8 +20,17 @@ HEADER STYLES
 *********************/
 
 #header-float-block {
+	clear: none;
+	float: right;
 	margin-right: 1%;
 	margin-top: 6px;
+}
+
+#logo {
+	clear: none;
+	display: inline;
+	float: left;
+	padding: 0;
 }
 	
 /*********************
@@ -29,6 +38,7 @@ NAVIGATION STYLES
 *********************/
 
 #menu-navigation {
+	float: right;
 	padding-top: 0px;
 	padding-left: 0;
 	padding-right: 0.6em;
@@ -41,7 +51,11 @@ NAVIGATION STYLES
 .nav {
 	
 	border: 0;
-	
+
+	li ~ li {
+		a {&:before {content: '/ ';}}
+	}	
+
 	a {
 		/*display: inline; */
 		font-size: 0.8em;

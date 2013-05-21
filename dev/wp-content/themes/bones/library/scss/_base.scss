@@ -167,7 +167,8 @@ HEADER STYLES
 	}
 
 	#header-float-block {
-		float: right;
+		clear: both;
+		margin: 0 auto;
 		width: 185px;
 	}
 
@@ -209,8 +210,10 @@ HEADER STYLES
 
 	}
 	#logo {
-		display: inline;
-		float: left;
+		clear: both;
+		margin: 0 auto;
+		padding: 30px 0 30px 0;
+		width: 268px;
 	}
 
 /*********************
@@ -226,7 +229,7 @@ and more scalable.
 */
 #menu-navigation {
 	display: block;
-	float: right;
+	float: left;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-left: 2em;
@@ -234,11 +237,8 @@ and more scalable.
 
 .nav {
 
-	li ~ li {
-		a {&:before {content: '/ ';}}
-	}
 	li {
-		float: left;
+		/*float: left; */
 		display: inline;
 		a {
 			
