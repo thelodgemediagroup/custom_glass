@@ -224,10 +224,13 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 #menu-navigation {
-	/*float: right; 
-	padding-right: 0.6em;*/
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
 	padding-left: 2em;
 }
+
 .nav {
 
 	li ~ li {

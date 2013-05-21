@@ -33,7 +33,7 @@ function bones_ahoy() {
     add_filter('gallery_style', 'bones_gallery_style');
 
     // enqueue base scripts and styles
-    add_action('wp_enqueue_scripts', 'bones_scripts_and_styles', 999);
+    add_action('wp_head', 'bones_scripts_and_styles', 2);
     // ie conditional wrapper
 
     // launching this stuff after theme setup

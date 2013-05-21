@@ -9,6 +9,17 @@ slow the page load.
 
 */
 
+/*jQuery(document).ready(function($) {
+    $('#slider-hero').jCarouselLite({
+        speed: 1000,
+        auto: 10000,
+        btnPrev: '#right_btn',
+        btnNext: '#left_btn',
+        visible: 3
+    });
+});*/
+
+
 // IE8 ployfill for GetComputed Style (for Responsive Script below)
 if (!window.getComputedStyle) {
     window.getComputedStyle = function(el, pseudo) {
@@ -68,21 +79,13 @@ jQuery(document).ready(function($) {
 	
 	// add all your scripts here
 
-    /*$('.page-list > img').mouseover(function() {
-        var style = {
-
-        };
-        $(this).parent().css(style);
-
-    }); */
 	
     // Add the slider to the index page
     $('#slider-hero').jCarouselLite({
         speed: 1000,
-        //auto: 10000,
         auto: 10000,
-        btnNext: '#right_btn',
-        btnPrev: '#left_btn',
+        btnPrev: '#right_btn',
+        btnNext: '#left_btn',
         visible: 3
     });
  

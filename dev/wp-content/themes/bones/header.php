@@ -70,7 +70,9 @@
 					</div><!--# header-float-block -->
 
 					<nav role="navigation">
-						<?php bones_main_nav(); ?>
+						<div id="nav-container">
+							<?php bones_main_nav(); ?>
+						</div><!--# nav-container -->
 					</nav>
 
 				</div> <!-- end #inner-header -->
