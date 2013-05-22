@@ -1460,10 +1460,6 @@ FOOTER STYLES
 		p {
 			display: inline;
 		}
-		.copyright {
-			float: left;
-			margin-top: 40px;
-		}
 	}
 	/*
 	if you checked out the link above:
@@ -1474,30 +1470,35 @@ FOOTER STYLES
 	override these styles for the desktop
 	view.
 	*/
+
+
+
+	.copyright {
+		margin: 0 auto;
+		max-width: 290px;
+		padding-top: 3em;
+	}
+
 	.footer-links {
-		display: inline;
-		float: left;
-		margin-top: 40px;
-		margin-left: 9%;
-		margin-right: 0px;
-		padding-right: 0px;
 		
+		margin: 0 auto;
+		max-width: 230px;
+		padding-top: 1.75em;
+		a {
+			color: #eef1f3;
+			text-decoration: none;	
+		}
 		.link-span {
 			padding-left: 10px;
 			padding-right: 10px;
 		}
-		a {
-			color: #eef1f3;
-			text-decoration: none;
-		}
-	} /* end .footer-links */
-
-
-	.copyright {float: left; display: inline;}
+	}
 
 	#footer-logo {
-		float: right;
 		height: 100%;
-		margin-top: 0.65em;
+		max-width: 120px;
+		margin: 0 auto;
+		padding-top: 5em;
+		padding-bottom: 0.5em;
 	}
 

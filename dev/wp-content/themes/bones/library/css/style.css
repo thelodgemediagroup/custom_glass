@@ -2156,11 +2156,6 @@ FOOTER STYLES
 #inner-footer p {
   display: inline;
 }
-/* line 1463, ../scss/_base.scss */
-#inner-footer .copyright {
-  float: left;
-  margin-top: 40px;
-}
 
 /*
 if you checked out the link above:
@@ -2171,38 +2166,37 @@ it simple because you'll have to
 override these styles for the desktop
 view.
 */
-/* line 1477, ../scss/_base.scss */
+/* line 1476, ../scss/_base.scss */
+.copyright {
+  margin: 0 auto;
+  max-width: 290px;
+  padding-top: 3em;
+}
+
+/* line 1482, ../scss/_base.scss */
 .footer-links {
-  display: inline;
-  float: left;
-  margin-top: 40px;
-  margin-left: 9%;
-  margin-right: 0px;
-  padding-right: 0px;
+  margin: 0 auto;
+  max-width: 230px;
+  padding-top: 1.75em;
 }
-/* line 1485, ../scss/_base.scss */
-.footer-links .link-span {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-/* line 1489, ../scss/_base.scss */
+/* line 1487, ../scss/_base.scss */
 .footer-links a {
   color: #eef1f3;
   text-decoration: none;
 }
-
-/* end .footer-links */
-/* line 1496, ../scss/_base.scss */
-.copyright {
-  float: left;
-  display: inline;
+/* line 1491, ../scss/_base.scss */
+.footer-links .link-span {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-/* line 1498, ../scss/_base.scss */
+/* line 1497, ../scss/_base.scss */
 #footer-logo {
-  float: right;
   height: 100%;
-  margin-top: 0.65em;
+  max-width: 120px;
+  margin: 0 auto;
+  padding-top: 5em;
+  padding-bottom: 0.5em;
 }
 
 /*
@@ -2448,11 +2442,6 @@ tweeners.
   /*********************
   FOOTER STYLES
   *********************/
-  /*
-  check your menus here. do they look good?
-  do they need tweaking?
-  */
-  /* end .footer-links */
 }
 /*
 TABLET & SMALLER LAPTOPS
@@ -2732,23 +2721,38 @@ you can add resource intensive styles.
   #inner-footer {
     height: 108px;
   }
-  /* line 252, ../scss/_768up.scss */
-  #inner-footer .copyright {
-    margin-left: 5%;
-  }
 
-  /* line 257, ../scss/_768up.scss */
-  #footer-logo {
-    margin-right: 3%;
+  /* line 253, ../scss/_768up.scss */
+  .copyright {
+    clear: none;
+    display: inline;
+    float: left;
+    margin-top: 40px;
+    margin-left: 5%;
+    max-width: 100%;
+    padding: 0;
   }
 
   /* line 263, ../scss/_768up.scss */
-  .footer-links ul li {
-    /*
-    be careful with the depth of your menus.
-    it's very rare to have multi-depth menus in
-    the footer.
-    */
+  #footer-logo {
+    clear: none;
+    float: right;
+    margin-top: 0.65em;
+    margin-right: 3%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  /* line 272, ../scss/_768up.scss */
+  .footer-links {
+    clear: none;
+    display: inline;
+    float: left;
+    margin-top: 40px;
+    margin-left: 9%;
+    margin-right: 0px;
+    max-width: 100%;
+    padding: 0;
   }
 
   /* end .footer-links */
