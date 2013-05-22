@@ -19,6 +19,12 @@ upon your base.scss styles.
 HEADER STYLES
 *********************/
 
+#inner-header {
+	border-bottom: 12px solid #0060a7;
+	height: 136px;
+	width: 100%;
+}
+
 #header-float-block {
 	clear: none;
 	float: right;
@@ -202,6 +208,7 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
+	min-width: 495px;
 	max-width: 768px;
 }
 

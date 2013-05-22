@@ -33,11 +33,6 @@ HEADER STYLES
 
 .header {}
 	
-	#inner-header {
-		border-bottom: 12px solid #0060a7;
-		height: 136px;
-		width: 100%;
-	}
 	#header-float-block {
 		margin-right: 1%;
 		margin-top: 10px;
@@ -86,16 +81,19 @@ POSTS & CONTENT STYLES
 }
 
 #main, #main2 {
-	width: 730px;
+	
+	max-width: 730px;
 }
 
 .page-list-container {
+	margin: 0 auto;
 	max-width: 730px;
 }
 
 .category-container, .item-container, .products-container, .text-container {
-	max-width: 760px;
 	min-width: 705px;
+	max-width: 760px;
+	
 }
 
 .category {
@@ -111,6 +109,10 @@ POSTS & CONTENT STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
+
+#sidebar1, #sidebar2 {
+	max-width: 730px;
+}
 
 .sidebar {
 	margin-top: 2.2em;
@@ -253,9 +255,7 @@ mobile. Make sure to double check these!
 }
 
 #footer-logo {
-	
-	/*margin-right: 100px; */
-	margin-right: 5%;
+	margin-right: 3%;
 }
 
 .footer-links {
