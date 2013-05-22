@@ -1269,38 +1269,39 @@ POSTS & CONTENT STYLES
 /* line 439, ../scss/_base.scss */
 #content {
   padding-bottom: 20px;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
+  /*margin-left: 12.5%;
+  margin-right: 12.5%; */
+  margin: 0 auto;
   padding-top: 0px;
 }
-/* line 444, ../scss/_base.scss */
+/* line 445, ../scss/_base.scss */
 #content h1 {
   display: inline;
   font-weight: 200;
 }
-/* line 448, ../scss/_base.scss */
+/* line 449, ../scss/_base.scss */
 #content #main, #content #main2 {
   border-bottom: 1px solid #b9c7d4;
   overflow: auto;
 }
 
-/* line 454, ../scss/_base.scss */
+/* line 455, ../scss/_base.scss */
 #main {
   margin-top: 30px;
   clear: both;
 }
 
-/* line 458, ../scss/_base.scss */
+/* line 459, ../scss/_base.scss */
 .page-list-container {
   overflow: auto;
   padding-top: 20px;
 }
 
-/* line 463, ../scss/_base.scss */
+/* line 464, ../scss/_base.scss */
 .category-container, .item-container, .text-container, .products-container {
   margin-top: 40px;
 }
-/* line 465, ../scss/_base.scss */
+/* line 466, ../scss/_base.scss */
 .category-container h1, .item-container h1, .text-container h1, .products-container h1 {
   font-size: 2em;
   line-height: 1em;
@@ -1308,38 +1309,38 @@ POSTS & CONTENT STYLES
   margin-left: 20px;
 }
 
-/* line 474, ../scss/_base.scss */
+/* line 475, ../scss/_base.scss */
 .item-container h1, .text-container h1 {
   margin-left: 18px;
 }
 
-/* line 480, ../scss/_base.scss */
+/* line 481, ../scss/_base.scss */
 .text-container h1 {
   margin-bottom: 20px;
 }
-/* line 483, ../scss/_base.scss */
+/* line 484, ../scss/_base.scss */
 .text-container h3 {
   margin-left: 18px;
 }
-/* line 486, ../scss/_base.scss */
+/* line 487, ../scss/_base.scss */
 .text-container p {
   margin-left: 18px;
   color: #807f83;
   font-size: 0.9em;
   font-weight: 200;
 }
-/* line 492, ../scss/_base.scss */
+/* line 493, ../scss/_base.scss */
 .text-container a {
   color: #0065a4;
   text-decoration: none;
 }
 
-/* line 499, ../scss/_base.scss */
+/* line 500, ../scss/_base.scss */
 .product h1 {
   font-weight: 100;
   margin-left: 18px;
 }
-/* line 503, ../scss/_base.scss */
+/* line 504, ../scss/_base.scss */
 .product h2 {
   color: #0065A4;
   font-size: 1.25em;
@@ -1350,7 +1351,7 @@ POSTS & CONTENT STYLES
   margin-bottom: 20px;
   padding-bottom: 0;
 }
-/* line 513, ../scss/_base.scss */
+/* line 514, ../scss/_base.scss */
 .product h3 {
   color: #807f83;
   font-size: 1.1em;
@@ -1362,7 +1363,7 @@ POSTS & CONTENT STYLES
   margin-bottom: 20px;
   padding-bottom: 0;
 }
-/* line 524, ../scss/_base.scss */
+/* line 525, ../scss/_base.scss */
 .product p, .product ul {
   color: #807f83;
   float: left;
@@ -1370,33 +1371,33 @@ POSTS & CONTENT STYLES
   font-size: 0.85em;
   font-weight: 200;
 }
-/* line 531, ../scss/_base.scss */
+/* line 532, ../scss/_base.scss */
 .product p {
   display: inline;
   text-align: justify;
 }
-/* line 534, ../scss/_base.scss */
+/* line 535, ../scss/_base.scss */
 .product p img {
   display: inline;
   float: right;
 }
-/* line 539, ../scss/_base.scss */
+/* line 540, ../scss/_base.scss */
 .product img {
   float: right;
   padding-left: 20px;
 }
-/* line 543, ../scss/_base.scss */
+/* line 544, ../scss/_base.scss */
 .product ul {
   list-style-type: disc;
   margin-left: 35px;
 }
-/* line 547, ../scss/_base.scss */
+/* line 548, ../scss/_base.scss */
 .product a {
   color: #0065a4;
   text-decoration: none;
 }
 
-/* line 553, ../scss/_base.scss */
+/* line 554, ../scss/_base.scss */
 .product {
   clear: both;
   float: left;
@@ -1404,7 +1405,7 @@ POSTS & CONTENT STYLES
   overflow: auto;
 }
 
-/* line 560, ../scss/_base.scss */
+/* line 561, ../scss/_base.scss */
 p.product-caption {
   float: right;
   font-size: 0.7em;
@@ -1412,14 +1413,14 @@ p.product-caption {
   padding-top: 0;
 }
 
-/* line 566, ../scss/_base.scss */
+/* line 567, ../scss/_base.scss */
 .product-image {
   clear: both;
   margin: 5px 0 5px 0;
   overflow: auto;
   padding-left: 55px;
 }
-/* line 571, ../scss/_base.scss */
+/* line 572, ../scss/_base.scss */
 .product-image img {
   float: left;
   margin: 0 auto;
@@ -1439,28 +1440,28 @@ p.product-caption {
 	}
 }
 */
-/* line 590, ../scss/_base.scss */
+/* line 591, ../scss/_base.scss */
 .category {
   display: inline;
   float: left;
   padding-top: 20px;
   width: 344px;
 }
-/* line 595, ../scss/_base.scss */
+/* line 596, ../scss/_base.scss */
 .category h3 {
   font-size: 1.3em;
   font-weight: 200;
   margin: 0;
   padding: 0;
 }
-/* line 600, ../scss/_base.scss */
+/* line 601, ../scss/_base.scss */
 .category h3 a {
   margin: 0;
   padding: 0;
   color: #0065a4;
   text-decoration: none;
 }
-/* line 607, ../scss/_base.scss */
+/* line 608, ../scss/_base.scss */
 .category p {
   color: #807f83;
   font-size: 0.73em;
@@ -1470,13 +1471,13 @@ p.product-caption {
   text-align: justify;
   text-justify: distribute;
 }
-/* line 615, ../scss/_base.scss */
+/* line 616, ../scss/_base.scss */
 .category p a {
   color: #0065a4;
   text-decoration: none;
 }
 
-/* line 623, ../scss/_base.scss */
+/* line 624, ../scss/_base.scss */
 .page-list {
   display: inline;
   float: left;
@@ -1485,16 +1486,16 @@ p.product-caption {
   position: relative;
   width: 220px;
 }
-/* line 630, ../scss/_base.scss */
+/* line 631, ../scss/_base.scss */
 .page-list h3 {
   font-weight: 200;
 }
-/* line 632, ../scss/_base.scss */
+/* line 633, ../scss/_base.scss */
 .page-list h3 a {
   color: #0065a4;
   text-decoration: none;
 }
-/* line 637, ../scss/_base.scss */
+/* line 638, ../scss/_base.scss */
 .page-list p {
   color: #807f83;
   font-size: 0.73em;
@@ -1502,7 +1503,7 @@ p.product-caption {
   text-align: justify;
   text-justify: distribute;
 }
-/* line 644, ../scss/_base.scss */
+/* line 645, ../scss/_base.scss */
 .page-list a {
   color: #0065a4;
   text-decoration: none;
@@ -1522,7 +1523,7 @@ p.product-caption {
 
 }
 */
-/* line 664, ../scss/_base.scss */
+/* line 665, ../scss/_base.scss */
 .header-tag {
   color: #807f83;
   font-size: 0.9em;
@@ -1530,23 +1531,23 @@ p.product-caption {
   margin-left: 18px;
 }
 
-/* line 671, ../scss/_base.scss */
+/* line 672, ../scss/_base.scss */
 .featured-container {
   background-color: #e6ebf0;
   margin-left: 18px;
 }
 
-/* line 677, ../scss/_base.scss */
+/* line 678, ../scss/_base.scss */
 .featured-visual {
   float: left;
   padding: 35px 0px 25px 25px;
   width: 335px;
 }
-/* line 681, ../scss/_base.scss */
+/* line 682, ../scss/_base.scss */
 .featured-visual img {
   border: 1px solid #fff;
 }
-/* line 684, ../scss/_base.scss */
+/* line 685, ../scss/_base.scss */
 .featured-visual p {
   color: #807f83;
   font-size: 0.73em;
@@ -1555,35 +1556,35 @@ p.product-caption {
   text-align: justify;
   text-justify: distribute;
 }
-/* line 692, ../scss/_base.scss */
+/* line 693, ../scss/_base.scss */
 .featured-visual a {
   color: #0065a4;
   text-decoration: none;
 }
 
-/* line 699, ../scss/_base.scss */
+/* line 700, ../scss/_base.scss */
 .featured-info {
   float: right;
   padding: 25px 40px 0px 0px;
 }
-/* line 702, ../scss/_base.scss */
+/* line 703, ../scss/_base.scss */
 .featured-info h3 {
   font-size: 1.2em;
   font-weight: 200;
 }
-/* line 706, ../scss/_base.scss */
+/* line 707, ../scss/_base.scss */
 .featured-info ul {
   margin: 0;
   padding: 0;
   list-style-type: disc;
 }
-/* line 711, ../scss/_base.scss */
+/* line 712, ../scss/_base.scss */
 .featured-info ul li {
   color: #807f83;
   font-size: 0.9em;
   font-weight: 200;
 }
-/* line 716, ../scss/_base.scss */
+/* line 717, ../scss/_base.scss */
 .featured-info ul li ul {
   margin: 0;
   margin-left: 0.5em;
@@ -1591,22 +1592,22 @@ p.product-caption {
   list-style-type: none;
 }
 
-/* line 726, ../scss/_base.scss */
+/* line 727, ../scss/_base.scss */
 .item {
   margin: 18px 0px 0px 30px;
 }
-/* line 728, ../scss/_base.scss */
+/* line 729, ../scss/_base.scss */
 .item img {
   float: right;
   margin-right: 40px;
 }
-/* line 732, ../scss/_base.scss */
+/* line 733, ../scss/_base.scss */
 .item h3 {
   font-size: 1.2em;
   font-weight: 200;
   margin: 0px 0px 5px 25px;
 }
-/* line 737, ../scss/_base.scss */
+/* line 738, ../scss/_base.scss */
 .item ul {
   float: left;
   margin: 0;
@@ -1614,13 +1615,13 @@ p.product-caption {
   padding: 0;
   list-style-type: disc;
 }
-/* line 744, ../scss/_base.scss */
+/* line 745, ../scss/_base.scss */
 .item ul li {
   color: #807f83;
   font-size: 0.9em;
   font-weight: 200;
 }
-/* line 749, ../scss/_base.scss */
+/* line 750, ../scss/_base.scss */
 .item ul li ul {
   margin: 0;
   margin-left: 0.5em;
@@ -1639,13 +1640,13 @@ p.product-caption {
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-/* line 787, ../scss/_base.scss */
+/* line 788, ../scss/_base.scss */
 .byline {
   color: #999;
 }
 
 /* entry content */
-/* line 794, ../scss/_base.scss */
+/* line 795, ../scss/_base.scss */
 .entry-content {
   /*
   image alignment on a screen this size may be
@@ -1654,25 +1655,25 @@ p.product-caption {
   but it's up to you. Feel free to change it up.
   */
 }
-/* line 829, ../scss/_base.scss */
+/* line 830, ../scss/_base.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 836, ../scss/_base.scss */
+/* line 837, ../scss/_base.scss */
 .entry-content img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 852, ../scss/_base.scss */
+/* line 853, ../scss/_base.scss */
 .entry-content video, .entry-content object {
   max-width: 100%;
   height: auto;
 }
-/* line 857, ../scss/_base.scss */
+/* line 858, ../scss/_base.scss */
 .entry-content pre {
   background: #eee;
   border: 1px solid #cecece;
@@ -1680,20 +1681,20 @@ p.product-caption {
 }
 
 /* end .entry-content */
-/* line 865, ../scss/_base.scss */
+/* line 866, ../scss/_base.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 871, ../scss/_base.scss */
+/* line 872, ../scss/_base.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-/* line 877, ../scss/_base.scss */
+/* line 878, ../scss/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -1707,13 +1708,13 @@ p.product-caption {
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-/* line 915, ../scss/_base.scss */
+/* line 916, ../scss/_base.scss */
 .page-navigation,
 .wp-prev-next {
   margin: 1.1em 0 2.2em;
 }
 
-/* line 918, ../scss/_base.scss */
+/* line 919, ../scss/_base.scss */
 .bones_page_navi {
   /* current page link */
   /* end .bones_page_navi .bpn-current */
@@ -1724,44 +1725,44 @@ PAGE NAVI STYLES
   /* first page link */
   /* last page link */
 }
-/* line 920, ../scss/_base.scss */
+/* line 921, ../scss/_base.scss */
 .bones_page_navi li {
   float: left;
   margin-left: 10px;
 }
-/* line 924, ../scss/_base.scss */
+/* line 925, ../scss/_base.scss */
 .bones_page_navi li a {
   padding: 3px 6px;
   display: block;
   text-decoration: none;
   position: relative;
 }
-/* line 931, ../scss/_base.scss */
+/* line 932, ../scss/_base.scss */
 .bones_page_navi li a:hover, .bones_page_navi li a:focus {
   color: #f01d4f;
   text-decoration: underline;
 }
-/* line 940, ../scss/_base.scss */
+/* line 941, ../scss/_base.scss */
 .bones_page_navi li.bpn-current {
   padding: 3px 6px;
   border-bottom: 2px solid #f01d4f;
   position: relative;
 }
-/* line 945, ../scss/_base.scss */
+/* line 946, ../scss/_base.scss */
 .bones_page_navi li.bpn-current a {
   /* hovering on current page link */
 }
-/* line 956, ../scss/_base.scss */
+/* line 957, ../scss/_base.scss */
 .bones_page_navi li.bpn-prev-link,
 .bones_page_navi li.bpn-next-link {
   font-weight: 700;
 }
-/* line 959, ../scss/_base.scss */
+/* line 960, ../scss/_base.scss */
 .bones_page_navi li.bpn-prev-link a,
 .bones_page_navi li.bpn-next-link a {
   padding: 0;
 }
-/* line 968, ../scss/_base.scss */
+/* line 969, ../scss/_base.scss */
 .bones_page_navi li.bpn-prev-link a:hover,
 .bones_page_navi li.bpn-next-link a:hover,
 .bones_page_navi li.bpn-first-page-link a:hover,
@@ -1771,11 +1772,11 @@ PAGE NAVI STYLES
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
-/* line 1011, ../scss/_base.scss */
+/* line 1012, ../scss/_base.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 1015, ../scss/_base.scss */
+/* line 1016, ../scss/_base.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -1785,12 +1786,12 @@ PAGE NAVI STYLES
 COMMENT STYLES
 ******************************************************************/
 /* h3 comment title */
-/* line 1026, ../scss/_base.scss */
+/* line 1027, ../scss/_base.scss */
 #comments {
   /* number of comments span */
 }
 
-/* line 1043, ../scss/_base.scss */
+/* line 1044, ../scss/_base.scss */
 .commentlist {
   /* general comment classes */
   /* vcard */
@@ -1801,7 +1802,7 @@ COMMENT STYLES
   /* comment reply link */
   /* end .commentlist .comment-reply-link */
 }
-/* line 1045, ../scss/_base.scss */
+/* line 1046, ../scss/_base.scss */
 .commentlist li {
   position: relative;
   clear: both;
@@ -1811,63 +1812,63 @@ COMMENT STYLES
   padding: 0.7335em 10px;
   /* end .commentlist li ul.children */
 }
-/* line 1053, ../scss/_base.scss */
+/* line 1054, ../scss/_base.scss */
 .commentlist li:last-child {
   margin-bottom: 0;
 }
-/* line 1057, ../scss/_base.scss */
+/* line 1058, ../scss/_base.scss */
 .commentlist li ul.children {
   margin: 0;
   /* variations */
   /* change number for different depth */
 }
-/* line 1075, ../scss/_base.scss */
+/* line 1076, ../scss/_base.scss */
 .commentlist li[class*=depth-] {
   margin-top: 1.1em;
 }
-/* line 1079, ../scss/_base.scss */
+/* line 1080, ../scss/_base.scss */
 .commentlist li.depth-1 {
   margin-left: 0;
   margin-top: 0;
 }
-/* line 1084, ../scss/_base.scss */
+/* line 1085, ../scss/_base.scss */
 .commentlist li:not(.depth-1) {
   margin-right: -10px;
   margin-left: -10px;
   margin-top: 0;
   padding-bottom: 0;
 }
-/* line 1098, ../scss/_base.scss */
+/* line 1099, ../scss/_base.scss */
 .commentlist .odd {
   background: #eee;
 }
-/* line 1101, ../scss/_base.scss */
+/* line 1102, ../scss/_base.scss */
 .commentlist .even {
   background: #fefefe;
 }
-/* line 1116, ../scss/_base.scss */
+/* line 1117, ../scss/_base.scss */
 .commentlist .vcard {
   margin-left: 50px;
 }
-/* line 1119, ../scss/_base.scss */
+/* line 1120, ../scss/_base.scss */
 .commentlist .vcard cite.fn {
   font-weight: 700;
   font-style: normal;
 }
-/* line 1127, ../scss/_base.scss */
+/* line 1128, ../scss/_base.scss */
 .commentlist .vcard time {
   float: right;
 }
-/* line 1130, ../scss/_base.scss */
+/* line 1131, ../scss/_base.scss */
 .commentlist .vcard time a {
   color: #999;
   text-decoration: none;
 }
-/* line 1134, ../scss/_base.scss */
+/* line 1135, ../scss/_base.scss */
 .commentlist .vcard time a:hover {
   text-decoration: underline;
 }
-/* line 1144, ../scss/_base.scss */
+/* line 1145, ../scss/_base.scss */
 .commentlist .vcard img.avatar {
   position: absolute;
   left: 10px;
@@ -1875,17 +1876,17 @@ COMMENT STYLES
   border: 1px solid #cecece;
   background: #fff;
 }
-/* line 1169, ../scss/_base.scss */
+/* line 1170, ../scss/_base.scss */
 .commentlist .comment_content {
   margin-left: 50px;
 }
-/* line 1172, ../scss/_base.scss */
+/* line 1173, ../scss/_base.scss */
 .commentlist .comment_content p {
   margin: 0.7335em 0 1.5em;
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 1181, ../scss/_base.scss */
+/* line 1182, ../scss/_base.scss */
 .commentlist .comment-reply-link {
   text-decoration: none;
   float: right;
@@ -1897,7 +1898,7 @@ COMMENT STYLES
   font-weight: 700;
   font-size: 0.9em;
 }
-/* line 1193, ../scss/_base.scss */
+/* line 1194, ../scss/_base.scss */
 .commentlist .comment-reply-link:hover, .commentlist .comment-reply-link:focus {
   opacity: 1;
 }
@@ -1906,27 +1907,27 @@ COMMENT STYLES
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
-/* line 1205, ../scss/_base.scss */
+/* line 1206, ../scss/_base.scss */
 .respond-form {
   margin: 1.5em 10px;
   padding-bottom: 2.2em;
 }
-/* line 1209, ../scss/_base.scss */
+/* line 1210, ../scss/_base.scss */
 .respond-form form {
   margin: 0.75em 0;
 }
-/* line 1212, ../scss/_base.scss */
+/* line 1213, ../scss/_base.scss */
 .respond-form form li {
   list-style-type: none;
   clear: both;
   margin-bottom: 0.7335em;
 }
-/* line 1218, ../scss/_base.scss */
+/* line 1219, ../scss/_base.scss */
 .respond-form form li label,
 .respond-form form li small {
   display: none;
 }
-/* line 1226, ../scss/_base.scss */
+/* line 1227, ../scss/_base.scss */
 .respond-form form input[type=text],
 .respond-form form input[type=email],
 .respond-form form input[type=url],
@@ -1937,14 +1938,14 @@ COMMENT FORM STYLES
   line-height: 1.5em;
   /* form validation */
 }
-/* line 1232, ../scss/_base.scss */
+/* line 1233, ../scss/_base.scss */
 .respond-form form input[type=text]:focus,
 .respond-form form input[type=email]:focus,
 .respond-form form input[type=url]:focus,
 .respond-form form textarea:focus {
   background: #fff;
 }
-/* line 1237, ../scss/_base.scss */
+/* line 1238, ../scss/_base.scss */
 .respond-form form input[type=text]:invalid,
 .respond-form form input[type=email]:invalid,
 .respond-form form input[type=url]:invalid,
@@ -1957,14 +1958,14 @@ COMMENT FORM STYLES
   -ms-box-shadow: none;
   box-shadow: none;
 }
-/* line 1250, ../scss/_base.scss */
+/* line 1251, ../scss/_base.scss */
 .respond-form form input[type=text],
 .respond-form form input[type=email],
 .respond-form form input[type=url] {
   max-width: 400px;
   min-width: 250px;
 }
-/* line 1255, ../scss/_base.scss */
+/* line 1256, ../scss/_base.scss */
 .respond-form form textarea {
   resize: none;
   width: 97.3%;
@@ -1973,7 +1974,7 @@ COMMENT FORM STYLES
 
 /* comment submit button */
 /* comment form title */
-/* line 1268, ../scss/_base.scss */
+/* line 1269, ../scss/_base.scss */
 #comment-form-title {
   margin: 0 0 1.1em;
 }
@@ -1981,13 +1982,13 @@ COMMENT FORM STYLES
 /* cancel comment reply link */
 /* logged in comments */
 /* allowed tags */
-/* line 1281, ../scss/_base.scss */
+/* line 1282, ../scss/_base.scss */
 #allowed_tags {
   margin: 1.5em 10px 0.7335em 0;
 }
 
 /* no comments */
-/* line 1286, ../scss/_base.scss */
+/* line 1287, ../scss/_base.scss */
 .nocomments {
   margin: 0 20px 1.1em;
 }
@@ -1995,31 +1996,31 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 1296, ../scss/_base.scss */
+/* line 1297, ../scss/_base.scss */
 #sidebar1 {
   margin: 0 auto;
   max-width: 730px;
   padding-top: 20px;
 }
 
-/* line 1302, ../scss/_base.scss */
+/* line 1303, ../scss/_base.scss */
 #sidebar2 {
   margin: 0 auto;
   max-width: 730px;
   padding-top: 20px;
 }
 
-/* line 1308, ../scss/_base.scss */
+/* line 1309, ../scss/_base.scss */
 .sidebar-list, .sidebar-products {
   float: left;
   margin: 0px 10px 10px 10px;
   width: 220px;
 }
-/* line 1312, ../scss/_base.scss */
+/* line 1313, ../scss/_base.scss */
 .sidebar-list a, .sidebar-products a {
   color: #807f83;
 }
-/* line 1315, ../scss/_base.scss */
+/* line 1316, ../scss/_base.scss */
 .sidebar-list h3, .sidebar-products h3 {
   clear: both;
   color: #807f83;
@@ -2031,22 +2032,22 @@ SIDEBARS & ASIDES
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 1326, ../scss/_base.scss */
+/* line 1327, ../scss/_base.scss */
 .sidebar-list .font-adjust, .sidebar-products .font-adjust {
   font-size: 1.1em;
 }
 
-/* line 1332, ../scss/_base.scss */
+/* line 1333, ../scss/_base.scss */
 .sidebar-products h3 {
   margin-bottom: 0px;
 }
 
-/* line 1337, ../scss/_base.scss */
+/* line 1338, ../scss/_base.scss */
 .buttons-group {
   overflow: hidden;
   width: 193px;
 }
-/* line 1341, ../scss/_base.scss */
+/* line 1342, ../scss/_base.scss */
 .buttons-group a {
   background: #015e9a;
   background: -moz-linear-gradient(top, #015e9a 0%, #06335b 100%);
@@ -2065,7 +2066,7 @@ SIDEBARS & ASIDES
   text-decoration: none;
   vertical-align: top;
 }
-/* line 1360, ../scss/_base.scss */
+/* line 1361, ../scss/_base.scss */
 .buttons-group a:hover {
   background: #014f83;
   background: -moz-linear-gradient(top, #014f83 0%, #052b4d 100%);
@@ -2077,7 +2078,7 @@ SIDEBARS & ASIDES
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#014f83', endColorstr='#052b4d',GradientType=0 );
   color: #fff;
 }
-/* line 1372, ../scss/_base.scss */
+/* line 1373, ../scss/_base.scss */
 .buttons-group a:active {
   background: #01395f;
   background: -moz-linear-gradient(top, #01395f 0%, #042038 100%);
@@ -2089,18 +2090,18 @@ SIDEBARS & ASIDES
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#01395f', endColorstr='#042038',GradientType=0 );
 }
 
-/* line 1385, ../scss/_base.scss */
+/* line 1386, ../scss/_base.scss */
 .sidebar-img-txt {
   clear: both;
   margin-bottom: 10px;
   /*width: 200px; */
 }
-/* line 1389, ../scss/_base.scss */
+/* line 1390, ../scss/_base.scss */
 .sidebar-img-txt a {
   color: #b9c7d4;
   text-decoration: none;
 }
-/* line 1393, ../scss/_base.scss */
+/* line 1394, ../scss/_base.scss */
 .sidebar-img-txt p {
   color: #807f83;
   font-size: 0.73em;
@@ -2112,25 +2113,25 @@ SIDEBARS & ASIDES
   text-justify: distribute;
   word-wrap: normal;
 }
-/* line 1405, ../scss/_base.scss */
+/* line 1406, ../scss/_base.scss */
 .sidebar-img-txt img {
   float: left;
   padding: 0px 10px 12px 0px;
 }
 
-/* line 1412, ../scss/_base.scss */
+/* line 1413, ../scss/_base.scss */
 .font-small a {
   font-size: 0.95em;
   padding-left: 0.4em;
 }
 
-/* line 1417, ../scss/_base.scss */
+/* line 1418, ../scss/_base.scss */
 .font-smaller a {
   font-size: 0.95em;
   padding-left: 0.45em;
 }
 
-/* line 1428, ../scss/_base.scss */
+/* line 1429, ../scss/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
@@ -2138,25 +2139,25 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1449, ../scss/_base.scss */
+/* line 1450, ../scss/_base.scss */
 .footer {
   clear: both;
   color: #eef1f3;
   font-size: 0.6em;
 }
 
-/* line 1454, ../scss/_base.scss */
+/* line 1455, ../scss/_base.scss */
 #inner-footer {
   background: #1664a0 url("/wp-content/themes/bones/library/images/footer/footer_bkgnd.jpg") no-repeat;
   border-top: 12px solid #0060a7;
   min-height: 108px;
   width: 100%;
 }
-/* line 1459, ../scss/_base.scss */
+/* line 1460, ../scss/_base.scss */
 #inner-footer p {
   display: inline;
 }
-/* line 1462, ../scss/_base.scss */
+/* line 1463, ../scss/_base.scss */
 #inner-footer .copyright {
   float: left;
   margin-top: 40px;
@@ -2171,7 +2172,7 @@ it simple because you'll have to
 override these styles for the desktop
 view.
 */
-/* line 1476, ../scss/_base.scss */
+/* line 1477, ../scss/_base.scss */
 .footer-links {
   display: inline;
   float: left;
@@ -2180,25 +2181,25 @@ view.
   margin-right: 0px;
   padding-right: 0px;
 }
-/* line 1484, ../scss/_base.scss */
+/* line 1485, ../scss/_base.scss */
 .footer-links .link-span {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 1488, ../scss/_base.scss */
+/* line 1489, ../scss/_base.scss */
 .footer-links a {
   color: #eef1f3;
   text-decoration: none;
 }
 
 /* end .footer-links */
-/* line 1495, ../scss/_base.scss */
+/* line 1496, ../scss/_base.scss */
 .copyright {
   float: left;
   display: inline;
 }
 
-/* line 1497, ../scss/_base.scss */
+/* line 1498, ../scss/_base.scss */
 #footer-logo {
   float: right;
   height: 100%;
@@ -2394,28 +2395,33 @@ tweeners.
   POSTS & CONTENT STYLES
   *********************/
   /* line 204, ../scss/_481up.scss */
+  #content {
+    max-width: 768px;
+  }
+
+  /* line 208, ../scss/_481up.scss */
   #main, #main2 {
     max-width: 480px;
   }
 
   /* entry content */
-  /* line 209, ../scss/_481up.scss */
+  /* line 213, ../scss/_481up.scss */
   .entry-content {
     /* at this larger size, we can start to align images */
   }
-  /* line 213, ../scss/_481up.scss */
+  /* line 217, ../scss/_481up.scss */
   .entry-content .alignleft, .entry-content img.alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left;
   }
-  /* line 218, ../scss/_481up.scss */
+  /* line 222, ../scss/_481up.scss */
   .entry-content .alignright, .entry-content img.alignright {
     margin-left: 1.5em;
     display: inline;
     float: right;
   }
-  /* line 223, ../scss/_481up.scss */
+  /* line 227, ../scss/_481up.scss */
   .entry-content .aligncenter, .entry-content img.aligncenter {
     margin-right: auto;
     margin-left: auto;
@@ -2427,6 +2433,11 @@ tweeners.
   /*********************
   SIDEBARS & ASIDES
   *********************/
+  /* line 240, ../scss/_481up.scss */
+  #sidebar1, #sidebar2 {
+    max-width: 480px;
+  }
+
   /*********************
   FOOTER STYLES
   *********************/
@@ -2627,32 +2638,31 @@ you can add resource intensive styles.
   *********************/
   /* line 84, ../scss/_768up.scss */
   #content {
-    margin: 0 auto;
     max-width: 960px;
   }
 
-  /* line 89, ../scss/_768up.scss */
+  /* line 88, ../scss/_768up.scss */
   #main, #main2 {
     width: 730px;
   }
 
-  /* line 93, ../scss/_768up.scss */
+  /* line 92, ../scss/_768up.scss */
   .page-list-container {
     max-width: 730px;
   }
 
-  /* line 97, ../scss/_768up.scss */
+  /* line 96, ../scss/_768up.scss */
   .category-container, .item-container, .products-container, .text-container {
     max-width: 760px;
     min-width: 705px;
   }
 
-  /* line 102, ../scss/_768up.scss */
+  /* line 101, ../scss/_768up.scss */
   .category {
     margin-left: 20px;
   }
 
-  /* line 106, ../scss/_768up.scss */
+  /* line 105, ../scss/_768up.scss */
   .featured-container {
     height: 310px;
     width: 700px;
@@ -2661,28 +2671,28 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 116, ../scss/_768up.scss */
+  /* line 115, ../scss/_768up.scss */
   .sidebar {
     margin-top: 2.2em;
   }
 
-  /* line 120, ../scss/_768up.scss */
+  /* line 119, ../scss/_768up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em;
   }
 
-  /* line 125, ../scss/_768up.scss */
+  /* line 124, ../scss/_768up.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;
   }
-  /* line 130, ../scss/_768up.scss */
+  /* line 129, ../scss/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 138, ../scss/_768up.scss */
+  /* line 137, ../scss/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -2707,27 +2717,27 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 244, ../scss/_768up.scss */
+  /* line 243, ../scss/_768up.scss */
   .footer {
     font-size: 0.6em;
   }
 
-  /* line 248, ../scss/_768up.scss */
+  /* line 247, ../scss/_768up.scss */
   #inner-footer {
     height: 108px;
   }
-  /* line 251, ../scss/_768up.scss */
+  /* line 250, ../scss/_768up.scss */
   #inner-footer .copyright {
     margin-left: 5%;
   }
 
-  /* line 256, ../scss/_768up.scss */
+  /* line 255, ../scss/_768up.scss */
   #footer-logo {
     /*margin-right: 100px; */
     margin-right: 5%;
   }
 
-  /* line 264, ../scss/_768up.scss */
+  /* line 263, ../scss/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.

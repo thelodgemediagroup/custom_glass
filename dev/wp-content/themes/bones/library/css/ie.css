@@ -550,28 +550,33 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 /* line 204, ../scss/_481up.scss */
+#content {
+  max-width: 768px;
+}
+
+/* line 208, ../scss/_481up.scss */
 #main, #main2 {
   max-width: 480px;
 }
 
 /* entry content */
-/* line 209, ../scss/_481up.scss */
+/* line 213, ../scss/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 213, ../scss/_481up.scss */
+/* line 217, ../scss/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-/* line 218, ../scss/_481up.scss */
+/* line 222, ../scss/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 223, ../scss/_481up.scss */
+/* line 227, ../scss/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -583,6 +588,11 @@ POSTS & CONTENT STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
+/* line 240, ../scss/_481up.scss */
+#sidebar1, #sidebar2 {
+  max-width: 480px;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -664,32 +674,31 @@ POSTS & CONTENT STYLES
 *********************/
 /* line 84, ../scss/_768up.scss */
 #content {
-  margin: 0 auto;
   max-width: 960px;
 }
 
-/* line 89, ../scss/_768up.scss */
+/* line 88, ../scss/_768up.scss */
 #main, #main2 {
   width: 730px;
 }
 
-/* line 93, ../scss/_768up.scss */
+/* line 92, ../scss/_768up.scss */
 .page-list-container {
   max-width: 730px;
 }
 
-/* line 97, ../scss/_768up.scss */
+/* line 96, ../scss/_768up.scss */
 .category-container, .item-container, .products-container, .text-container {
   max-width: 760px;
   min-width: 705px;
 }
 
-/* line 102, ../scss/_768up.scss */
+/* line 101, ../scss/_768up.scss */
 .category {
   margin-left: 20px;
 }
 
-/* line 106, ../scss/_768up.scss */
+/* line 105, ../scss/_768up.scss */
 .featured-container {
   height: 310px;
   width: 700px;
@@ -698,28 +707,28 @@ POSTS & CONTENT STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 116, ../scss/_768up.scss */
+/* line 115, ../scss/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 120, ../scss/_768up.scss */
+/* line 119, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 125, ../scss/_768up.scss */
+/* line 124, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 130, ../scss/_768up.scss */
+/* line 129, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 138, ../scss/_768up.scss */
+/* line 137, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -744,27 +753,27 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 244, ../scss/_768up.scss */
+/* line 243, ../scss/_768up.scss */
 .footer {
   font-size: 0.6em;
 }
 
-/* line 248, ../scss/_768up.scss */
+/* line 247, ../scss/_768up.scss */
 #inner-footer {
   height: 108px;
 }
-/* line 251, ../scss/_768up.scss */
+/* line 250, ../scss/_768up.scss */
 #inner-footer .copyright {
   margin-left: 5%;
 }
 
-/* line 256, ../scss/_768up.scss */
+/* line 255, ../scss/_768up.scss */
 #footer-logo {
   /*margin-right: 100px; */
   margin-right: 5%;
 }
 
-/* line 264, ../scss/_768up.scss */
+/* line 263, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

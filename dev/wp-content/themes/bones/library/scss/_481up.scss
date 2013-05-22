@@ -201,6 +201,10 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 
+#content {
+	max-width: 768px;
+}
+
 #main, #main2 {
 	max-width: 480px;
 }
@@ -233,7 +237,9 @@ POSTS & CONTENT STYLES
 SIDEBARS & ASIDES
 *********************/
 
-
+#sidebar1, #sidebar2 {
+	max-width: 480px;
+}
 
 /*********************
 FOOTER STYLES
