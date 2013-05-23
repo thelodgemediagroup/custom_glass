@@ -79,6 +79,14 @@ jQuery(document).ready(function($) {
 	
 	// add all your scripts here
 
+    $('#mobile-nav > option').click(function(){
+
+        if ($(this).val() != '')
+        {
+            window.location.href = $(this).val();
+        }
+            
+    });
 	
     // Add the slider to the index page
     $('#slider-hero').jCarouselLite({

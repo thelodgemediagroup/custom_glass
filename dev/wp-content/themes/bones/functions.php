@@ -183,4 +183,65 @@ function add_googleanalytics()
 	</script>
 	<?php
 }
+
+/************ NAVIGATION ***********************/
+
+function main_nav_mobile()
+{
+    wp_nav_menu(array(
+    	'container' => false,                           // remove nav container
+    	'container_class' => 'menu clearfix',           // class of container (should you choose to use it)
+    	'menu' => 'Mobil Nav Menu',  					// nav name
+    	'menu_class' => 'nav top-nav clearfix',         // adding custom nav class
+    	'before' => '',                                 // before the menu
+        'after' => '',                                  // after the menu
+        'link_before' => '',                            // before each link
+        'link_after' => '',                             // after each link
+        'depth' => 0,                                   // limit the depth of the nav
+    	'fallback_cb' => false,      					// fallback function
+    	'items_wrap' => '<select id="mobile-nav"><option value="">Navigation</option>%3$s</select>',
+    	'walker'  => new Walker_Nav_Menu_Dropdown()
+	));	
+}
+
+/***************** WALKER CLASS **********************/
+// Turn the <li> into <option> for the mobile nav
+
+class Walker_Nav_Menu_Dropdown extends Walker_Nav_Menu{
+    function start_lvl(&$output, $depth){
+      $indent = str_repeat("\t", $depth); // don't output children opening tag (`<ul>`)
+    }
+
+    function end_lvl(&$output, $depth){
+      $indent = str_repeat("\t", $depth); // don't output children closing tag
+    }
+
+    function start_el(&$output, $item, $depth, $args){
+      // add spacing to the title based on the depth
+      $item->title = str_repeat("&nbsp;", $depth * 4).$item->title;
+
+
+
+        $attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';  
+        $attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';  
+        $attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';  
+        $attributes .= ! empty( $item->url )        ? ' value="'   . esc_attr( $item->url        ) .'"' : '';  
+        
+        $item_output .= '<option'. $attributes .'>';  
+        $item_output .= $args->link_before .apply_filters( 'the_title', $item->title, $item->ID );  
+        $item_output .= '</option>';  
+        
+        $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );  
+
+
+
+      // no point redefining this method too, we just replace the li tag...
+      $output = str_replace('<li', '<option', $output);
+    }
+
+    function end_el(&$output, $item, $depth){
+      $output .= "</option>\n"; // replace closing </li> with the option tag
+    }
+}
+
 ?>

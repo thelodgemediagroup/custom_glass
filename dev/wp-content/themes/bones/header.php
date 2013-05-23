@@ -72,6 +72,7 @@
 					<nav role="navigation">
 						<div id="nav-container">
 							<?php bones_main_nav(); ?>
+							<?php main_nav_mobile(); ?>
 						</div><!--# nav-container -->
 					</nav>
 
