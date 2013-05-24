@@ -19,7 +19,7 @@
 					</nav>
 
 					<div id="footer-logo">
-						<img src="<?php echo get_template_directory_uri(); ?>/library/images/footer/guardian_logo.png" />
+						<a href="http://www.guardian.com/" title="Home - Guardian.com"><img src="<?php echo get_template_directory_uri(); ?>/library/images/footer/guardian_logo.png" /></a>
 					</div>
 					
 				</div> <!-- end #inner-footer -->
