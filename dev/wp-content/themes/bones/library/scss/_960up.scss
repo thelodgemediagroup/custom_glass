@@ -25,7 +25,7 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 
-#content {
+#content, #content-index {
 	#main, #main2 {
 		margin-right: 0px;
 		padding-right: 0px;
@@ -79,7 +79,13 @@ SIDEBARS & ASIDES
 .sidebar-list {
 	border-bottom: 1px solid #b9c7d4;
 }
+
+.sidebar-hider {
+	display: none;
+}
+
 .sidebar-list, .sidebar-products {
+	float: left;
 	margin-bottom: 20px;
 	margin-right: 0;
 	width: 200px;

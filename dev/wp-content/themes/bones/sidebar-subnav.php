@@ -41,6 +41,8 @@
 
 					<div class="sidebar-list">
 						
+						<span class="sidebar-hider"><h3>About</h3></span>
+
 						<div class="sidebar-img-txt">
 							<p>Find out more about Custom Glass Solutions 
 							<a href="/about/" title="About Custom Glass Solutions">Read More></a></p>

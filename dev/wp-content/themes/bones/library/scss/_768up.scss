@@ -76,7 +76,7 @@ SLIDER STYLES
 POSTS & CONTENT STYLES
 *********************/
 
-#content {
+#content, #content-index {
 	max-width: 960px;
 }
 
@@ -112,6 +112,15 @@ SIDEBARS & ASIDES
 
 #sidebar1, #sidebar2 {
 	max-width: 730px;
+}
+
+.sidebar-list, .sidebar-products {
+	float: left;
+	margin: 0px 10px 10px 10px;
+}
+
+.sidebar-list {
+	float: right;
 }
 
 .sidebar {

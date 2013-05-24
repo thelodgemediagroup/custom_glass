@@ -27,7 +27,7 @@ Template Name: CGS Index Page
 
 			</secton><!-- end #slider -->
 
-			<div id="content">
+			<div id="content-index">
 
 				<div id="inner-content" class="wrap clearfix">
 

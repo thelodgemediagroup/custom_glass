@@ -454,7 +454,7 @@ z-index: 8999;
 POSTS & CONTENT STYLES
 *********************/
 
-#content {
+#content, #content-index {
 	padding-bottom: 20px;
 	margin: 0 auto;
 	max-width: 240px;
@@ -466,6 +466,14 @@ POSTS & CONTENT STYLES
 	#main, #main2 {
 		border-bottom: 1px solid #b9c7d4;
 		overflow: auto;
+	}
+}
+
+#content {
+	min-width: 340px;
+	max-width: 360px;
+	h1 {
+		display: block;
 	}
 }
 
@@ -516,14 +524,12 @@ POSTS & CONTENT STYLES
 .product {
 	h1{
 		font-weight: 100;
-		margin-left: 18px;
 	}
 	h2 {
 		color: #0065A4;
 		font-size: 1.25em;
 		font-weight: 200;
 		letter-spacing: 1px;
-		margin-left: 18px;
 		margin-top: 0.4em;
 		margin-bottom: 20px;
 		padding-bottom: 0;
@@ -534,7 +540,6 @@ POSTS & CONTENT STYLES
 		font-weight: 200;
 		letter-spacing: 1px;
 		line-height: 1.2em;
-		margin-left: 18px;
 		margin-top: 0.4em;
 		margin-bottom: 20px;
 		padding-bottom: 0;
@@ -542,7 +547,6 @@ POSTS & CONTENT STYLES
 	p, ul {
 		color: #807f83;
 		float: left;
-		margin-left: 18px;
 		font-size: 0.85em;
 		font-weight: 200;
 	}
@@ -555,12 +559,12 @@ POSTS & CONTENT STYLES
 		}
 	}
 	img {
-		float: right;
-		padding-left: 20px;
+		clear: both;
+		float: left;
+		
 	}
 	ul {
 		list-style-type: disc;
-		margin-left: 35px;
 	}
 	a {
 		color: #0065a4;
@@ -1324,8 +1328,8 @@ SIDEBARS & ASIDES
 }
 
 .sidebar-list, .sidebar-products {
-	float: left;
-	margin: 0px 10px 10px 10px;
+	clear: both;
+	margin: 0 auto;
 	width: 220px;
 	a {
 		color: #807f83;

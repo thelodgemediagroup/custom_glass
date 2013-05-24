@@ -212,14 +212,40 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 
-#content {
+#content, #content-index {
 	min-width: 495px;
 	max-width: 768px;
+	h1 {
+		display: inline;
+	}
 }
+
+
+.product {
+	h1, h2, h3, p {		
+		margin-left: 18px;
+	}
+	p {
+		img {
+
+			display: inline;
+			float: right;
+		}
+	}
+	img {
+		clear: none;
+		padding-left: 20px;
+	}
+	ul {
+		margin-left: 35px;
+	}
+}
+
 
 #main, #main2 {
 	max-width: 480px;
 }
+
 
 /* entry content */
 .entry-content {
@@ -251,6 +277,18 @@ SIDEBARS & ASIDES
 
 #sidebar1, #sidebar2 {
 	max-width: 480px;
+}
+
+.sidebar-list, .sidebar-products {
+	clear: none;
+}
+
+.sidebar-products {
+	float: left;
+}
+
+.sidebar-list {
+	float: right;
 }
 
 /*********************
