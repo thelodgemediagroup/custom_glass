@@ -50,6 +50,39 @@ jQuery(document).ready(function($) {
     
     /* getting viewport width */
     var responsive_viewport = $(window).width();
+
+    var slideHeightOrig = 360;
+    var wingWidthOrig = 160; 
+    var slideWidthOrig = 960;
+    var leftPullMax = slideWidthOrig - wingWidthOrig;
+    var maxScreen = 1280;
+    var hwRatio = slideHeightOrig / slideWidthOrig;
+    var widthRatio = slideWidthOrig / maxScreen;
+    var wingRatio = wingWidthOrig / maxScreen;
+
+    function sliderResize()
+    {
+        var currWidth = $(window).width();
+        $('.slider-main ul li img').each(function(){
+            if (currWidth > 1280)
+            {
+                return;
+            }
+            else
+            {
+                var newWidth = widthRatio * currWidth;
+                var newHeight = hwRatio * newWidth;
+                var newLeftPull = wingRatio * currWidth;
+                var leftCSS = (-newLeftPull) + 'px';
+                $(this).css("width", newWidth);
+                $(this).css("height", newHeight);
+                $('.slider-main').css({left : leftCSS});
+            }
+        });
+
+    }
+
+
     
     /* if is below 481px */
     if (responsive_viewport < 481) {
@@ -79,6 +112,7 @@ jQuery(document).ready(function($) {
 	
 	// add all your scripts here
 
+    // create links out of the mobile select navigation menu
     $('#mobile-nav > option').click(function(){
 
         if ($(this).val() != '')
@@ -96,6 +130,9 @@ jQuery(document).ready(function($) {
         btnNext: '#left_btn',
         visible: 3
     });
+
+    //sliderResize();
+    //window.onresize = sliderResize();
  
 }); /* end of as page load scripts */
 

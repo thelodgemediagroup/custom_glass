@@ -219,14 +219,16 @@ $.fn.jCarouselLite = function(o) {
         scroll: 1,
 
         beforeStart: null,
-        afterEnd: null
+        afterEnd: null,
+
+        leftPull: '-800px'
     }, o || {});
 
     return this.each(function() {                           // Returns the element collection. Chainable.
 
         var running = false, animCss=o.vertical?"top":"left", sizeCss=o.vertical?"height":"width";
         var div = $(this), ul = $("ul", div), tLi = $("li", ul), tl = tLi.size(), v = o.visible, img = $("img", tLi);
-        
+        console.log(div);
         if(o.circular) {
             ul.prepend(tLi.slice(tl-v-1+1).clone())
               .append(tLi.slice(0,v).clone());
@@ -243,7 +245,7 @@ $.fn.jCarouselLite = function(o) {
 
         li.css({overflow: "hidden", float: o.vertical ? "none" : "left"});
         ul.css({margin: "0", padding: "0", position: "relative", "list-style-type": "none", "z-index": "1"});
-        div.css({overflow: "hidden", position: "relative", "z-index": "2", left: "-50em"});
+        div.css({overflow: "hidden", position: "relative", "z-index": "2", left: o.leftPull});
 
         var liSize = o.vertical ? height(li) : width(li);   // Full li size(incl margin)-Used for animation
         var ulSize = liSize * itemLength;                   // size of full ul(total length, not just for the visible items)
