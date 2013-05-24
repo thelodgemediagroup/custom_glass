@@ -189,8 +189,8 @@ function add_googleanalytics()
 function main_nav_mobile()
 {
     wp_nav_menu(array(
-    	'container' => false,                           // remove nav container
-    	'container_class' => 'menu clearfix',           // class of container (should you choose to use it)
+    	'container' => 'div',                           // remove nav container
+    	'container_class' => 'mobile-nav-container',    // class of container (should you choose to use it)
     	'menu' => 'Mobil Nav Menu',  					// nav name
     	'menu_class' => 'nav top-nav clearfix',         // adding custom nav class
     	'before' => '',                                 // before the menu

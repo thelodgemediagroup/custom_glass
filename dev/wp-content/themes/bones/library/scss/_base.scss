@@ -229,11 +229,28 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 #menu-navigation {
-	display: block;
+	display: none;
 	float: left;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-left: 2em;
+}
+
+.mobile-nav-container {
+	clear: both;
+	display: block;
+	margin: 0 auto;	
+	overflow: auto;
+	padding: 20px 0px 20px 0px;
+	width: 200px;
+}
+
+#mobile-nav {
+	background-color: #407eac;
+	border: 1px solid #03508a;
+	color: #ccd6df;
+	padding: 3px 0px 3px 1px;
+	width: 200px;
 }
 
 .nav {

@@ -415,39 +415,45 @@ NAVIGATION STYLES
 *********************/
 /* line 46, ../scss/_481up.scss */
 #menu-navigation {
+  display: block;
   float: right;
   padding-top: 0px;
   padding-left: 0;
   padding-right: 0.6em;
 }
 
-/* line 53, ../scss/_481up.scss */
+/* line 54, ../scss/_481up.scss */
+#mobile-nav {
+  display: none;
+}
+
+/* line 58, ../scss/_481up.scss */
 #nav-container {
   margin-top: 30px;
 }
 
-/* line 57, ../scss/_481up.scss */
+/* line 62, ../scss/_481up.scss */
 .nav {
   border: 0;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 62, ../scss/_481up.scss */
+/* line 67, ../scss/_481up.scss */
 .nav li ~ li a:before {
   content: '/ ';
 }
-/* line 65, ../scss/_481up.scss */
+/* line 70, ../scss/_481up.scss */
 .nav a {
   /*display: inline; */
   font-size: 0.8em;
   letter-spacing: 1px;
 }
-/* line 69, ../scss/_481up.scss */
+/* line 74, ../scss/_481up.scss */
 .nav a:hover {
   text-decoration: underline;
 }
-/* line 73, ../scss/_481up.scss */
+/* line 78, ../scss/_481up.scss */
 .nav li {
   float: left;
   position: relative;
@@ -456,7 +462,7 @@ NAVIGATION STYLES
   */
   /* showing sub-menus */
 }
-/* line 77, ../scss/_481up.scss */
+/* line 82, ../scss/_481up.scss */
 .nav li a {
   border-bottom: 0;
   /*
@@ -464,7 +470,7 @@ NAVIGATION STYLES
   has the possibility of being a mobile device.
   */
 }
-/* line 97, ../scss/_481up.scss */
+/* line 102, ../scss/_481up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   background-color: #0060a7;
@@ -486,14 +492,14 @@ NAVIGATION STYLES
   background-image: linear-gradient(to bottom, #044474, #00619f);
   /* highlight sub-menu current page */
 }
-/* line 112, ../scss/_481up.scss */
+/* line 117, ../scss/_481up.scss */
 .nav li ul.sub-menu a,
 .nav li ul.children a {
   /*font-size: 0.9em; */
   padding-top: 0;
   width: 225px;
 }
-/* line 119, ../scss/_481up.scss */
+/* line 124, ../scss/_481up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   clear: both;
@@ -503,7 +509,7 @@ NAVIGATION STYLES
   for usability. k, bai.
   */
 }
-/* line 121, ../scss/_481up.scss */
+/* line 126, ../scss/_481up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -513,12 +519,12 @@ NAVIGATION STYLES
   width: 225px;
   /*border-bottom: 1px solid #ccc; */
 }
-/* line 139, ../scss/_481up.scss */
+/* line 144, ../scss/_481up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 150, ../scss/_481up.scss */
+/* line 155, ../scss/_481up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   margin-top: 0;
@@ -531,7 +537,7 @@ NAVIGATION STYLES
   width: 225px;
   z-index: 9999;
 }
-/* line 161, ../scss/_481up.scss */
+/* line 166, ../scss/_481up.scss */
 .nav li ul.sub-menu li ul li a,
 .nav li ul.children li ul li a {
   padding-left: 10px;
@@ -540,13 +546,13 @@ NAVIGATION STYLES
   width: 225px;
   /*border-bottom: 1px solid #ccc; */
 }
-/* line 175, ../scss/_481up.scss */
+/* line 180, ../scss/_481up.scss */
 .nav li ul.sub-menu li:hover ul,
 .nav li ul.children li:hover ul {
   top: auto;
   display: block;
 }
-/* line 190, ../scss/_481up.scss */
+/* line 195, ../scss/_481up.scss */
 .nav li:hover ul {
   top: auto;
   display: block;
@@ -556,35 +562,35 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 210, ../scss/_481up.scss */
+/* line 215, ../scss/_481up.scss */
 #content {
   min-width: 495px;
   max-width: 768px;
 }
 
-/* line 215, ../scss/_481up.scss */
+/* line 220, ../scss/_481up.scss */
 #main, #main2 {
   max-width: 480px;
 }
 
 /* entry content */
-/* line 220, ../scss/_481up.scss */
+/* line 225, ../scss/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 224, ../scss/_481up.scss */
+/* line 229, ../scss/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-/* line 229, ../scss/_481up.scss */
+/* line 234, ../scss/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 234, ../scss/_481up.scss */
+/* line 239, ../scss/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -596,7 +602,7 @@ POSTS & CONTENT STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 247, ../scss/_481up.scss */
+/* line 252, ../scss/_481up.scss */
 #sidebar1, #sidebar2 {
   max-width: 480px;
 }
