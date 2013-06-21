@@ -9,7 +9,7 @@ slow the page load.
 
 */
 
-/*jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
     $('#slider-hero').jCarouselLite({
         speed: 1000,
         auto: 10000,
@@ -17,7 +17,7 @@ slow the page load.
         btnNext: '#left_btn',
         visible: 3
     });
-});*/
+});
 
 
 // IE8 ployfill for GetComputed Style (for Responsive Script below)
@@ -87,13 +87,13 @@ jQuery(document).ready(function($) {
     });
 
     // Add the slider to the index page
-    $('#slider-hero').jCarouselLite({
+    /*$('#slider-hero').jCarouselLite({
         speed: 1000,
         auto: 10000,
         btnPrev: '#right_btn',
         btnNext: '#left_btn',
         visible: 3
-    });
+    });*/
 
 
  
