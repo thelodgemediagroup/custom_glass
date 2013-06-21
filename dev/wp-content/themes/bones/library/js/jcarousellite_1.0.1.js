@@ -219,52 +219,146 @@ $.fn.jCarouselLite = function(o) {
         scroll: 1,
 
         beforeStart: null,
-        afterEnd: null,
+        afterEnd: null
 
-        leftPull: '-800px'
     }, o || {});
 
     return this.each(function() {                           // Returns the element collection. Chainable.
 
+          function debounce(func, wait, immediate) {
+            var timeout;
+            return function() {
+              var context = this, args = arguments;
+              var later = function() {
+                timeout = null;
+                if (!immediate) func.apply(context, args);
+              };
+              if (immediate && !timeout) func.apply(context, args);
+              clearTimeout(timeout);
+              timeout = setTimeout(later, wait);
+            };
+          }
+
         var running = false, animCss=o.vertical?"top":"left", sizeCss=o.vertical?"height":"width";
         var div = $(this), ul = $("ul", div), tLi = $("li", ul), tl = tLi.size(), v = o.visible, img = $("img", tLi);
-        console.log(div);
+        
         if(o.circular) {
             ul.prepend(tLi.slice(tl-v-1+1).clone())
               .append(tLi.slice(0,v).clone());
             o.start += v;
-        }
+        }        
+
+        // data for resizing ul and img to correct proportions
+        var slideHeightOrig = 360;
+        var wingWidthOrig = 160; 
+        var slideWidthOrig = 960;
+        var leftPullMax = slideWidthOrig - wingWidthOrig;
+        var maxScreen = 1280;
+        var hwRatio = slideHeightOrig / slideWidthOrig;
+        var widthRatio = slideWidthOrig / maxScreen;
+        var wingRatio = wingWidthOrig / maxScreen;
+        var leftCSS = '-800px';
+        var buttonTop = 150;
+        var buttonTopRatio = buttonTop / slideHeightOrig;
+        var leftBtnAbs = 135;
+        var rightBtnAbs = 1125;
+        var leftBtnRatio = leftBtnAbs / maxScreen;
+        var rightBtnRatio = rightBtnAbs / maxScreen;
+        var maxBtnSize = 20;
+        var btnSizeRatio = maxBtnSize / maxScreen;
+
+        // resize function to prep the slider
+        function sliderResize()
+            {
+                var currWidth = $(window).width();
+                var newWidth, newHeight, newLeftPull;
+                $('.slider-main ul li img, .slider-main ul li').each(function(){
+                    if (currWidth > 1280)
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        // calculate new dimensions
+                        newWidth = widthRatio * currWidth;
+                        newHeight = hwRatio * newWidth;
+                        newLeftPull = newWidth - (wingRatio * currWidth);
+                        leftCSS = (-newLeftPull) + 'px';
+                        
+                        // alter li/img dimensions
+                        $(this).css("width", newWidth).css("height", newHeight);
+                        div.css({left: leftCSS});
+                    }
+                });
+
+                // move the slider buttons
+                var topCss = newHeight * buttonTopRatio;
+                var leftBtnCss = currWidth * leftBtnRatio;
+                var rightBtnCss = currWidth * rightBtnRatio;
+
+                $('#left_btn').css("top", topCss).css("left", leftBtnCss);
+                $('#right_btn').css("top", topCss).css("left", rightBtnCss);
+
+                // resize slider buttons
+                var btnSize = Math.round(currWidth * btnSizeRatio);
+
+                $('#left_btn img').css("width", btnSize).css("height", btnSize);
+                $('#right_btn img').css("width", btnSize).css("height", btnSize);
+            }            
+
 
         // set the opacity of all images to 30%. We can fade up the focused image in the interval timer
         var startSlide = o.start + 2;
         $(ul).children().css("opacity", 0.3);
         $("#slider-hero ul li:nth-child("+startSlide+")").css("opacity", 1);
 
+        // set global css rules for the slider animation -- static
         var li = $("li", ul), itemLength = li.size(), curr = o.start;
         div.css("visibility", "visible");
 
         li.css({overflow: "hidden", float: o.vertical ? "none" : "left"});
         ul.css({margin: "0", padding: "0", position: "relative", "list-style-type": "none", "z-index": "1"});
-        div.css({overflow: "hidden", position: "relative", "z-index": "2", left: o.leftPull});
+        div.css({overflow: "hidden", position: "relative", "z-index": "2"});
 
-        var liSize = o.vertical ? height(li) : width(li);   // Full li size(incl margin)-Used for animation
-        var ulSize = liSize * itemLength;                   // size of full ul(total length, not just for the visible items)
-        var divSize = liSize * v;                           // size of entire div(total length for just the visible items)
+        // declare globals for further use -- set by function sliderPull()
+        var liSize;
+        var ulSize;
+        var divSize;
 
-        li.css({width: li.width(), height: li.height()});
-        ul.css(sizeCss, ulSize+"px").css(animCss, -(curr*liSize));
+        function sliderPull()
+        {
+            liSize = o.vertical ? height(li) : width(li);   // Full li size(incl margin)-Used for animation
+            ulSize = liSize * itemLength;                   // size of full ul(total length, not just for the visible items)
+            divSize = liSize * v;                           // size of entire div(total length for just the visible items)
 
-        div.css(sizeCss, divSize+"px");                     // Width of the DIV. length of visible images
+            li.css({width: li.width(), height: li.height()});
+            ul.css(sizeCss, ulSize+"px").css(animCss, -(curr*liSize));
+
+            div.css(sizeCss, divSize+"px");                     // Width of the DIV. length of visible images      
+        }      
+
+
+        // Call the slider resize function so that the variables contain correct values for the screen width
+        // call functions on load to set initial size
+        window.onload = function() {
+            sliderResize();
+            sliderPull();
+        }
+
+        // on resize, change the rules to fit the screen after 0.5 seconds
+        window.onresize = debounce(function() {
+            sliderResize();
+            sliderPull();
+        }, 500);
+
 
         if(o.btnPrev)
             $(o.btnPrev).click(function() {
-                //fadePrev(curr-o.scroll);
                 return go(curr-o.scroll);
             });
 
         if(o.btnNext)
             $(o.btnNext).click(function() {
-                //fadeNext(curr);
                 return go(curr+o.scroll);
             });
 
